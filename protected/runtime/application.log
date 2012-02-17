@@ -1,0 +1,570 @@
+2012/02/17 08:45:01 [error] [exception.CException] exception 'CException' with message 'Bootstrap and its behaviors do not have a method or closure named "registerCoreCss".' in D:\APMServ5.2.6\www\htdocs\yii\framework\base\CComponent.php:266
+Stack trace:
+#0 [internal function]: CComponent->__call('registerCoreCss', Array)
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\protected\views\layouts\main.php(17): Bootstrap->registerCoreCss()
+#2 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CBaseController.php(127): require('D:\APMServ5.2.6...')
+#3 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CBaseController.php(96): CBaseController->renderInternal('D:\APMServ5.2.6...', Array, true)
+#4 D:\APMServ5.2.6\www\htdocs\yii\framework\web\widgets\CContentDecorator.php(77): CBaseController->renderFile('D:\APMServ5.2.6...', Array, true)
+#5 D:\APMServ5.2.6\www\htdocs\yii\framework\web\widgets\CContentDecorator.php(55): CContentDecorator->decorate('<div id="conten...')
+#6 D:\APMServ5.2.6\www\htdocs\yii\framework\web\widgets\COutputProcessor.php(45): CContentDecorator->processOutput('<div id="conten...')
+#7 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CBaseController.php(207): COutputProcessor->run()
+#8 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CBaseController.php(301): CBaseController->endWidget('CContentDecorat...')
+#9 D:\APMServ5.2.6\www\htdocs\tfcms\protected\views\layouts\column1.php(5): CBaseController->endContent()
+#10 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CBaseController.php(127): require('D:\APMServ5.2.6...')
+#11 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CBaseController.php(96): CBaseController->renderInternal('D:\APMServ5.2.6...', Array, true)
+#12 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CController.php(785): CBaseController->renderFile('D:\APMServ5.2.6...', Array, true)
+#13 D:\APMServ5.2.6\www\htdocs\tfcms\protected\controllers\SiteController.php(32): CController->render('index')
+#14 D:\APMServ5.2.6\www\htdocs\yii\framework\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#15 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#16 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#17 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CWebApplication.php(276): CController->run('')
+#19 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('')
+#20 D:\APMServ5.2.6\www\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#21 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/tfcms/index.php
+HTTP_REFERER=http://127.0.0.1/tfcms/index.php/gii/controller
+---
+2012/02/17 08:47:13 [error] [exception.CException] exception 'CException' with message 'Alias "bootstrap.components.Bootstrap" is invalid. Make sure it points to an existing directory or file.' in D:\APMServ5.2.6\www\htdocs\yii\framework\YiiBase.php:343
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\yii\framework\YiiBase.php(198): YiiBase::import('bootstrap.compo...', true)
+#1 D:\APMServ5.2.6\www\htdocs\yii\framework\base\CModule.php(387): YiiBase::createComponent(Array)
+#2 D:\APMServ5.2.6\www\htdocs\yii\framework\base\CModule.php(493): CModule->getComponent('bootstrap')
+#3 D:\APMServ5.2.6\www\htdocs\yii\framework\base\CApplication.php(146): CModule->preloadComponents()
+#4 D:\APMServ5.2.6\www\htdocs\yii\framework\YiiBase.php(127): CApplication->__construct('D:\APMServ5.2.6...')
+#5 D:\APMServ5.2.6\www\htdocs\yii\framework\YiiBase.php(100): YiiBase::createApplication('CWebApplication', 'D:\APMServ5.2.6...')
+#6 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): YiiBase::createWebApplication('D:\APMServ5.2.6...')
+#7 {main}
+REQUEST_URI=/tfcms/index.php
+HTTP_REFERER=http://127.0.0.1/tfcms/index.php/gii/controller
+---
+2012/02/17 08:47:14 [error] [exception.CException] exception 'CException' with message 'Alias "bootstrap.components.Bootstrap" is invalid. Make sure it points to an existing directory or file.' in D:\APMServ5.2.6\www\htdocs\yii\framework\YiiBase.php:343
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\yii\framework\YiiBase.php(198): YiiBase::import('bootstrap.compo...', true)
+#1 D:\APMServ5.2.6\www\htdocs\yii\framework\base\CModule.php(387): YiiBase::createComponent(Array)
+#2 D:\APMServ5.2.6\www\htdocs\yii\framework\base\CModule.php(493): CModule->getComponent('bootstrap')
+#3 D:\APMServ5.2.6\www\htdocs\yii\framework\base\CApplication.php(146): CModule->preloadComponents()
+#4 D:\APMServ5.2.6\www\htdocs\yii\framework\YiiBase.php(127): CApplication->__construct('D:\APMServ5.2.6...')
+#5 D:\APMServ5.2.6\www\htdocs\yii\framework\YiiBase.php(100): YiiBase::createApplication('CWebApplication', 'D:\APMServ5.2.6...')
+#6 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): YiiBase::createWebApplication('D:\APMServ5.2.6...')
+#7 {main}
+REQUEST_URI=/tfcms/index.php
+HTTP_REFERER=http://127.0.0.1/tfcms/index.php/gii/controller
+---
+2012/02/17 08:47:23 [error] [exception.CException] exception 'CException' with message 'Bootstrap and its behaviors do not have a method or closure named "registerCoreCss".' in D:\APMServ5.2.6\www\htdocs\yii\framework\base\CComponent.php:266
+Stack trace:
+#0 [internal function]: CComponent->__call('registerCoreCss', Array)
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\protected\views\layouts\main.php(17): Bootstrap->registerCoreCss()
+#2 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CBaseController.php(127): require('D:\APMServ5.2.6...')
+#3 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CBaseController.php(96): CBaseController->renderInternal('D:\APMServ5.2.6...', Array, true)
+#4 D:\APMServ5.2.6\www\htdocs\yii\framework\web\widgets\CContentDecorator.php(77): CBaseController->renderFile('D:\APMServ5.2.6...', Array, true)
+#5 D:\APMServ5.2.6\www\htdocs\yii\framework\web\widgets\CContentDecorator.php(55): CContentDecorator->decorate('<div id="conten...')
+#6 D:\APMServ5.2.6\www\htdocs\yii\framework\web\widgets\COutputProcessor.php(45): CContentDecorator->processOutput('<div id="conten...')
+#7 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CBaseController.php(207): COutputProcessor->run()
+#8 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CBaseController.php(301): CBaseController->endWidget('CContentDecorat...')
+#9 D:\APMServ5.2.6\www\htdocs\tfcms\protected\views\layouts\column1.php(5): CBaseController->endContent()
+#10 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CBaseController.php(127): require('D:\APMServ5.2.6...')
+#11 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CBaseController.php(96): CBaseController->renderInternal('D:\APMServ5.2.6...', Array, true)
+#12 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CController.php(785): CBaseController->renderFile('D:\APMServ5.2.6...', Array, true)
+#13 D:\APMServ5.2.6\www\htdocs\tfcms\protected\controllers\SiteController.php(32): CController->render('index')
+#14 D:\APMServ5.2.6\www\htdocs\yii\framework\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#15 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#16 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#17 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CWebApplication.php(276): CController->run('')
+#19 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('')
+#20 D:\APMServ5.2.6\www\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#21 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/tfcms/index.php
+HTTP_REFERER=http://127.0.0.1/tfcms/index.php/gii/controller
+---
+2012/02/17 08:52:46 [error] [exception.CException] exception 'CException' with message 'Bootstrap and its behaviors do not have a method or closure named "registerCoreCss".' in D:\APMServ5.2.6\www\htdocs\yii\framework\base\CComponent.php:266
+Stack trace:
+#0 [internal function]: CComponent->__call('registerCoreCss', Array)
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\protected\views\layouts\main.php(17): Bootstrap->registerCoreCss()
+#2 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CBaseController.php(127): require('D:\APMServ5.2.6...')
+#3 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CBaseController.php(96): CBaseController->renderInternal('D:\APMServ5.2.6...', Array, true)
+#4 D:\APMServ5.2.6\www\htdocs\yii\framework\web\widgets\CContentDecorator.php(77): CBaseController->renderFile('D:\APMServ5.2.6...', Array, true)
+#5 D:\APMServ5.2.6\www\htdocs\yii\framework\web\widgets\CContentDecorator.php(55): CContentDecorator->decorate('<div id="conten...')
+#6 D:\APMServ5.2.6\www\htdocs\yii\framework\web\widgets\COutputProcessor.php(45): CContentDecorator->processOutput('<div id="conten...')
+#7 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CBaseController.php(207): COutputProcessor->run()
+#8 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CBaseController.php(301): CBaseController->endWidget('CContentDecorat...')
+#9 D:\APMServ5.2.6\www\htdocs\tfcms\protected\views\layouts\column1.php(5): CBaseController->endContent()
+#10 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CBaseController.php(127): require('D:\APMServ5.2.6...')
+#11 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CBaseController.php(96): CBaseController->renderInternal('D:\APMServ5.2.6...', Array, true)
+#12 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CController.php(785): CBaseController->renderFile('D:\APMServ5.2.6...', Array, true)
+#13 D:\APMServ5.2.6\www\htdocs\tfcms\protected\controllers\SiteController.php(32): CController->render('index')
+#14 D:\APMServ5.2.6\www\htdocs\yii\framework\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#15 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#16 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#17 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CWebApplication.php(276): CController->run('')
+#19 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('')
+#20 D:\APMServ5.2.6\www\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#21 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/tfcms/index.php
+HTTP_REFERER=http://127.0.0.1/tfcms/index.php/gii/controller
+---
+2012/02/17 08:52:47 [error] [exception.CException] exception 'CException' with message 'Bootstrap and its behaviors do not have a method or closure named "registerCoreCss".' in D:\APMServ5.2.6\www\htdocs\yii\framework\base\CComponent.php:266
+Stack trace:
+#0 [internal function]: CComponent->__call('registerCoreCss', Array)
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\protected\views\layouts\main.php(17): Bootstrap->registerCoreCss()
+#2 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CBaseController.php(127): require('D:\APMServ5.2.6...')
+#3 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CBaseController.php(96): CBaseController->renderInternal('D:\APMServ5.2.6...', Array, true)
+#4 D:\APMServ5.2.6\www\htdocs\yii\framework\web\widgets\CContentDecorator.php(77): CBaseController->renderFile('D:\APMServ5.2.6...', Array, true)
+#5 D:\APMServ5.2.6\www\htdocs\yii\framework\web\widgets\CContentDecorator.php(55): CContentDecorator->decorate('<div id="conten...')
+#6 D:\APMServ5.2.6\www\htdocs\yii\framework\web\widgets\COutputProcessor.php(45): CContentDecorator->processOutput('<div id="conten...')
+#7 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CBaseController.php(207): COutputProcessor->run()
+#8 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CBaseController.php(301): CBaseController->endWidget('CContentDecorat...')
+#9 D:\APMServ5.2.6\www\htdocs\tfcms\protected\views\layouts\column1.php(5): CBaseController->endContent()
+#10 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CBaseController.php(127): require('D:\APMServ5.2.6...')
+#11 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CBaseController.php(96): CBaseController->renderInternal('D:\APMServ5.2.6...', Array, true)
+#12 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CController.php(785): CBaseController->renderFile('D:\APMServ5.2.6...', Array, true)
+#13 D:\APMServ5.2.6\www\htdocs\tfcms\protected\controllers\SiteController.php(32): CController->render('index')
+#14 D:\APMServ5.2.6\www\htdocs\yii\framework\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#15 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#16 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#17 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CWebApplication.php(276): CController->run('')
+#19 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('')
+#20 D:\APMServ5.2.6\www\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#21 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/tfcms/index.php
+HTTP_REFERER=http://127.0.0.1/tfcms/index.php/gii/controller
+---
+2012/02/17 08:52:47 [error] [exception.CException] exception 'CException' with message 'Bootstrap and its behaviors do not have a method or closure named "registerCoreCss".' in D:\APMServ5.2.6\www\htdocs\yii\framework\base\CComponent.php:266
+Stack trace:
+#0 [internal function]: CComponent->__call('registerCoreCss', Array)
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\protected\views\layouts\main.php(17): Bootstrap->registerCoreCss()
+#2 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CBaseController.php(127): require('D:\APMServ5.2.6...')
+#3 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CBaseController.php(96): CBaseController->renderInternal('D:\APMServ5.2.6...', Array, true)
+#4 D:\APMServ5.2.6\www\htdocs\yii\framework\web\widgets\CContentDecorator.php(77): CBaseController->renderFile('D:\APMServ5.2.6...', Array, true)
+#5 D:\APMServ5.2.6\www\htdocs\yii\framework\web\widgets\CContentDecorator.php(55): CContentDecorator->decorate('<div id="conten...')
+#6 D:\APMServ5.2.6\www\htdocs\yii\framework\web\widgets\COutputProcessor.php(45): CContentDecorator->processOutput('<div id="conten...')
+#7 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CBaseController.php(207): COutputProcessor->run()
+#8 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CBaseController.php(301): CBaseController->endWidget('CContentDecorat...')
+#9 D:\APMServ5.2.6\www\htdocs\tfcms\protected\views\layouts\column1.php(5): CBaseController->endContent()
+#10 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CBaseController.php(127): require('D:\APMServ5.2.6...')
+#11 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CBaseController.php(96): CBaseController->renderInternal('D:\APMServ5.2.6...', Array, true)
+#12 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CController.php(785): CBaseController->renderFile('D:\APMServ5.2.6...', Array, true)
+#13 D:\APMServ5.2.6\www\htdocs\tfcms\protected\controllers\SiteController.php(32): CController->render('index')
+#14 D:\APMServ5.2.6\www\htdocs\yii\framework\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#15 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#16 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#17 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CWebApplication.php(276): CController->run('')
+#19 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('')
+#20 D:\APMServ5.2.6\www\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#21 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/tfcms/index.php
+HTTP_REFERER=http://127.0.0.1/tfcms/index.php/gii/controller
+---
+2012/02/17 08:52:48 [error] [exception.CException] exception 'CException' with message 'Bootstrap and its behaviors do not have a method or closure named "registerCoreCss".' in D:\APMServ5.2.6\www\htdocs\yii\framework\base\CComponent.php:266
+Stack trace:
+#0 [internal function]: CComponent->__call('registerCoreCss', Array)
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\protected\views\layouts\main.php(17): Bootstrap->registerCoreCss()
+#2 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CBaseController.php(127): require('D:\APMServ5.2.6...')
+#3 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CBaseController.php(96): CBaseController->renderInternal('D:\APMServ5.2.6...', Array, true)
+#4 D:\APMServ5.2.6\www\htdocs\yii\framework\web\widgets\CContentDecorator.php(77): CBaseController->renderFile('D:\APMServ5.2.6...', Array, true)
+#5 D:\APMServ5.2.6\www\htdocs\yii\framework\web\widgets\CContentDecorator.php(55): CContentDecorator->decorate('<div id="conten...')
+#6 D:\APMServ5.2.6\www\htdocs\yii\framework\web\widgets\COutputProcessor.php(45): CContentDecorator->processOutput('<div id="conten...')
+#7 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CBaseController.php(207): COutputProcessor->run()
+#8 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CBaseController.php(301): CBaseController->endWidget('CContentDecorat...')
+#9 D:\APMServ5.2.6\www\htdocs\tfcms\protected\views\layouts\column1.php(5): CBaseController->endContent()
+#10 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CBaseController.php(127): require('D:\APMServ5.2.6...')
+#11 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CBaseController.php(96): CBaseController->renderInternal('D:\APMServ5.2.6...', Array, true)
+#12 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CController.php(785): CBaseController->renderFile('D:\APMServ5.2.6...', Array, true)
+#13 D:\APMServ5.2.6\www\htdocs\tfcms\protected\controllers\SiteController.php(32): CController->render('index')
+#14 D:\APMServ5.2.6\www\htdocs\yii\framework\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#15 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#16 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#17 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CWebApplication.php(276): CController->run('')
+#19 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('')
+#20 D:\APMServ5.2.6\www\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#21 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/tfcms/index.php
+HTTP_REFERER=http://127.0.0.1/tfcms/index.php/gii/controller
+---
+2012/02/17 08:52:48 [error] [exception.CException] exception 'CException' with message 'Bootstrap and its behaviors do not have a method or closure named "registerCoreCss".' in D:\APMServ5.2.6\www\htdocs\yii\framework\base\CComponent.php:266
+Stack trace:
+#0 [internal function]: CComponent->__call('registerCoreCss', Array)
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\protected\views\layouts\main.php(17): Bootstrap->registerCoreCss()
+#2 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CBaseController.php(127): require('D:\APMServ5.2.6...')
+#3 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CBaseController.php(96): CBaseController->renderInternal('D:\APMServ5.2.6...', Array, true)
+#4 D:\APMServ5.2.6\www\htdocs\yii\framework\web\widgets\CContentDecorator.php(77): CBaseController->renderFile('D:\APMServ5.2.6...', Array, true)
+#5 D:\APMServ5.2.6\www\htdocs\yii\framework\web\widgets\CContentDecorator.php(55): CContentDecorator->decorate('<div id="conten...')
+#6 D:\APMServ5.2.6\www\htdocs\yii\framework\web\widgets\COutputProcessor.php(45): CContentDecorator->processOutput('<div id="conten...')
+#7 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CBaseController.php(207): COutputProcessor->run()
+#8 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CBaseController.php(301): CBaseController->endWidget('CContentDecorat...')
+#9 D:\APMServ5.2.6\www\htdocs\tfcms\protected\views\layouts\column1.php(5): CBaseController->endContent()
+#10 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CBaseController.php(127): require('D:\APMServ5.2.6...')
+#11 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CBaseController.php(96): CBaseController->renderInternal('D:\APMServ5.2.6...', Array, true)
+#12 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CController.php(785): CBaseController->renderFile('D:\APMServ5.2.6...', Array, true)
+#13 D:\APMServ5.2.6\www\htdocs\tfcms\protected\controllers\SiteController.php(32): CController->render('index')
+#14 D:\APMServ5.2.6\www\htdocs\yii\framework\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#15 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#16 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#17 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CWebApplication.php(276): CController->run('')
+#19 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('')
+#20 D:\APMServ5.2.6\www\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#21 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/tfcms/index.php
+HTTP_REFERER=http://127.0.0.1/tfcms/index.php/gii/controller
+---
+2012/02/17 08:52:49 [error] [exception.CException] exception 'CException' with message 'Bootstrap and its behaviors do not have a method or closure named "registerCoreCss".' in D:\APMServ5.2.6\www\htdocs\yii\framework\base\CComponent.php:266
+Stack trace:
+#0 [internal function]: CComponent->__call('registerCoreCss', Array)
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\protected\views\layouts\main.php(17): Bootstrap->registerCoreCss()
+#2 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CBaseController.php(127): require('D:\APMServ5.2.6...')
+#3 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CBaseController.php(96): CBaseController->renderInternal('D:\APMServ5.2.6...', Array, true)
+#4 D:\APMServ5.2.6\www\htdocs\yii\framework\web\widgets\CContentDecorator.php(77): CBaseController->renderFile('D:\APMServ5.2.6...', Array, true)
+#5 D:\APMServ5.2.6\www\htdocs\yii\framework\web\widgets\CContentDecorator.php(55): CContentDecorator->decorate('<div id="conten...')
+#6 D:\APMServ5.2.6\www\htdocs\yii\framework\web\widgets\COutputProcessor.php(45): CContentDecorator->processOutput('<div id="conten...')
+#7 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CBaseController.php(207): COutputProcessor->run()
+#8 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CBaseController.php(301): CBaseController->endWidget('CContentDecorat...')
+#9 D:\APMServ5.2.6\www\htdocs\tfcms\protected\views\layouts\column1.php(5): CBaseController->endContent()
+#10 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CBaseController.php(127): require('D:\APMServ5.2.6...')
+#11 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CBaseController.php(96): CBaseController->renderInternal('D:\APMServ5.2.6...', Array, true)
+#12 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CController.php(785): CBaseController->renderFile('D:\APMServ5.2.6...', Array, true)
+#13 D:\APMServ5.2.6\www\htdocs\tfcms\protected\controllers\SiteController.php(32): CController->render('index')
+#14 D:\APMServ5.2.6\www\htdocs\yii\framework\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#15 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#16 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#17 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CWebApplication.php(276): CController->run('')
+#19 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('')
+#20 D:\APMServ5.2.6\www\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#21 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/tfcms/index.php
+HTTP_REFERER=http://127.0.0.1/tfcms/index.php/gii/controller
+---
+2012/02/17 08:52:49 [error] [exception.CException] exception 'CException' with message 'Bootstrap and its behaviors do not have a method or closure named "registerCoreCss".' in D:\APMServ5.2.6\www\htdocs\yii\framework\base\CComponent.php:266
+Stack trace:
+#0 [internal function]: CComponent->__call('registerCoreCss', Array)
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\protected\views\layouts\main.php(17): Bootstrap->registerCoreCss()
+#2 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CBaseController.php(127): require('D:\APMServ5.2.6...')
+#3 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CBaseController.php(96): CBaseController->renderInternal('D:\APMServ5.2.6...', Array, true)
+#4 D:\APMServ5.2.6\www\htdocs\yii\framework\web\widgets\CContentDecorator.php(77): CBaseController->renderFile('D:\APMServ5.2.6...', Array, true)
+#5 D:\APMServ5.2.6\www\htdocs\yii\framework\web\widgets\CContentDecorator.php(55): CContentDecorator->decorate('<div id="conten...')
+#6 D:\APMServ5.2.6\www\htdocs\yii\framework\web\widgets\COutputProcessor.php(45): CContentDecorator->processOutput('<div id="conten...')
+#7 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CBaseController.php(207): COutputProcessor->run()
+#8 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CBaseController.php(301): CBaseController->endWidget('CContentDecorat...')
+#9 D:\APMServ5.2.6\www\htdocs\tfcms\protected\views\layouts\column1.php(5): CBaseController->endContent()
+#10 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CBaseController.php(127): require('D:\APMServ5.2.6...')
+#11 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CBaseController.php(96): CBaseController->renderInternal('D:\APMServ5.2.6...', Array, true)
+#12 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CController.php(785): CBaseController->renderFile('D:\APMServ5.2.6...', Array, true)
+#13 D:\APMServ5.2.6\www\htdocs\tfcms\protected\controllers\SiteController.php(32): CController->render('index')
+#14 D:\APMServ5.2.6\www\htdocs\yii\framework\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#15 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#16 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#17 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CWebApplication.php(276): CController->run('')
+#19 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('')
+#20 D:\APMServ5.2.6\www\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#21 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/tfcms/index.php
+HTTP_REFERER=http://127.0.0.1/tfcms/index.php/gii/controller
+---
+2012/02/17 09:36:21 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'tfcms.{{users}}' doesn't exist. The SQL statement executed was: SHOW COLUMNS FROM `{{users}}`.
+in D:\APMServ5.2.6\www\htdocs\tfcms\protected\modules\user\models\User.php (28)
+in D:\APMServ5.2.6\www\htdocs\tfcms\protected\modules\user\components\UserIdentity.php (27)
+in D:\APMServ5.2.6\www\htdocs\tfcms\protected\modules\user\models\UserLogin.php (52)
+2012/02/17 09:36:21 [error] [exception.CDbException] exception 'CDbException' with message 'The table "{{users}}" for active record class "User" cannot be found in the database.' in D:\APMServ5.2.6\www\htdocs\yii\framework\db\ar\CActiveRecord.php:2264
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\yii\framework\db\ar\CActiveRecord.php(379): CActiveRecordMetaData->__construct(Object(User))
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\protected\modules\user\models\User.php(28): CActiveRecord::model('User')
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\protected\modules\user\components\UserIdentity.php(27): User::model()
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\protected\modules\user\models\UserLogin.php(52): UserIdentity->authenticate()
+#4 D:\APMServ5.2.6\www\htdocs\yii\framework\validators\CInlineValidator.php(43): UserLogin->authenticate('password', Array)
+#5 D:\APMServ5.2.6\www\htdocs\yii\framework\validators\CValidator.php(197): CInlineValidator->validateAttribute(Object(UserLogin), 'password')
+#6 D:\APMServ5.2.6\www\htdocs\yii\framework\base\CModel.php(158): CValidator->validate(Object(UserLogin), NULL)
+#7 D:\APMServ5.2.6\www\htdocs\tfcms\protected\modules\user\controllers\LoginController.php(19): CModel->validate()
+#8 D:\APMServ5.2.6\www\htdocs\yii\framework\web\actions\CInlineAction.php(50): LoginController->actionLogin()
+#9 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#10 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#11 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CWebApplication.php(276): CController->run('')
+#13 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('user/login')
+#14 D:\APMServ5.2.6\www\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#15 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/tfcms/index.php/user/login
+HTTP_REFERER=http://127.0.0.1/tfcms/index.php/user/login
+---
+2012/02/17 09:36:41 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'tfcms.{{users}}' doesn't exist. The SQL statement executed was: SHOW COLUMNS FROM `{{users}}`.
+in D:\APMServ5.2.6\www\htdocs\tfcms\protected\modules\user\models\User.php (28)
+in D:\APMServ5.2.6\www\htdocs\tfcms\protected\modules\user\components\UserIdentity.php (27)
+in D:\APMServ5.2.6\www\htdocs\tfcms\protected\modules\user\models\UserLogin.php (52)
+2012/02/17 09:36:41 [error] [exception.CDbException] exception 'CDbException' with message 'The table "{{users}}" for active record class "User" cannot be found in the database.' in D:\APMServ5.2.6\www\htdocs\yii\framework\db\ar\CActiveRecord.php:2264
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\yii\framework\db\ar\CActiveRecord.php(379): CActiveRecordMetaData->__construct(Object(User))
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\protected\modules\user\models\User.php(28): CActiveRecord::model('User')
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\protected\modules\user\components\UserIdentity.php(27): User::model()
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\protected\modules\user\models\UserLogin.php(52): UserIdentity->authenticate()
+#4 D:\APMServ5.2.6\www\htdocs\yii\framework\validators\CInlineValidator.php(43): UserLogin->authenticate('password', Array)
+#5 D:\APMServ5.2.6\www\htdocs\yii\framework\validators\CValidator.php(197): CInlineValidator->validateAttribute(Object(UserLogin), 'password')
+#6 D:\APMServ5.2.6\www\htdocs\yii\framework\base\CModel.php(158): CValidator->validate(Object(UserLogin), NULL)
+#7 D:\APMServ5.2.6\www\htdocs\tfcms\protected\modules\user\controllers\LoginController.php(19): CModel->validate()
+#8 D:\APMServ5.2.6\www\htdocs\yii\framework\web\actions\CInlineAction.php(50): LoginController->actionLogin()
+#9 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#10 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#11 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CWebApplication.php(276): CController->run('')
+#13 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('user/login')
+#14 D:\APMServ5.2.6\www\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#15 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/tfcms/index.php/user/login
+HTTP_REFERER=http://127.0.0.1/tfcms/index.php/user/login
+---
+2012/02/17 09:54:08 [error] [exception.CException] exception 'CException' with message 'Property "BootNavbar.class" is not defined.' in D:\APMServ5.2.6\www\htdocs\yii\framework\base\CComponent.php:174
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CWidgetFactory.php(162): CComponent->__set('class', 'bootstrap.widge...')
+#1 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CBaseController.php(147): CWidgetFactory->createWidget(Object(SiteController), 'bootstrap.widge...', Array)
+#2 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CBaseController.php(173): CBaseController->createWidget('bootstrap.widge...', Array)
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\protected\views\layouts\main.php(42): CBaseController->widget('bootstrap.widge...', Array)
+#4 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CBaseController.php(127): require('D:\APMServ5.2.6...')
+#5 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CBaseController.php(96): CBaseController->renderInternal('D:\APMServ5.2.6...', Array, true)
+#6 D:\APMServ5.2.6\www\htdocs\yii\framework\web\widgets\CContentDecorator.php(77): CBaseController->renderFile('D:\APMServ5.2.6...', Array, true)
+#7 D:\APMServ5.2.6\www\htdocs\yii\framework\web\widgets\CContentDecorator.php(55): CContentDecorator->decorate('<div id="conten...')
+#8 D:\APMServ5.2.6\www\htdocs\yii\framework\web\widgets\COutputProcessor.php(45): CContentDecorator->processOutput('<div id="conten...')
+#9 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CBaseController.php(207): COutputProcessor->run()
+#10 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CBaseController.php(301): CBaseController->endWidget('CContentDecorat...')
+#11 D:\APMServ5.2.6\www\htdocs\tfcms\protected\views\layouts\column1.php(5): CBaseController->endContent()
+#12 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CBaseController.php(127): require('D:\APMServ5.2.6...')
+#13 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CBaseController.php(96): CBaseController->renderInternal('D:\APMServ5.2.6...', Array, true)
+#14 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CController.php(785): CBaseController->renderFile('D:\APMServ5.2.6...', Array, true)
+#15 D:\APMServ5.2.6\www\htdocs\tfcms\protected\controllers\SiteController.php(32): CController->render('index')
+#16 D:\APMServ5.2.6\www\htdocs\yii\framework\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#17 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#18 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#19 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CWebApplication.php(276): CController->run('')
+#21 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('')
+#22 D:\APMServ5.2.6\www\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#23 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#24 {main}
+REQUEST_URI=/tfcms/index.php
+HTTP_REFERER=http://127.0.0.1/tfcms/index.php/user/registration
+---
+2012/02/17 09:58:46 [error] [exception.CException] exception 'CException' with message 'Property "BootNavbar.class" is not defined.' in D:\APMServ5.2.6\www\htdocs\yii\framework\base\CComponent.php:174
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CWidgetFactory.php(162): CComponent->__set('class', 'bootstrap.widge...')
+#1 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CBaseController.php(147): CWidgetFactory->createWidget(Object(SiteController), 'bootstrap.widge...', Array)
+#2 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CBaseController.php(173): CBaseController->createWidget('bootstrap.widge...', Array)
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\protected\views\layouts\main.php(45): CBaseController->widget('bootstrap.widge...', Array)
+#4 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CBaseController.php(127): require('D:\APMServ5.2.6...')
+#5 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CBaseController.php(96): CBaseController->renderInternal('D:\APMServ5.2.6...', Array, true)
+#6 D:\APMServ5.2.6\www\htdocs\yii\framework\web\widgets\CContentDecorator.php(77): CBaseController->renderFile('D:\APMServ5.2.6...', Array, true)
+#7 D:\APMServ5.2.6\www\htdocs\yii\framework\web\widgets\CContentDecorator.php(55): CContentDecorator->decorate('<div id="conten...')
+#8 D:\APMServ5.2.6\www\htdocs\yii\framework\web\widgets\COutputProcessor.php(45): CContentDecorator->processOutput('<div id="conten...')
+#9 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CBaseController.php(207): COutputProcessor->run()
+#10 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CBaseController.php(301): CBaseController->endWidget('CContentDecorat...')
+#11 D:\APMServ5.2.6\www\htdocs\tfcms\protected\views\layouts\column1.php(5): CBaseController->endContent()
+#12 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CBaseController.php(127): require('D:\APMServ5.2.6...')
+#13 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CBaseController.php(96): CBaseController->renderInternal('D:\APMServ5.2.6...', Array, true)
+#14 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CController.php(785): CBaseController->renderFile('D:\APMServ5.2.6...', Array, true)
+#15 D:\APMServ5.2.6\www\htdocs\tfcms\protected\controllers\SiteController.php(32): CController->render('index')
+#16 D:\APMServ5.2.6\www\htdocs\yii\framework\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#17 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#18 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#19 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CWebApplication.php(276): CController->run('')
+#21 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('')
+#22 D:\APMServ5.2.6\www\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#23 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#24 {main}
+REQUEST_URI=/tfcms/index.php
+HTTP_REFERER=http://127.0.0.1/tfcms/index.php/user/registration
+---
+2012/02/17 09:58:47 [error] [exception.CException] exception 'CException' with message 'Property "BootNavbar.class" is not defined.' in D:\APMServ5.2.6\www\htdocs\yii\framework\base\CComponent.php:174
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CWidgetFactory.php(162): CComponent->__set('class', 'bootstrap.widge...')
+#1 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CBaseController.php(147): CWidgetFactory->createWidget(Object(SiteController), 'bootstrap.widge...', Array)
+#2 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CBaseController.php(173): CBaseController->createWidget('bootstrap.widge...', Array)
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\protected\views\layouts\main.php(45): CBaseController->widget('bootstrap.widge...', Array)
+#4 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CBaseController.php(127): require('D:\APMServ5.2.6...')
+#5 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CBaseController.php(96): CBaseController->renderInternal('D:\APMServ5.2.6...', Array, true)
+#6 D:\APMServ5.2.6\www\htdocs\yii\framework\web\widgets\CContentDecorator.php(77): CBaseController->renderFile('D:\APMServ5.2.6...', Array, true)
+#7 D:\APMServ5.2.6\www\htdocs\yii\framework\web\widgets\CContentDecorator.php(55): CContentDecorator->decorate('<div id="conten...')
+#8 D:\APMServ5.2.6\www\htdocs\yii\framework\web\widgets\COutputProcessor.php(45): CContentDecorator->processOutput('<div id="conten...')
+#9 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CBaseController.php(207): COutputProcessor->run()
+#10 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CBaseController.php(301): CBaseController->endWidget('CContentDecorat...')
+#11 D:\APMServ5.2.6\www\htdocs\tfcms\protected\views\layouts\column1.php(5): CBaseController->endContent()
+#12 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CBaseController.php(127): require('D:\APMServ5.2.6...')
+#13 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CBaseController.php(96): CBaseController->renderInternal('D:\APMServ5.2.6...', Array, true)
+#14 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CController.php(785): CBaseController->renderFile('D:\APMServ5.2.6...', Array, true)
+#15 D:\APMServ5.2.6\www\htdocs\tfcms\protected\controllers\SiteController.php(32): CController->render('index')
+#16 D:\APMServ5.2.6\www\htdocs\yii\framework\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#17 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#18 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#19 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CWebApplication.php(276): CController->run('')
+#21 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('')
+#22 D:\APMServ5.2.6\www\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#23 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#24 {main}
+REQUEST_URI=/tfcms/index.php
+HTTP_REFERER=http://127.0.0.1/tfcms/index.php/user/registration
+---
+2012/02/17 09:58:48 [error] [exception.CException] exception 'CException' with message 'Property "BootNavbar.class" is not defined.' in D:\APMServ5.2.6\www\htdocs\yii\framework\base\CComponent.php:174
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CWidgetFactory.php(162): CComponent->__set('class', 'bootstrap.widge...')
+#1 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CBaseController.php(147): CWidgetFactory->createWidget(Object(SiteController), 'bootstrap.widge...', Array)
+#2 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CBaseController.php(173): CBaseController->createWidget('bootstrap.widge...', Array)
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\protected\views\layouts\main.php(45): CBaseController->widget('bootstrap.widge...', Array)
+#4 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CBaseController.php(127): require('D:\APMServ5.2.6...')
+#5 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CBaseController.php(96): CBaseController->renderInternal('D:\APMServ5.2.6...', Array, true)
+#6 D:\APMServ5.2.6\www\htdocs\yii\framework\web\widgets\CContentDecorator.php(77): CBaseController->renderFile('D:\APMServ5.2.6...', Array, true)
+#7 D:\APMServ5.2.6\www\htdocs\yii\framework\web\widgets\CContentDecorator.php(55): CContentDecorator->decorate('<div id="conten...')
+#8 D:\APMServ5.2.6\www\htdocs\yii\framework\web\widgets\COutputProcessor.php(45): CContentDecorator->processOutput('<div id="conten...')
+#9 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CBaseController.php(207): COutputProcessor->run()
+#10 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CBaseController.php(301): CBaseController->endWidget('CContentDecorat...')
+#11 D:\APMServ5.2.6\www\htdocs\tfcms\protected\views\layouts\column1.php(5): CBaseController->endContent()
+#12 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CBaseController.php(127): require('D:\APMServ5.2.6...')
+#13 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CBaseController.php(96): CBaseController->renderInternal('D:\APMServ5.2.6...', Array, true)
+#14 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CController.php(785): CBaseController->renderFile('D:\APMServ5.2.6...', Array, true)
+#15 D:\APMServ5.2.6\www\htdocs\tfcms\protected\controllers\SiteController.php(32): CController->render('index')
+#16 D:\APMServ5.2.6\www\htdocs\yii\framework\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#17 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#18 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#19 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CWebApplication.php(276): CController->run('')
+#21 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('')
+#22 D:\APMServ5.2.6\www\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#23 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#24 {main}
+REQUEST_URI=/tfcms/index.php
+HTTP_REFERER=http://127.0.0.1/tfcms/index.php/user/registration
+---
+2012/02/17 09:58:49 [error] [exception.CException] exception 'CException' with message 'Property "BootNavbar.class" is not defined.' in D:\APMServ5.2.6\www\htdocs\yii\framework\base\CComponent.php:174
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CWidgetFactory.php(162): CComponent->__set('class', 'bootstrap.widge...')
+#1 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CBaseController.php(147): CWidgetFactory->createWidget(Object(SiteController), 'bootstrap.widge...', Array)
+#2 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CBaseController.php(173): CBaseController->createWidget('bootstrap.widge...', Array)
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\protected\views\layouts\main.php(45): CBaseController->widget('bootstrap.widge...', Array)
+#4 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CBaseController.php(127): require('D:\APMServ5.2.6...')
+#5 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CBaseController.php(96): CBaseController->renderInternal('D:\APMServ5.2.6...', Array, true)
+#6 D:\APMServ5.2.6\www\htdocs\yii\framework\web\widgets\CContentDecorator.php(77): CBaseController->renderFile('D:\APMServ5.2.6...', Array, true)
+#7 D:\APMServ5.2.6\www\htdocs\yii\framework\web\widgets\CContentDecorator.php(55): CContentDecorator->decorate('<div id="conten...')
+#8 D:\APMServ5.2.6\www\htdocs\yii\framework\web\widgets\COutputProcessor.php(45): CContentDecorator->processOutput('<div id="conten...')
+#9 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CBaseController.php(207): COutputProcessor->run()
+#10 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CBaseController.php(301): CBaseController->endWidget('CContentDecorat...')
+#11 D:\APMServ5.2.6\www\htdocs\tfcms\protected\views\layouts\column1.php(5): CBaseController->endContent()
+#12 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CBaseController.php(127): require('D:\APMServ5.2.6...')
+#13 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CBaseController.php(96): CBaseController->renderInternal('D:\APMServ5.2.6...', Array, true)
+#14 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CController.php(785): CBaseController->renderFile('D:\APMServ5.2.6...', Array, true)
+#15 D:\APMServ5.2.6\www\htdocs\tfcms\protected\controllers\SiteController.php(32): CController->render('index')
+#16 D:\APMServ5.2.6\www\htdocs\yii\framework\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#17 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#18 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#19 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CWebApplication.php(276): CController->run('')
+#21 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('')
+#22 D:\APMServ5.2.6\www\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#23 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#24 {main}
+REQUEST_URI=/tfcms/index.php
+HTTP_REFERER=http://127.0.0.1/tfcms/index.php/user/registration
+---
+2012/02/17 09:58:50 [error] [exception.CException] exception 'CException' with message 'Property "BootNavbar.class" is not defined.' in D:\APMServ5.2.6\www\htdocs\yii\framework\base\CComponent.php:174
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CWidgetFactory.php(162): CComponent->__set('class', 'bootstrap.widge...')
+#1 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CBaseController.php(147): CWidgetFactory->createWidget(Object(SiteController), 'bootstrap.widge...', Array)
+#2 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CBaseController.php(173): CBaseController->createWidget('bootstrap.widge...', Array)
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\protected\views\layouts\main.php(45): CBaseController->widget('bootstrap.widge...', Array)
+#4 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CBaseController.php(127): require('D:\APMServ5.2.6...')
+#5 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CBaseController.php(96): CBaseController->renderInternal('D:\APMServ5.2.6...', Array, true)
+#6 D:\APMServ5.2.6\www\htdocs\yii\framework\web\widgets\CContentDecorator.php(77): CBaseController->renderFile('D:\APMServ5.2.6...', Array, true)
+#7 D:\APMServ5.2.6\www\htdocs\yii\framework\web\widgets\CContentDecorator.php(55): CContentDecorator->decorate('<div id="conten...')
+#8 D:\APMServ5.2.6\www\htdocs\yii\framework\web\widgets\COutputProcessor.php(45): CContentDecorator->processOutput('<div id="conten...')
+#9 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CBaseController.php(207): COutputProcessor->run()
+#10 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CBaseController.php(301): CBaseController->endWidget('CContentDecorat...')
+#11 D:\APMServ5.2.6\www\htdocs\tfcms\protected\views\layouts\column1.php(5): CBaseController->endContent()
+#12 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CBaseController.php(127): require('D:\APMServ5.2.6...')
+#13 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CBaseController.php(96): CBaseController->renderInternal('D:\APMServ5.2.6...', Array, true)
+#14 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CController.php(785): CBaseController->renderFile('D:\APMServ5.2.6...', Array, true)
+#15 D:\APMServ5.2.6\www\htdocs\tfcms\protected\controllers\SiteController.php(32): CController->render('index')
+#16 D:\APMServ5.2.6\www\htdocs\yii\framework\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#17 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#18 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#19 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CWebApplication.php(276): CController->run('')
+#21 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('')
+#22 D:\APMServ5.2.6\www\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#23 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#24 {main}
+REQUEST_URI=/tfcms/index.php
+HTTP_REFERER=http://127.0.0.1/tfcms/index.php/user/registration
+---
+2012/02/17 09:58:50 [error] [exception.CException] exception 'CException' with message 'Property "BootNavbar.class" is not defined.' in D:\APMServ5.2.6\www\htdocs\yii\framework\base\CComponent.php:174
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CWidgetFactory.php(162): CComponent->__set('class', 'bootstrap.widge...')
+#1 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CBaseController.php(147): CWidgetFactory->createWidget(Object(SiteController), 'bootstrap.widge...', Array)
+#2 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CBaseController.php(173): CBaseController->createWidget('bootstrap.widge...', Array)
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\protected\views\layouts\main.php(45): CBaseController->widget('bootstrap.widge...', Array)
+#4 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CBaseController.php(127): require('D:\APMServ5.2.6...')
+#5 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CBaseController.php(96): CBaseController->renderInternal('D:\APMServ5.2.6...', Array, true)
+#6 D:\APMServ5.2.6\www\htdocs\yii\framework\web\widgets\CContentDecorator.php(77): CBaseController->renderFile('D:\APMServ5.2.6...', Array, true)
+#7 D:\APMServ5.2.6\www\htdocs\yii\framework\web\widgets\CContentDecorator.php(55): CContentDecorator->decorate('<div id="conten...')
+#8 D:\APMServ5.2.6\www\htdocs\yii\framework\web\widgets\COutputProcessor.php(45): CContentDecorator->processOutput('<div id="conten...')
+#9 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CBaseController.php(207): COutputProcessor->run()
+#10 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CBaseController.php(301): CBaseController->endWidget('CContentDecorat...')
+#11 D:\APMServ5.2.6\www\htdocs\tfcms\protected\views\layouts\column1.php(5): CBaseController->endContent()
+#12 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CBaseController.php(127): require('D:\APMServ5.2.6...')
+#13 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CBaseController.php(96): CBaseController->renderInternal('D:\APMServ5.2.6...', Array, true)
+#14 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CController.php(785): CBaseController->renderFile('D:\APMServ5.2.6...', Array, true)
+#15 D:\APMServ5.2.6\www\htdocs\tfcms\protected\controllers\SiteController.php(32): CController->render('index')
+#16 D:\APMServ5.2.6\www\htdocs\yii\framework\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#17 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#18 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#19 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CWebApplication.php(276): CController->run('')
+#21 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('')
+#22 D:\APMServ5.2.6\www\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#23 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#24 {main}
+REQUEST_URI=/tfcms/index.php
+HTTP_REFERER=http://127.0.0.1/tfcms/index.php/user/registration
+---
+2012/02/17 09:58:50 [error] [exception.CException] exception 'CException' with message 'Property "BootNavbar.class" is not defined.' in D:\APMServ5.2.6\www\htdocs\yii\framework\base\CComponent.php:174
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CWidgetFactory.php(162): CComponent->__set('class', 'bootstrap.widge...')
+#1 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CBaseController.php(147): CWidgetFactory->createWidget(Object(SiteController), 'bootstrap.widge...', Array)
+#2 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CBaseController.php(173): CBaseController->createWidget('bootstrap.widge...', Array)
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\protected\views\layouts\main.php(45): CBaseController->widget('bootstrap.widge...', Array)
+#4 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CBaseController.php(127): require('D:\APMServ5.2.6...')
+#5 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CBaseController.php(96): CBaseController->renderInternal('D:\APMServ5.2.6...', Array, true)
+#6 D:\APMServ5.2.6\www\htdocs\yii\framework\web\widgets\CContentDecorator.php(77): CBaseController->renderFile('D:\APMServ5.2.6...', Array, true)
+#7 D:\APMServ5.2.6\www\htdocs\yii\framework\web\widgets\CContentDecorator.php(55): CContentDecorator->decorate('<div id="conten...')
+#8 D:\APMServ5.2.6\www\htdocs\yii\framework\web\widgets\COutputProcessor.php(45): CContentDecorator->processOutput('<div id="conten...')
+#9 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CBaseController.php(207): COutputProcessor->run()
+#10 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CBaseController.php(301): CBaseController->endWidget('CContentDecorat...')
+#11 D:\APMServ5.2.6\www\htdocs\tfcms\protected\views\layouts\column1.php(5): CBaseController->endContent()
+#12 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CBaseController.php(127): require('D:\APMServ5.2.6...')
+#13 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CBaseController.php(96): CBaseController->renderInternal('D:\APMServ5.2.6...', Array, true)
+#14 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CController.php(785): CBaseController->renderFile('D:\APMServ5.2.6...', Array, true)
+#15 D:\APMServ5.2.6\www\htdocs\tfcms\protected\controllers\SiteController.php(32): CController->render('index')
+#16 D:\APMServ5.2.6\www\htdocs\yii\framework\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#17 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#18 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#19 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CWebApplication.php(276): CController->run('')
+#21 D:\APMServ5.2.6\www\htdocs\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('')
+#22 D:\APMServ5.2.6\www\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#23 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#24 {main}
+REQUEST_URI=/tfcms/index.php
+HTTP_REFERER=http://127.0.0.1/tfcms/index.php/user/registration
+---
