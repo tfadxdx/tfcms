@@ -5,7 +5,8 @@ class SiteController extends Controller
 	/**
 	 * Declares class-based actions.
 	 */
-	public function actions()
+        
+        public function actions()
 	{
 		return array(
 			// captcha action renders the CAPTCHA image displayed on the contact page
@@ -20,7 +21,7 @@ class SiteController extends Controller
 			),
 		);
 	}
-
+	
 	/**
 	 * This is the default 'index' action that is invoked
 	 * when an action is not explicitly requested by users.
