@@ -8,21 +8,22 @@
 return array(
 	'basePath'=>dirname(__FILE__).DIRECTORY_SEPARATOR.'..',
 	'name'=>'TFWK CMS',
-
+	'timeZone'=>"Asia/Shanghai",
+	
 	// preloading 'log' component
 	'preload'=>array(
-                'log',
-                'bootstrap', // preload the bootstrap component
-            ),
+    'log',
+    'bootstrap', // preload the bootstrap component
+   ),
 
 	// autoloading model and component classes
 	'import'=>array(
 		'application.models.*',
 		'application.components.*',
-                'application.modules.user.models.*',
-                'application.modules.user.components.*',
-                'ext.giix-components.*', // giix components
-                'ext.bootstrap.widgets.*',
+    'application.modules.user.models.*',
+    'application.modules.user.components.*',
+    'ext.giix-components.*', // giix components
+    'ext.bootstrap.widgets.*',
 	),
 
 	'modules'=>array(
@@ -33,10 +34,10 @@ return array(
 			'password'=>'gii',
 		 	// If removed, Gii defaults to localhost only. Edit carefully to taste.
 			'ipFilters'=>array('127.0.0.1','::1'),
-                        'generatorPaths' => array(
-                            'ext.giix-core', // giix generators
-                            'bootstrap.gii', // since 0.9.1
-                        ),
+        'generatorPaths' => array(
+          'ext.giix-core', // giix generators
+          'bootstrap.gii', // since 0.9.1
+        ),
 		),
 		'user',
 	),
@@ -51,6 +52,7 @@ return array(
 		
 		'urlManager'=>array(
 			'urlFormat'=>'path',
+			'showScriptName'=>false,
 			'rules'=>array(
 				'<controller:\w+>/<id:\d+>'=>'<controller>/view',
 				'<controller:\w+>/<action:\w+>/<id:\d+>'=>'<controller>/<action>',
@@ -69,7 +71,7 @@ return array(
 			'username' => 'root',
 			'password' => 'root',
 			'charset' => 'utf8',
-                        'tablePrefix' => 'tf_'
+			'tablePrefix' => 'tf_',
 		),
 		
 		'errorHandler'=>array(
@@ -91,28 +93,28 @@ return array(
 				*/
 			),
 		),
-                'bootstrap'=>array(
-                        'class'=>'ext.bootstrap.components.Bootstrap', // assuming you extracted bootstrap under extensions
-                        'coreCss'=>true, // whether to register the Bootstrap core CSS (bootstrap.min.css), defaults to true
-                        'responsiveCss'=>false, // whether to register the Bootstrap responsive CSS (bootstrap-responsive.min.css), default to false
-                        'plugins'=>array(
-                            // Optionally you can configure the "global" plugins (button, popover, tooltip and transition)
-                            // To prevent a plugin from being loaded set it to false as demonstrated below
-                            'transition'=>false, // disable CSS transitions
-                            'tooltip'=>array(
-                                'selector'=>'a.tooltip', // bind the plugin tooltip to anchor tags with the 'tooltip' class
-                                'options'=>array(
-                                    'placement'=>'bottom', // place the tooltips below instead
-                                ),
-                            ),
-                        ),  
+    'bootstrap'=>array(
+        'class'=>'ext.bootstrap.components.Bootstrap', // assuming you extracted bootstrap under extensions
+        'coreCss'=>true, // whether to register the Bootstrap core CSS (bootstrap.min.css), defaults to true
+        'responsiveCss'=>false, // whether to register the Bootstrap responsive CSS (bootstrap-responsive.min.css), default to false
+        'plugins'=>array(
+            // Optionally you can configure the "global" plugins (button, popover, tooltip and transition)
+            // To prevent a plugin from being loaded set it to false as demonstrated below
+            'transition'=>false, // disable CSS transitions
+            'tooltip'=>array(
+                'selector'=>'a.tooltip', // bind the plugin tooltip to anchor tags with the 'tooltip' class
+                'options'=>array(
+                    'placement'=>'bottom', // place the tooltips below instead
                 ),
-                'user'=>array(
-                        // enable cookie-based authentication
-                        'allowAutoLogin'=>true,
-                        'loginUrl' => array('/user/login'),
-                ),
-        ),
+            ),
+        ),  
+    ),
+    'user'=>array(
+            // enable cookie-based authentication
+       'allowAutoLogin'=>true,
+       'loginUrl' => array('/user/login'),
+    ),
+	),
 
 	// application-level parameters that can be accessed
 	// using Yii::app()->params['paramName']
@@ -120,5 +122,4 @@ return array(
 		// this is used in contact page
 		'adminEmail'=>'webmaster@example.com',
 	),
-	'timeZone'=>"Asia/Chongqing",
 );
