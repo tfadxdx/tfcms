@@ -568,3 +568,62 @@ Stack trace:
 REQUEST_URI=/tfcms/index.php
 HTTP_REFERER=http://127.0.0.1/tfcms/index.php/user/registration
 ---
+2012/02/18 09:28:46 [error] [exception.CException] exception 'CException' with message 'CAssetManager.basePath "/Users/joe/Sites/tfcms/assets" is invalid. Please make sure the directory exists and is writable by the Web server process.' in /Users/joe/Sites/tfcms/framework/web/CAssetManager.php:116
+Stack trace:
+#0 /Users/joe/Sites/tfcms/framework/web/CAssetManager.php(101): CAssetManager->setBasePath('/Users/joe/Site...')
+#1 /Users/joe/Sites/tfcms/framework/web/CAssetManager.php(219): CAssetManager->getBasePath()
+#2 /Users/joe/Sites/tfcms/protected/extensions/bootstrap/components/Bootstrap.php(346): CAssetManager->publish('/Users/joe/Site...', false, -1, true)
+#3 /Users/joe/Sites/tfcms/protected/extensions/bootstrap/components/Bootstrap.php(81): Bootstrap->getAssetsUrl()
+#4 /Users/joe/Sites/tfcms/protected/extensions/bootstrap/components/Bootstrap.php(57): Bootstrap->registerCss()
+#5 /Users/joe/Sites/tfcms/framework/base/CModule.php(388): Bootstrap->init()
+#6 /Users/joe/Sites/tfcms/framework/base/CModule.php(493): CModule->getComponent('bootstrap')
+#7 /Users/joe/Sites/tfcms/framework/base/CApplication.php(146): CModule->preloadComponents()
+#8 /Users/joe/Sites/tfcms/framework/YiiBase.php(127): CApplication->__construct('/Users/joe/Site...')
+#9 /Users/joe/Sites/tfcms/framework/YiiBase.php(100): YiiBase::createApplication('CWebApplication', '/Users/joe/Site...')
+#10 /Users/joe/Sites/tfcms/index.php(13): YiiBase::createWebApplication('/Users/joe/Site...')
+#11 {main}
+REQUEST_URI=/tfcms/index.php
+---
+2012/02/18 09:29:14 [error] [php] date(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected 'Asia/Chongqing' for 'CST/8.0/no DST' instead (/Users/joe/Sites/tfcms/protected/views/layouts/main.php:59)
+Stack trace:
+#0 /Users/joe/Sites/tfcms/framework/web/CBaseController.php(96): SiteController->renderInternal()
+#1 /Users/joe/Sites/tfcms/framework/web/widgets/CContentDecorator.php(77): SiteController->renderFile()
+#2 /Users/joe/Sites/tfcms/framework/web/widgets/CContentDecorator.php(55): CContentDecorator->decorate()
+#3 /Users/joe/Sites/tfcms/framework/web/widgets/COutputProcessor.php(45): CContentDecorator->processOutput()
+#4 /Users/joe/Sites/tfcms/framework/web/CBaseController.php(207): CContentDecorator->run()
+#5 /Users/joe/Sites/tfcms/framework/web/CBaseController.php(301): SiteController->endWidget()
+#6 /Users/joe/Sites/tfcms/protected/views/layouts/column1.php(5): SiteController->endContent()
+#7 /Users/joe/Sites/tfcms/framework/web/CBaseController.php(127): require()
+#8 /Users/joe/Sites/tfcms/framework/web/CBaseController.php(96): SiteController->renderInternal()
+#9 /Users/joe/Sites/tfcms/framework/web/CController.php(785): SiteController->renderFile()
+#10 /Users/joe/Sites/tfcms/protected/controllers/SiteController.php(32): SiteController->render()
+#11 /Users/joe/Sites/tfcms/framework/web/actions/CInlineAction.php(50): SiteController->actionIndex()
+#12 /Users/joe/Sites/tfcms/framework/web/CController.php(309): CInlineAction->runWithParams()
+#13 /Users/joe/Sites/tfcms/framework/web/CController.php(287): SiteController->runAction()
+#14 /Users/joe/Sites/tfcms/framework/web/CController.php(266): SiteController->runActionWithFilters()
+#15 /Users/joe/Sites/tfcms/framework/web/CWebApplication.php(276): SiteController->run()
+#16 /Users/joe/Sites/tfcms/framework/web/CWebApplication.php(135): CWebApplication->runController()
+#17 /Users/joe/Sites/tfcms/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#18 /Users/joe/Sites/tfcms/index.php(13): CWebApplication->run()
+REQUEST_URI=/tfcms/index.php
+in /Users/joe/Sites/tfcms/protected/views/layouts/main.php (59)
+in /Users/joe/Sites/tfcms/protected/views/layouts/column1.php (5)
+in /Users/joe/Sites/tfcms/protected/controllers/SiteController.php (32)
+2012/02/18 09:30:35 [error] [php] date(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected 'Asia/Chongqing' for 'CST/8.0/no DST' instead (/Users/joe/Sites/tfcms/protected/modules/user/views/profile/profile.php:45)
+Stack trace:
+#0 /Users/joe/Sites/tfcms/framework/web/CBaseController.php(96): ProfileController->renderInternal()
+#1 /Users/joe/Sites/tfcms/framework/web/CController.php(870): ProfileController->renderFile()
+#2 /Users/joe/Sites/tfcms/framework/web/CController.php(783): ProfileController->renderPartial()
+#3 /Users/joe/Sites/tfcms/protected/modules/user/controllers/ProfileController.php(20): ProfileController->render()
+#4 /Users/joe/Sites/tfcms/framework/web/actions/CInlineAction.php(50): ProfileController->actionProfile()
+#5 /Users/joe/Sites/tfcms/framework/web/CController.php(309): CInlineAction->runWithParams()
+#6 /Users/joe/Sites/tfcms/framework/web/CController.php(287): ProfileController->runAction()
+#7 /Users/joe/Sites/tfcms/framework/web/CController.php(266): ProfileController->runActionWithFilters()
+#8 /Users/joe/Sites/tfcms/framework/web/CWebApplication.php(276): ProfileController->run()
+#9 /Users/joe/Sites/tfcms/framework/web/CWebApplication.php(135): CWebApplication->runController()
+#10 /Users/joe/Sites/tfcms/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#11 /Users/joe/Sites/tfcms/index.php(13): CWebApplication->run()
+REQUEST_URI=/tfcms/index.php/user/profile
+in /Users/joe/Sites/tfcms/protected/modules/user/views/profile/profile.php (45)
+in /Users/joe/Sites/tfcms/protected/modules/user/controllers/ProfileController.php (20)
+in /Users/joe/Sites/tfcms/index.php (13)
