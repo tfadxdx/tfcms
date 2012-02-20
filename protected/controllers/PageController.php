@@ -1,6 +1,6 @@
 <?php
 
-class NodeController extends Controller
+class PageController extends Controller
 {
 	/**
 	 * @var string the default layout for the views. Defaults to '//layouts/column2', meaning
@@ -61,17 +61,18 @@ class NodeController extends Controller
 	 */
 	public function actionCreate()
 	{
-		$model=new Node;
+		$model=new Page;
 
 		// Uncomment the following line if AJAX validation is needed
 		// $this->performAjaxValidation($model);
 
-		if(isset($_POST['Node']))
+		if(isset($_POST['Page']))
 		{
-			$_POST['Node']['createtime']=time();
-                        $_POST['Node']['updatetime']=time();
-                        $_POST['Node']['uid']=Yii::app()->getModule('user')->user()->id;
-                        $model->attributes=$_POST['Node'];
+                        $model->type='page';
+                        $model->createtime=time();
+                        $model->updatetime=time();
+                        $model->uid=Yii::app()->getModule('user')->user()->id;
+                        $model->attributes=$_POST['Page'];
 			if($model->save())
 				$this->redirect(array('view','id'=>$model->id));
 		}
@@ -93,10 +94,9 @@ class NodeController extends Controller
 		// Uncomment the following line if AJAX validation is needed
 		// $this->performAjaxValidation($model);
 
-		if(isset($_POST['Node']))
+		if(isset($_POST['Page']))
 		{
-                        $_POST['Node']['updatetime']=time();
-			$model->attributes=$_POST['Node'];
+			$model->attributes=$_POST['Page'];
 			if($model->save())
 				$this->redirect(array('view','id'=>$model->id));
 		}
@@ -131,7 +131,7 @@ class NodeController extends Controller
 	 */
 	public function actionIndex()
 	{
-		$datas = Node::model()->findAll();
+		$datas = Page::model()->self()->published()->desc()->findAll();
                 $this->render('index',array(
                         'datas'=>$datas,
                 ));
@@ -142,10 +142,10 @@ class NodeController extends Controller
 	 */
 	public function actionAdmin()
 	{
-		$model=new Node('search');
+		$model=new Page('search');
 		$model->unsetAttributes();  // clear any default values
-		if(isset($_GET['Node']))
-			$model->attributes=$_GET['Node'];
+		if(isset($_GET['Page']))
+			$model->attributes=$_GET['Page'];
 
 		$this->render('admin',array(
 			'model'=>$model,
@@ -159,7 +159,7 @@ class NodeController extends Controller
 	 */
 	public function loadModel($id)
 	{
-		$model=Node::model()->findByPk($id);
+		$model=Page::model()->findByPk($id);
 		if($model===null)
 			throw new CHttpException(404,'The requested page does not exist.');
 		return $model;
@@ -171,7 +171,7 @@ class NodeController extends Controller
 	 */
 	protected function performAjaxValidation($model)
 	{
-		if(isset($_POST['ajax']) && $_POST['ajax']==='node-form')
+		if(isset($_POST['ajax']) && $_POST['ajax']==='Page-form')
 		{
 			echo CActiveForm::validate($model);
 			Yii::app()->end();

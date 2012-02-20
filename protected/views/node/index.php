@@ -11,7 +11,9 @@ $this->menu=array(
 
 <h1>Nodes</h1>
 
-<?php $this->widget('zii.widgets.CListView', array(
-	'dataProvider'=>$dataProvider,
-	'itemView'=>'_view',
-)); ?>
+<?php
+        foreach ($datas as $data){
+            echo CHtml::link($data->title, array('node/'.$data->id)).'</br>';
+            echo $data->content.'</br>';
+        }
+?>

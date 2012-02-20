@@ -794,3 +794,479 @@ Stack trace:
 REQUEST_URI=/tfcms/node/create
 HTTP_REFERER=http://127.0.0.1/tfcms/node/index
 ---
+2012/02/20 16:46:22 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[HY000]: General error: 1 Can't create/write to file 'C:\WINDOWS\TEMP\#sql_5c4_0.MYI' (Errcode: 13). The SQL statement executed was: SHOW COLUMNS FROM `tf_users`.
+in D:\APMServ5.2.6\www\htdocs\tfcms\index.php (13)
+2012/02/20 16:47:14 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[HY000]: General error: 1 Can't create/write to file 'C:\WINDOWS\TEMP\#sql_5c4_0.MYI' (Errcode: 13). The SQL statement executed was: SHOW COLUMNS FROM `tf_profiles`.
+in D:\APMServ5.2.6\www\htdocs\tfcms\index.php (13)
+2012/02/20 16:47:14 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[HY000]: General error: 1 Can't create/write to file 'C:\WINDOWS\TEMP\#sql_5c4_0.MYI' (Errcode: 13). The SQL statement executed was: SHOW COLUMNS FROM `tf_profiles_fields`.
+in D:\APMServ5.2.6\www\htdocs\tfcms\index.php (13)
+2012/02/20 16:50:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "nodes".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('nodes')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/nodes
+---
+2012/02/20 16:50:19 [error] [php] YiiBase::include(NodeController.php) [<a href='yiibase.include'>yiibase.include</a>]: failed to open stream: No such file or directory (D:\APMServ5.2.6\www\htdocs\tfcms\framework\YiiBase.php:418)
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\protected\controllers\PageController.php(3): spl_autoload_call()
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(344): require()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(270): CWebApplication->createController()
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CWebApplication->run()
+REQUEST_URI=/tfcms/page
+in D:\APMServ5.2.6\www\htdocs\tfcms\protected\controllers\PageController.php (3)
+in D:\APMServ5.2.6\www\htdocs\tfcms\index.php (13)
+2012/02/20 16:54:17 [error] [php] YiiBase::include(NodeController.php) [<a href='yiibase.include'>yiibase.include</a>]: failed to open stream: No such file or directory (D:\APMServ5.2.6\www\htdocs\tfcms\framework\YiiBase.php:418)
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\protected\controllers\PageController.php(3): spl_autoload_call()
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(344): require()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(270): CWebApplication->createController()
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CWebApplication->run()
+REQUEST_URI=/tfcms/page
+in D:\APMServ5.2.6\www\htdocs\tfcms\protected\controllers\PageController.php (3)
+in D:\APMServ5.2.6\www\htdocs\tfcms\index.php (13)
+2012/02/20 16:54:22 [error] [php] YiiBase::include(NodeController.php) [<a href='yiibase.include'>yiibase.include</a>]: failed to open stream: No such file or directory (D:\APMServ5.2.6\www\htdocs\tfcms\framework\YiiBase.php:418)
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\protected\controllers\PageController.php(3): spl_autoload_call()
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(344): require()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(270): CWebApplication->createController()
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CWebApplication->run()
+REQUEST_URI=/tfcms/page/index
+in D:\APMServ5.2.6\www\htdocs\tfcms\protected\controllers\PageController.php (3)
+in D:\APMServ5.2.6\www\htdocs\tfcms\index.php (13)
+2012/02/20 16:55:38 [error] [php] YiiBase::include(NodeController.php) [<a href='yiibase.include'>yiibase.include</a>]: failed to open stream: No such file or directory (D:\APMServ5.2.6\www\htdocs\tfcms\framework\YiiBase.php:418)
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\protected\controllers\PageController.php(3): spl_autoload_call()
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(344): require()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(270): CWebApplication->createController()
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CWebApplication->run()
+REQUEST_URI=/tfcms/page
+in D:\APMServ5.2.6\www\htdocs\tfcms\protected\controllers\PageController.php (3)
+in D:\APMServ5.2.6\www\htdocs\tfcms\index.php (13)
+2012/02/20 17:00:11 [error] [php] Object of class Node could not be converted to string (D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\helpers\CHtml.php:1712)
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\protected\views\node\_form.php(58): dropDownList()
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CBaseController.php(127): require()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CBaseController.php(96): NodeController->renderInternal()
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(870): NodeController->renderFile()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\protected\views\node\create.php(15): NodeController->renderPartial()
+#5 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CBaseController.php(127): require()
+#6 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CBaseController.php(96): NodeController->renderInternal()
+#7 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(870): NodeController->renderFile()
+#8 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(783): NodeController->renderPartial()
+#9 D:\APMServ5.2.6\www\htdocs\tfcms\protected\controllers\NodeController.php(81): NodeController->render()
+#10 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\actions\CInlineAction.php(50): NodeController->actionCreate()
+#11 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(309): CInlineAction->runWithParams()
+#12 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilterChain.php(134): NodeController->runAction()
+#13 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#14 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(1146): CAccessControlFilter->filter()
+#15 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CInlineFilter.php(59): NodeController->filterAccessControl()
+#16 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#17 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(292): CFilterChain->run()
+#18 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(266): NodeController->runActionWithFilters()
+#19 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): NodeController->run()
+#20 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#21 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#22 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CWebApplication->run()
+REQUEST_URI=/tfcms/node/create
+in D:\APMServ5.2.6\www\htdocs\tfcms\protected\views\node\_form.php (58)
+in D:\APMServ5.2.6\www\htdocs\tfcms\protected\views\node\create.php (15)
+in D:\APMServ5.2.6\www\htdocs\tfcms\protected\controllers\NodeController.php (81)
+2012/02/20 17:00:29 [error] [php] Object of class Node could not be converted to string (D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\helpers\CHtml.php:1712)
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\protected\views\node\_form.php(58): dropDownList()
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CBaseController.php(127): require()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CBaseController.php(96): NodeController->renderInternal()
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(870): NodeController->renderFile()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\protected\views\node\create.php(15): NodeController->renderPartial()
+#5 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CBaseController.php(127): require()
+#6 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CBaseController.php(96): NodeController->renderInternal()
+#7 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(870): NodeController->renderFile()
+#8 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(783): NodeController->renderPartial()
+#9 D:\APMServ5.2.6\www\htdocs\tfcms\protected\controllers\NodeController.php(81): NodeController->render()
+#10 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\actions\CInlineAction.php(50): NodeController->actionCreate()
+#11 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(309): CInlineAction->runWithParams()
+#12 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilterChain.php(134): NodeController->runAction()
+#13 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#14 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(1146): CAccessControlFilter->filter()
+#15 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CInlineFilter.php(59): NodeController->filterAccessControl()
+#16 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#17 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(292): CFilterChain->run()
+#18 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(266): NodeController->runActionWithFilters()
+#19 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): NodeController->run()
+#20 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#21 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#22 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CWebApplication->run()
+REQUEST_URI=/tfcms/node/create
+in D:\APMServ5.2.6\www\htdocs\tfcms\protected\views\node\_form.php (58)
+in D:\APMServ5.2.6\www\htdocs\tfcms\protected\views\node\create.php (15)
+in D:\APMServ5.2.6\www\htdocs\tfcms\protected\controllers\NodeController.php (81)
+2012/02/20 17:00:54 [error] [php] YiiBase::include(NodeController.php) [<a href='yiibase.include'>yiibase.include</a>]: failed to open stream: No such file or directory (D:\APMServ5.2.6\www\htdocs\tfcms\framework\YiiBase.php:418)
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\protected\controllers\PageController.php(3): spl_autoload_call()
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(344): require()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(270): CWebApplication->createController()
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CWebApplication->run()
+REQUEST_URI=/tfcms/page/create
+in D:\APMServ5.2.6\www\htdocs\tfcms\protected\controllers\PageController.php (3)
+in D:\APMServ5.2.6\www\htdocs\tfcms\index.php (13)
+2012/02/20 17:00:58 [error] [php] YiiBase::include(NodeController.php) [<a href='yiibase.include'>yiibase.include</a>]: failed to open stream: No such file or directory (D:\APMServ5.2.6\www\htdocs\tfcms\framework\YiiBase.php:418)
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\protected\controllers\PageController.php(3): spl_autoload_call()
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(344): require()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(270): CWebApplication->createController()
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CWebApplication->run()
+REQUEST_URI=/tfcms/page/
+in D:\APMServ5.2.6\www\htdocs\tfcms\protected\controllers\PageController.php (3)
+in D:\APMServ5.2.6\www\htdocs\tfcms\index.php (13)
+2012/02/20 17:01:08 [error] [php] YiiBase::include(NodeController.php) [<a href='yiibase.include'>yiibase.include</a>]: failed to open stream: No such file or directory (D:\APMServ5.2.6\www\htdocs\tfcms\framework\YiiBase.php:418)
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\protected\controllers\PageController.php(3): spl_autoload_call()
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(344): require()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(270): CWebApplication->createController()
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CWebApplication->run()
+REQUEST_URI=/tfcms/page/
+in D:\APMServ5.2.6\www\htdocs\tfcms\protected\controllers\PageController.php (3)
+in D:\APMServ5.2.6\www\htdocs\tfcms\index.php (13)
+2012/02/20 17:01:09 [error] [php] YiiBase::include(NodeController.php) [<a href='yiibase.include'>yiibase.include</a>]: failed to open stream: No such file or directory (D:\APMServ5.2.6\www\htdocs\tfcms\framework\YiiBase.php:418)
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\protected\controllers\PageController.php(3): spl_autoload_call()
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(344): require()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(270): CWebApplication->createController()
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CWebApplication->run()
+REQUEST_URI=/tfcms/page/
+in D:\APMServ5.2.6\www\htdocs\tfcms\protected\controllers\PageController.php (3)
+in D:\APMServ5.2.6\www\htdocs\tfcms\index.php (13)
+2012/02/20 17:01:09 [error] [php] YiiBase::include(NodeController.php) [<a href='yiibase.include'>yiibase.include</a>]: failed to open stream: No such file or directory (D:\APMServ5.2.6\www\htdocs\tfcms\framework\YiiBase.php:418)
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\protected\controllers\PageController.php(3): spl_autoload_call()
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(344): require()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(270): CWebApplication->createController()
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CWebApplication->run()
+REQUEST_URI=/tfcms/page/
+in D:\APMServ5.2.6\www\htdocs\tfcms\protected\controllers\PageController.php (3)
+in D:\APMServ5.2.6\www\htdocs\tfcms\index.php (13)
+2012/02/20 17:01:09 [error] [php] YiiBase::include(NodeController.php) [<a href='yiibase.include'>yiibase.include</a>]: failed to open stream: No such file or directory (D:\APMServ5.2.6\www\htdocs\tfcms\framework\YiiBase.php:418)
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\protected\controllers\PageController.php(3): spl_autoload_call()
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(344): require()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(270): CWebApplication->createController()
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CWebApplication->run()
+REQUEST_URI=/tfcms/page/
+in D:\APMServ5.2.6\www\htdocs\tfcms\protected\controllers\PageController.php (3)
+in D:\APMServ5.2.6\www\htdocs\tfcms\index.php (13)
+2012/02/20 17:49:56 [error] [exception.CException] exception 'CException' with message 'PageController and its behaviors do not have a method or closure named "getCommandBuilder".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CComponent.php:266
+Stack trace:
+#0 [internal function]: CComponent->__call('getCommandBuild...', Array)
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\protected\models\Page.php(45): PageController->getCommandBuilder()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\protected\controllers\PageController.php(130): Page->findAll()
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\actions\CInlineAction.php(50): PageController->actionIndex()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#5 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#6 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#7 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#8 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#9 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#10 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(292): CFilterChain->run()
+#11 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('')
+#13 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('page')
+#14 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#15 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/tfcms/page
+---
+2012/02/20 17:53:50 [error] [exception.CException] exception 'CException' with message 'PageController and its behaviors do not have a method or closure named "model".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CComponent.php:266
+Stack trace:
+#0 [internal function]: CComponent->__call('model', Array)
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\protected\models\Page.php(43): PageController->model()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\protected\controllers\PageController.php(130): Page->findAll()
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\actions\CInlineAction.php(50): PageController->actionIndex()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#5 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#6 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#7 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#8 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#9 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#10 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(292): CFilterChain->run()
+#11 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('')
+#13 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('page')
+#14 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#15 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/tfcms/page
+---
+2012/02/20 17:53:51 [error] [exception.CException] exception 'CException' with message 'PageController and its behaviors do not have a method or closure named "model".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CComponent.php:266
+Stack trace:
+#0 [internal function]: CComponent->__call('model', Array)
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\protected\models\Page.php(43): PageController->model()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\protected\controllers\PageController.php(130): Page->findAll()
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\actions\CInlineAction.php(50): PageController->actionIndex()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#5 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#6 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#7 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#8 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#9 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#10 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(292): CFilterChain->run()
+#11 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('')
+#13 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('page')
+#14 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#15 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/tfcms/page
+---
+2012/02/20 17:53:53 [error] [exception.CException] exception 'CException' with message 'PageController and its behaviors do not have a method or closure named "model".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CComponent.php:266
+Stack trace:
+#0 [internal function]: CComponent->__call('model', Array)
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\protected\models\Page.php(43): PageController->model()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\protected\controllers\PageController.php(130): Page->findAll()
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\actions\CInlineAction.php(50): PageController->actionIndex()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#5 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#6 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#7 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#8 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#9 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#10 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(292): CFilterChain->run()
+#11 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('')
+#13 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('page')
+#14 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#15 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/tfcms/page
+---
+2012/02/20 17:54:27 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'page' in 'where clause'. The SQL statement executed was: SELECT * FROM `tf_node` `t` WHERE type=page.
+in D:\APMServ5.2.6\www\htdocs\tfcms\protected\models\Page.php (43)
+in D:\APMServ5.2.6\www\htdocs\tfcms\protected\controllers\PageController.php (130)
+in D:\APMServ5.2.6\www\htdocs\tfcms\index.php (13)
+2012/02/20 17:54:27 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'page' in 'where clause'. The SQL statement executed was: SELECT * FROM `tf_node` `t` WHERE type=page' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\db\CDbCommand.php:528
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\db\CDbCommand.php(390): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\db\ar\CActiveRecord.php(1287): CDbCommand->queryAll()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\db\ar\CActiveRecord.php(1406): CActiveRecord->query(Object(CDbCriteria), true)
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\protected\models\Page.php(43): CActiveRecord->findAll('type=page')
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\protected\controllers\PageController.php(130): Page->findAll()
+#5 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\actions\CInlineAction.php(50): PageController->actionIndex()
+#6 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#7 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#8 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#9 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#10 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#11 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#12 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(292): CFilterChain->run()
+#13 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('')
+#15 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('page')
+#16 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#17 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/tfcms/page
+---
+2012/02/20 17:58:36 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'page' in 'where clause'. The SQL statement executed was: SELECT * FROM `tf_node` `t` WHERE type=page.
+in D:\APMServ5.2.6\www\htdocs\tfcms\protected\controllers\PageController.php (130)
+in D:\APMServ5.2.6\www\htdocs\tfcms\index.php (13)
+2012/02/20 17:58:36 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'page' in 'where clause'. The SQL statement executed was: SELECT * FROM `tf_node` `t` WHERE type=page' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\db\CDbCommand.php:528
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\db\CDbCommand.php(390): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\db\ar\CActiveRecord.php(1287): CDbCommand->queryAll()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\db\ar\CActiveRecord.php(1406): CActiveRecord->query(Object(CDbCriteria), true)
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\protected\controllers\PageController.php(130): CActiveRecord->findAll()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\actions\CInlineAction.php(50): PageController->actionIndex()
+#5 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#6 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#7 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#8 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#9 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#10 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#11 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(292): CFilterChain->run()
+#12 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('')
+#14 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('page')
+#15 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#16 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/tfcms/page
+---
+2012/02/20 18:00:41 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Array' in 'where clause'. The SQL statement executed was: SELECT * FROM `tf_node` `t` WHERE (status=1) AND (Array).
+in D:\APMServ5.2.6\www\htdocs\tfcms\protected\controllers\PageController.php (130)
+in D:\APMServ5.2.6\www\htdocs\tfcms\index.php (13)
+2012/02/20 18:00:41 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Array' in 'where clause'. The SQL statement executed was: SELECT * FROM `tf_node` `t` WHERE (status=1) AND (Array)' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\db\CDbCommand.php:528
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\db\CDbCommand.php(390): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\db\ar\CActiveRecord.php(1287): CDbCommand->queryAll()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\db\ar\CActiveRecord.php(1406): CActiveRecord->query(Object(CDbCriteria), true)
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\protected\controllers\PageController.php(130): CActiveRecord->findAll()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\actions\CInlineAction.php(50): PageController->actionIndex()
+#5 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#6 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#7 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#8 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#9 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#10 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#11 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(292): CFilterChain->run()
+#12 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('')
+#14 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('page')
+#15 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#16 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/tfcms/page
+---
+2012/02/20 18:01:43 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'page' in 'where clause'. The SQL statement executed was: SELECT * FROM `tf_node` `t` WHERE (status=1) AND (type=page).
+in D:\APMServ5.2.6\www\htdocs\tfcms\protected\controllers\PageController.php (130)
+in D:\APMServ5.2.6\www\htdocs\tfcms\index.php (13)
+2012/02/20 18:01:43 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'page' in 'where clause'. The SQL statement executed was: SELECT * FROM `tf_node` `t` WHERE (status=1) AND (type=page)' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\db\CDbCommand.php:528
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\db\CDbCommand.php(390): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\db\ar\CActiveRecord.php(1287): CDbCommand->queryAll()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\db\ar\CActiveRecord.php(1406): CActiveRecord->query(Object(CDbCriteria), true)
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\protected\controllers\PageController.php(130): CActiveRecord->findAll()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\actions\CInlineAction.php(50): PageController->actionIndex()
+#5 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#6 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#7 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#8 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#9 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#10 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#11 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(292): CFilterChain->run()
+#12 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('')
+#14 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('page')
+#15 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#16 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/tfcms/page
+---
+2012/02/20 18:03:06 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'page' in 'where clause'. The SQL statement executed was: SELECT * FROM `tf_node` `t` WHERE (status=1) AND (type=page).
+in D:\APMServ5.2.6\www\htdocs\tfcms\protected\controllers\PageController.php (130)
+in D:\APMServ5.2.6\www\htdocs\tfcms\index.php (13)
+2012/02/20 18:03:06 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'page' in 'where clause'. The SQL statement executed was: SELECT * FROM `tf_node` `t` WHERE (status=1) AND (type=page)' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\db\CDbCommand.php:528
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\db\CDbCommand.php(390): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\db\ar\CActiveRecord.php(1287): CDbCommand->queryAll()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\db\ar\CActiveRecord.php(1406): CActiveRecord->query(Object(CDbCriteria), true)
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\protected\controllers\PageController.php(130): CActiveRecord->findAll()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\actions\CInlineAction.php(50): PageController->actionIndex()
+#5 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#6 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#7 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#8 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#9 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#10 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#11 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(292): CFilterChain->run()
+#12 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('')
+#14 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('page')
+#15 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#16 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/tfcms/page
+---
+2012/02/20 18:06:37 [error] [exception.CException] exception 'CException' with message 'Node and its behaviors do not have a method or closure named "self".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CComponent.php:266
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\db\ar\CActiveRecord.php(226): CComponent->__call('self', Array)
+#1 [internal function]: CActiveRecord->__call('self', Array)
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\protected\controllers\PageController.php(130): Node->self()
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\actions\CInlineAction.php(50): PageController->actionIndex()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#5 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#6 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#7 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#8 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#9 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#10 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(292): CFilterChain->run()
+#11 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('')
+#13 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('page')
+#14 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#15 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/tfcms/page
+---
+2012/02/20 18:18:21 [warning] [application] Failed to set unsafe attribute "description" of "Page".
+in D:\APMServ5.2.6\www\htdocs\tfcms\protected\controllers\PageController.php (72)
+in D:\APMServ5.2.6\www\htdocs\tfcms\index.php (13)
+2012/02/20 18:19:59 [warning] [application] Failed to set unsafe attribute "description" of "Page".
+in D:\APMServ5.2.6\www\htdocs\tfcms\protected\controllers\PageController.php (75)
+in D:\APMServ5.2.6\www\htdocs\tfcms\index.php (13)
+2012/02/20 18:20:32 [warning] [application] Failed to set unsafe attribute "description" of "Page".
+in D:\APMServ5.2.6\www\htdocs\tfcms\protected\controllers\PageController.php (75)
+in D:\APMServ5.2.6\www\htdocs\tfcms\index.php (13)
+2012/02/20 18:20:39 [warning] [application] Failed to set unsafe attribute "description" of "Page".
+in D:\APMServ5.2.6\www\htdocs\tfcms\protected\controllers\PageController.php (75)
+in D:\APMServ5.2.6\www\htdocs\tfcms\index.php (13)
+2012/02/20 18:28:50 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'create_time' in 'order clause'. The SQL statement executed was: SELECT * FROM `tf_node` `t` WHERE (type="page") AND (status=1) ORDER BY create_time DESC.
+in D:\APMServ5.2.6\www\htdocs\tfcms\protected\controllers\PageController.php (134)
+in D:\APMServ5.2.6\www\htdocs\tfcms\index.php (13)
+2012/02/20 18:28:50 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'create_time' in 'order clause'. The SQL statement executed was: SELECT * FROM `tf_node` `t` WHERE (type="page") AND (status=1) ORDER BY create_time DESC' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\db\CDbCommand.php:528
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\db\CDbCommand.php(390): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\db\ar\CActiveRecord.php(1287): CDbCommand->queryAll()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\db\ar\CActiveRecord.php(1406): CActiveRecord->query(Object(CDbCriteria), true)
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\protected\controllers\PageController.php(134): CActiveRecord->findAll()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\actions\CInlineAction.php(50): PageController->actionIndex()
+#5 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#6 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#7 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#8 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#9 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#10 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#11 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(292): CFilterChain->run()
+#12 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('')
+#14 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('page')
+#15 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#16 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/tfcms/page/
+---
+2012/02/20 18:28:53 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'create_time' in 'order clause'. The SQL statement executed was: SELECT * FROM `tf_node` `t` WHERE (type="page") AND (status=1) ORDER BY create_time DESC.
+in D:\APMServ5.2.6\www\htdocs\tfcms\protected\controllers\PageController.php (134)
+in D:\APMServ5.2.6\www\htdocs\tfcms\index.php (13)
+2012/02/20 18:28:53 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'create_time' in 'order clause'. The SQL statement executed was: SELECT * FROM `tf_node` `t` WHERE (type="page") AND (status=1) ORDER BY create_time DESC' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\db\CDbCommand.php:528
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\db\CDbCommand.php(390): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\db\ar\CActiveRecord.php(1287): CDbCommand->queryAll()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\db\ar\CActiveRecord.php(1406): CActiveRecord->query(Object(CDbCriteria), true)
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\protected\controllers\PageController.php(134): CActiveRecord->findAll()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\actions\CInlineAction.php(50): PageController->actionIndex()
+#5 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#6 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#7 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#8 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#9 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#10 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#11 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(292): CFilterChain->run()
+#12 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('index')
+#14 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('page/index')
+#15 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#16 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/tfcms/page/index
+---
