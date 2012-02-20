@@ -15,19 +15,38 @@ $this->menu=array(
 
 <h1>View Node #<?php echo $model->id; ?></h1>
 
-<?php $this->widget('zii.widgets.CDetailView', array(
-	'data'=>$model,
-	'attributes'=>array(
-		'id',
-		'title',
-		'name',
-		'content',
-		'uid',
-		'tid',
-		'type',
-		'weight',
-		'status',
-		'createtime',
-		'updatetime',
-	),
-)); ?>
+<div class="view">
+
+	<b><?php echo CHtml::encode($model->getAttributeLabel('id')); ?>:</b>
+	<?php echo CHtml::link(CHtml::encode($model->id), array('view', 'id'=>$model->id)); ?>
+	<br />
+
+	<b><?php echo CHtml::encode($model->getAttributeLabel('title')); ?>:</b>
+	<?php echo CHtml::encode($model->title); ?>
+	<br />
+
+	<b><?php echo CHtml::encode($model->getAttributeLabel('name')); ?>:</b>
+	<?php echo CHtml::encode($model->name); ?>
+	<br />
+        
+        <b><?php echo CHtml::encode($model->getAttributeLabel('description')); ?>:</b>
+	<?php echo CHtml::encode($model->description); ?>
+	<br />
+        
+	<b><?php echo CHtml::encode($model->getAttributeLabel('content')); ?>:</b>
+	<?php echo $model->content; ?>
+	<br />
+
+	<b><?php echo CHtml::encode($model->getAttributeLabel('uid')); ?>:</b>
+	<?php echo CHtml::encode($model->uid); ?>
+	<br />
+
+	<b><?php echo CHtml::encode($model->getAttributeLabel('tid')); ?>:</b>
+	<?php echo CHtml::encode($model->tid); ?>
+	<br />
+
+	<b><?php echo CHtml::encode($model->getAttributeLabel('type')); ?>:</b>
+	<?php echo CHtml::encode($model->type); ?>
+	<br />
+
+</div>

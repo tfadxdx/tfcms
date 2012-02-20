@@ -697,3 +697,100 @@ Stack trace:
 #3 {main}
 REQUEST_URI=/tfcms/nodes
 ---
+2012/02/20 11:54:12 [error] [exception.CException] exception 'CException' with message 'Property "ETinyMce.content" is not defined.' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CComponent.php:174
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWidgetFactory.php(162): CComponent->__set('content', 'html')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CBaseController.php(147): CWidgetFactory->createWidget(Object(NodeController), 'application.ext...', Array)
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CBaseController.php(173): CBaseController->createWidget('application.ext...', Array)
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\protected\views\node\_form.php(7): CBaseController->widget('application.ext...', Array)
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CBaseController.php(127): require('D:\APMServ5.2.6...')
+#5 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CBaseController.php(96): CBaseController->renderInternal('D:\APMServ5.2.6...', Array, true)
+#6 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(870): CBaseController->renderFile('D:\APMServ5.2.6...', Array, true)
+#7 D:\APMServ5.2.6\www\htdocs\tfcms\protected\views\node\create.php(15): CController->renderPartial('_form', Array)
+#8 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CBaseController.php(127): require('D:\APMServ5.2.6...')
+#9 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CBaseController.php(96): CBaseController->renderInternal('D:\APMServ5.2.6...', Array, true)
+#10 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(870): CBaseController->renderFile('D:\APMServ5.2.6...', Array, true)
+#11 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(783): CController->renderPartial('create', Array, true)
+#12 D:\APMServ5.2.6\www\htdocs\tfcms\protected\controllers\NodeController.php(81): CController->render('create', Array)
+#13 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\actions\CInlineAction.php(50): NodeController->actionCreate()
+#14 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#15 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#16 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#17 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#18 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#19 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#20 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(292): CFilterChain->run()
+#21 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#22 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('create')
+#23 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('node/create')
+#24 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#25 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#26 {main}
+REQUEST_URI=/tfcms/node/create
+HTTP_REFERER=http://127.0.0.1/tfcms/node/index
+---
+2012/02/20 11:54:35 [error] [exception.CException] exception 'CException' with message 'Property "ETinyMce.content" is not defined.' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CComponent.php:174
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWidgetFactory.php(162): CComponent->__set('content', 'html')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CBaseController.php(147): CWidgetFactory->createWidget(Object(NodeController), 'application.ext...', Array)
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CBaseController.php(173): CBaseController->createWidget('application.ext...', Array)
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\protected\views\node\_form.php(27): CBaseController->widget('application.ext...', Array)
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CBaseController.php(127): require('D:\APMServ5.2.6...')
+#5 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CBaseController.php(96): CBaseController->renderInternal('D:\APMServ5.2.6...', Array, true)
+#6 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(870): CBaseController->renderFile('D:\APMServ5.2.6...', Array, true)
+#7 D:\APMServ5.2.6\www\htdocs\tfcms\protected\views\node\create.php(15): CController->renderPartial('_form', Array)
+#8 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CBaseController.php(127): require('D:\APMServ5.2.6...')
+#9 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CBaseController.php(96): CBaseController->renderInternal('D:\APMServ5.2.6...', Array, true)
+#10 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(870): CBaseController->renderFile('D:\APMServ5.2.6...', Array, true)
+#11 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(783): CController->renderPartial('create', Array, true)
+#12 D:\APMServ5.2.6\www\htdocs\tfcms\protected\controllers\NodeController.php(81): CController->render('create', Array)
+#13 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\actions\CInlineAction.php(50): NodeController->actionCreate()
+#14 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#15 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#16 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#17 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#18 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#19 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#20 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(292): CFilterChain->run()
+#21 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#22 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('create')
+#23 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('node/create')
+#24 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#25 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#26 {main}
+REQUEST_URI=/tfcms/node/create
+HTTP_REFERER=http://127.0.0.1/tfcms/node/index
+---
+2012/02/20 11:56:12 [error] [exception.CException] exception 'CException' with message 'editorTemplate must be one of simple,full' in D:\APMServ5.2.6\www\htdocs\tfcms\protected\extensions\tinymce\ETinyMce.php:346
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CComponent.php(153): ETinyMce->setEditorTemplate('mini')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWidgetFactory.php(162): CComponent->__set('editorTemplate', 'mini')
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CBaseController.php(147): CWidgetFactory->createWidget(Object(NodeController), 'application.ext...', Array)
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CBaseController.php(173): CBaseController->createWidget('application.ext...', Array)
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\protected\views\node\_form.php(32): CBaseController->widget('application.ext...', Array)
+#5 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CBaseController.php(127): require('D:\APMServ5.2.6...')
+#6 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CBaseController.php(96): CBaseController->renderInternal('D:\APMServ5.2.6...', Array, true)
+#7 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(870): CBaseController->renderFile('D:\APMServ5.2.6...', Array, true)
+#8 D:\APMServ5.2.6\www\htdocs\tfcms\protected\views\node\create.php(15): CController->renderPartial('_form', Array)
+#9 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CBaseController.php(127): require('D:\APMServ5.2.6...')
+#10 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CBaseController.php(96): CBaseController->renderInternal('D:\APMServ5.2.6...', Array, true)
+#11 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(870): CBaseController->renderFile('D:\APMServ5.2.6...', Array, true)
+#12 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(783): CController->renderPartial('create', Array, true)
+#13 D:\APMServ5.2.6\www\htdocs\tfcms\protected\controllers\NodeController.php(81): CController->render('create', Array)
+#14 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\actions\CInlineAction.php(50): NodeController->actionCreate()
+#15 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#16 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#17 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#18 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#19 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#20 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#21 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(292): CFilterChain->run()
+#22 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#23 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('create')
+#24 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('node/create')
+#25 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#26 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#27 {main}
+REQUEST_URI=/tfcms/node/create
+HTTP_REFERER=http://127.0.0.1/tfcms/node/index
+---
