@@ -7,6 +7,7 @@
  * @property integer $id
  * @property string $title
  * @property string $name
+ * @property string $content
  * @property integer $uid
  * @property integer $tid
  * @property string $type
@@ -43,13 +44,13 @@ class Node extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('title, name, uid, tid, type, weight, status, createtime, updatetime', 'required'),
+			array('title, name, content, uid, tid, type, weight, status, createtime, updatetime', 'required'),
 			array('uid, tid, weight, status, createtime, updatetime', 'numerical', 'integerOnly'=>true),
 			array('title, name', 'length', 'max'=>255),
 			array('type', 'length', 'max'=>50),
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.
-			array('id, title, name, uid, tid, type, weight, status, createtime, updatetime', 'safe', 'on'=>'search'),
+			array('id, title, name, content, uid, tid, type, weight, status, createtime, updatetime', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -73,6 +74,7 @@ class Node extends CActiveRecord
 			'id' => 'ID',
 			'title' => 'Title',
 			'name' => 'Name',
+			'content' => 'Content',
 			'uid' => 'Uid',
 			'tid' => 'Tid',
 			'type' => 'Type',
@@ -97,6 +99,7 @@ class Node extends CActiveRecord
 		$criteria->compare('id',$this->id);
 		$criteria->compare('title',$this->title,true);
 		$criteria->compare('name',$this->name,true);
+		$criteria->compare('content',$this->content,true);
 		$criteria->compare('uid',$this->uid);
 		$criteria->compare('tid',$this->tid);
 		$criteria->compare('type',$this->type,true);

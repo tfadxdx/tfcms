@@ -660,3 +660,40 @@ Stack trace:
 REQUEST_URI=/tfcms/gii/crud
 HTTP_REFERER=http://127.0.0.1/tfcms/gii/crud
 ---
+2012/02/20 11:30:02 [error] [php] Object of class Node could not be converted to string (D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\helpers\CHtml.php:1712)
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\protected\views\node\_form.php(51): dropDownList()
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CBaseController.php(127): require()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CBaseController.php(96): NodeController->renderInternal()
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(870): NodeController->renderFile()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\protected\views\node\create.php(15): NodeController->renderPartial()
+#5 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CBaseController.php(127): require()
+#6 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CBaseController.php(96): NodeController->renderInternal()
+#7 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(870): NodeController->renderFile()
+#8 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(783): NodeController->renderPartial()
+#9 D:\APMServ5.2.6\www\htdocs\tfcms\protected\controllers\NodeController.php(79): NodeController->render()
+#10 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\actions\CInlineAction.php(50): NodeController->actionCreate()
+#11 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(309): CInlineAction->runWithParams()
+#12 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilterChain.php(134): NodeController->runAction()
+#13 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#14 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(1146): CAccessControlFilter->filter()
+#15 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CInlineFilter.php(59): NodeController->filterAccessControl()
+#16 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#17 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(292): CFilterChain->run()
+#18 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(266): NodeController->runActionWithFilters()
+#19 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): NodeController->run()
+#20 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#21 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#22 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CWebApplication->run()
+REQUEST_URI=/tfcms/node/create
+in D:\APMServ5.2.6\www\htdocs\tfcms\protected\views\node\_form.php (51)
+in D:\APMServ5.2.6\www\htdocs\tfcms\protected\views\node\create.php (15)
+in D:\APMServ5.2.6\www\htdocs\tfcms\protected\controllers\NodeController.php (79)
+2012/02/20 11:41:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "nodes".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('nodes')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/nodes
+---
