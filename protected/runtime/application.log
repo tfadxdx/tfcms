@@ -640,3 +640,23 @@ HTTP_REFERER=http://127.0.0.1/tfcms/site/contact.html
 ---
 2012/02/20 11:05:36 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'tfcms.node' doesn't exist. The SQL statement executed was: SHOW COLUMNS FROM `node`.
 in D:\APMServ5.2.6\www\htdocs\tfcms\index.php (13)
+2012/02/20 11:10:58 [error] [exception.CException] exception 'CException' with message 'Alias "models.node" is invalid. Make sure it points to an existing directory or file.' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\YiiBase.php:343
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\gii\generators\crud\CrudCode.php(59): YiiBase::import('models.node', true)
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\validators\CInlineValidator.php(43): CrudCode->validateModel('model', Array)
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\validators\CValidator.php(197): CInlineValidator->validateAttribute(Object(CrudCode), 'model')
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CModel.php(158): CValidator->validate(Object(CrudCode), NULL)
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\framework\gii\CCodeGenerator.php(158): CModel->validate()
+#5 D:\APMServ5.2.6\www\htdocs\tfcms\framework\gii\CCodeGenerator.php(64): CCodeGenerator->prepare()
+#6 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\actions\CInlineAction.php(50): CCodeGenerator->actionIndex()
+#7 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#8 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#9 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('')
+#11 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('gii/crud')
+#12 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#13 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/tfcms/gii/crud
+HTTP_REFERER=http://127.0.0.1/tfcms/gii/crud
+---

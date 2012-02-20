@@ -1,4 +1,4 @@
 # Ignore netbeans config
 /nbproject
 /assets/*
-/protected/runtime
+/protected/runtime/*
