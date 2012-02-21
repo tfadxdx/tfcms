@@ -68,9 +68,10 @@ class NodeController extends Controller
 
 		if(isset($_POST['Node']))
 		{
-			$_POST['Node']['createtime']=time();
-                        $_POST['Node']['updatetime']=time();
-                        $_POST['Node']['uid']=Yii::app()->getModule('user')->user()->id;
+                        $model->createtime=time();
+                        $model->updatetime=time();
+                        $model->uid=Yii::app()->getModule('user')->user()->id;
+                        $model->type='node';
                         $model->attributes=$_POST['Node'];
 			if($model->save())
 				$this->redirect(array('view','id'=>$model->id));
