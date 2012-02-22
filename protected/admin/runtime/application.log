@@ -1,0 +1,568 @@
+2012/02/22 11:40:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "site".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/admin.php
+---
+2012/02/22 11:41:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "site".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/admin.php
+---
+2012/02/22 11:41:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "site".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/admin.php
+---
+2012/02/22 11:41:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "site".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/admin.php
+---
+2012/02/22 11:43:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "site".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/admin.php
+---
+2012/02/22 11:43:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "site".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/admin.php
+---
+2012/02/22 11:43:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "site".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/admin.php
+---
+2012/02/22 11:43:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "site".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/admin.php
+---
+2012/02/22 11:43:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "site".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/admin.php
+---
+2012/02/22 11:43:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "site".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/admin.php
+---
+2012/02/22 11:43:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "site".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/admin.php
+---
+2012/02/22 11:43:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "site".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/admin.php
+---
+2012/02/22 11:43:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "site".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/admin.php
+---
+2012/02/22 11:43:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "site".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/admin.php
+---
+2012/02/22 11:43:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "site".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/admin.php
+---
+2012/02/22 11:43:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "site".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/admin.php
+---
+2012/02/22 11:43:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "site".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/admin.php
+---
+2012/02/22 11:43:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "site".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/admin.php
+---
+2012/02/22 11:43:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "site".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/admin.php
+---
+2012/02/22 11:43:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "site".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/admin.php
+---
+2012/02/22 11:43:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "site".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/admin.php
+---
+2012/02/22 11:43:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "site".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/admin.php
+---
+2012/02/22 11:43:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "site".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/admin.php
+---
+2012/02/22 11:43:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "site".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/admin.php
+---
+2012/02/22 11:43:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "site".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/admin.php
+---
+2012/02/22 11:43:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "site".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/admin.php
+---
+2012/02/22 11:43:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "site".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/admin.php
+---
+2012/02/22 11:43:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "site".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/admin.php
+---
+2012/02/22 11:43:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "site".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/admin.php
+---
+2012/02/22 11:43:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "site".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/admin.php
+---
+2012/02/22 11:43:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "site".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/admin.php
+---
+2012/02/22 11:43:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "site".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/admin.php
+---
+2012/02/22 11:43:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "site".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/admin.php
+---
+2012/02/22 11:43:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "site".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/admin.php
+---
+2012/02/22 11:44:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "site".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/admin.php
+---
+2012/02/22 11:49:09 [error] [exception.CException] exception 'CException' with message 'SiteController cannot find the requested view "index".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php:879
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(783): CController->renderPartial('index', NULL, true)
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\protected\admin\controllers\SiteController.php(33): CController->render('index')
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('')
+#7 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('')
+#8 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#9 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/tfcms/admin.php
+---
+2012/02/22 11:49:10 [error] [exception.CException] exception 'CException' with message 'SiteController cannot find the requested view "index".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php:879
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(783): CController->renderPartial('index', NULL, true)
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\protected\admin\controllers\SiteController.php(33): CController->render('index')
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('')
+#7 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('')
+#8 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#9 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/tfcms/admin.php
+---
+2012/02/22 12:19:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "index".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('index')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/admin.php/index
+---
+2012/02/22 12:22:16 [error] [exception.CException] exception 'CException' with message 'NodeController cannot find the requested view "index".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php:879
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(783): CController->renderPartial('index', Array, true)
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\protected\admin\controllers\NodeController.php(138): CController->render('index', Array)
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\actions\CInlineAction.php(50): NodeController->actionIndex()
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#5 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#6 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#7 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#8 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#9 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(292): CFilterChain->run()
+#10 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('')
+#12 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('node')
+#13 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#14 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/tfcms/admin.php/node
+---
+2012/02/22 12:49:00 [error] [php] Invalid argument supplied for foreach() (D:\APMServ5.2.6\www\htdocs\tfcms\protected\admin\views\node\index.php:37)
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(870): NodeController->renderFile()
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(783): NodeController->renderPartial()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\protected\admin\controllers\NodeController.php(123): NodeController->render()
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\actions\CInlineAction.php(50): NodeController->actionIndex()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilterChain.php(134): NodeController->runAction()
+#6 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#7 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(1146): CAccessControlFilter->filter()
+#8 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CInlineFilter.php(59): NodeController->filterAccessControl()
+#9 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#10 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(292): CFilterChain->run()
+#11 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(266): NodeController->runActionWithFilters()
+#12 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): NodeController->run()
+#13 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#14 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#15 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CWebApplication->run()
+REQUEST_URI=/tfcms/admin.php/node/
+in D:\APMServ5.2.6\www\htdocs\tfcms\protected\admin\views\node\index.php (37)
+in D:\APMServ5.2.6\www\htdocs\tfcms\protected\admin\controllers\NodeController.php (123)
+in D:\APMServ5.2.6\www\htdocs\tfcms\admin.php (13)
+2012/02/22 12:55:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/node".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('admin/node')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/admin/node/
+---
+2012/02/22 12:56:20 [warning] [application] Failed to set unsafe attribute "description" of "Node".
+in D:\APMServ5.2.6\www\htdocs\tfcms\protected\admin\controllers\NodeController.php (134)
+in D:\APMServ5.2.6\www\htdocs\tfcms\admin.php (13)
+2012/02/22 12:56:23 [warning] [application] Failed to set unsafe attribute "description" of "Node".
+in D:\APMServ5.2.6\www\htdocs\tfcms\protected\admin\controllers\NodeController.php (134)
+in D:\APMServ5.2.6\www\htdocs\tfcms\admin.php (13)
+2012/02/22 12:56:25 [warning] [application] Failed to set unsafe attribute "description" of "Node".
+in D:\APMServ5.2.6\www\htdocs\tfcms\protected\admin\controllers\NodeController.php (134)
+in D:\APMServ5.2.6\www\htdocs\tfcms\admin.php (13)
+2012/02/22 12:56:27 [warning] [application] Failed to set unsafe attribute "description" of "Node".
+in D:\APMServ5.2.6\www\htdocs\tfcms\protected\admin\controllers\NodeController.php (134)
+in D:\APMServ5.2.6\www\htdocs\tfcms\admin.php (13)
+2012/02/22 12:56:30 [warning] [application] Failed to set unsafe attribute "description" of "Node".
+in D:\APMServ5.2.6\www\htdocs\tfcms\protected\admin\controllers\NodeController.php (134)
+in D:\APMServ5.2.6\www\htdocs\tfcms\admin.php (13)
+2012/02/22 12:56:32 [warning] [application] Failed to set unsafe attribute "description" of "Node".
+in D:\APMServ5.2.6\www\htdocs\tfcms\protected\admin\controllers\NodeController.php (134)
+in D:\APMServ5.2.6\www\htdocs\tfcms\admin.php (13)
+2012/02/22 12:56:35 [warning] [application] Failed to set unsafe attribute "description" of "Node".
+in D:\APMServ5.2.6\www\htdocs\tfcms\protected\admin\controllers\NodeController.php (134)
+in D:\APMServ5.2.6\www\htdocs\tfcms\admin.php (13)
+2012/02/22 13:03:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in D:\APMServ5.2.6\www\htdocs\tfcms\protected\admin\controllers\NodeController.php:150
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\protected\admin\controllers\NodeController.php(39): NodeController->loadModel('2')
+#1 [internal function]: NodeController->actionView('2')
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(NodeController), Array)
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(NodeController), Object(ReflectionMethod), Array)
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#5 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#6 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#7 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#8 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#9 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#10 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(292): CFilterChain->run()
+#11 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('view')
+#13 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('node/view')
+#14 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#15 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/tfcms/admin.php/node/2
+---
+2012/02/22 13:03:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in D:\APMServ5.2.6\www\htdocs\tfcms\protected\admin\controllers\NodeController.php:150
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\protected\admin\controllers\NodeController.php(39): NodeController->loadModel('3')
+#1 [internal function]: NodeController->actionView('3')
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(NodeController), Array)
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(NodeController), Object(ReflectionMethod), Array)
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#5 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#6 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#7 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#8 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#9 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#10 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(292): CFilterChain->run()
+#11 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('view')
+#13 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('node/view')
+#14 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#15 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/tfcms/admin.php/node/3
+---
+2012/02/22 13:03:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in D:\APMServ5.2.6\www\htdocs\tfcms\protected\admin\controllers\NodeController.php:150
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\protected\admin\controllers\NodeController.php(39): NodeController->loadModel('3')
+#1 [internal function]: NodeController->actionView('3')
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(NodeController), Array)
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(NodeController), Object(ReflectionMethod), Array)
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#5 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#6 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#7 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#8 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#9 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#10 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(292): CFilterChain->run()
+#11 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('view')
+#13 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('node/view')
+#14 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#15 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/tfcms/admin.php/node/3
+---
+2012/02/22 13:03:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in D:\APMServ5.2.6\www\htdocs\tfcms\protected\admin\controllers\NodeController.php:150
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\protected\admin\controllers\NodeController.php(39): NodeController->loadModel('2')
+#1 [internal function]: NodeController->actionView('2')
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(NodeController), Array)
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(NodeController), Object(ReflectionMethod), Array)
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#5 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#6 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#7 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#8 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#9 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#10 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(292): CFilterChain->run()
+#11 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('view')
+#13 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('node/view')
+#14 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#15 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/tfcms/admin.php/node/2
+---
+2012/02/22 13:07:44 [error] [php] Object of class Node could not be converted to string (D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\helpers\CHtml.php:1712)
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\protected\admin\views\node\_form.php(49): dropDownList()
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CBaseController.php(127): require()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CBaseController.php(96): NodeController->renderInternal()
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(870): NodeController->renderFile()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\protected\admin\views\node\create.php(15): NodeController->renderPartial()
+#5 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CBaseController.php(127): require()
+#6 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CBaseController.php(96): NodeController->renderInternal()
+#7 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(870): NodeController->renderFile()
+#8 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(783): NodeController->renderPartial()
+#9 D:\APMServ5.2.6\www\htdocs\tfcms\protected\admin\controllers\NodeController.php(67): NodeController->render()
+#10 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\actions\CInlineAction.php(50): NodeController->actionCreate()
+#11 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(309): CInlineAction->runWithParams()
+#12 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilterChain.php(134): NodeController->runAction()
+#13 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#14 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(1146): CAccessControlFilter->filter()
+#15 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CInlineFilter.php(59): NodeController->filterAccessControl()
+#16 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#17 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(292): CFilterChain->run()
+#18 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(266): NodeController->runActionWithFilters()
+#19 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): NodeController->run()
+#20 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#21 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#22 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CWebApplication->run()
+REQUEST_URI=/tfcms/admin.php/node/create
+in D:\APMServ5.2.6\www\htdocs\tfcms\protected\admin\views\node\_form.php (49)
+in D:\APMServ5.2.6\www\htdocs\tfcms\protected\admin\views\node\create.php (15)
+in D:\APMServ5.2.6\www\htdocs\tfcms\protected\admin\controllers\NodeController.php (67)
+2012/02/22 13:08:38 [error] [php] Object of class Node could not be converted to string (D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\helpers\CHtml.php:1712)
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\protected\admin\views\node\_form.php(55): dropDownList()
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CBaseController.php(127): require()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CBaseController.php(96): NodeController->renderInternal()
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(870): NodeController->renderFile()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\protected\admin\views\node\create.php(15): NodeController->renderPartial()
+#5 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CBaseController.php(127): require()
+#6 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CBaseController.php(96): NodeController->renderInternal()
+#7 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(870): NodeController->renderFile()
+#8 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(783): NodeController->renderPartial()
+#9 D:\APMServ5.2.6\www\htdocs\tfcms\protected\admin\controllers\NodeController.php(67): NodeController->render()
+#10 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\actions\CInlineAction.php(50): NodeController->actionCreate()
+#11 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(309): CInlineAction->runWithParams()
+#12 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilterChain.php(134): NodeController->runAction()
+#13 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#14 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(1146): CAccessControlFilter->filter()
+#15 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CInlineFilter.php(59): NodeController->filterAccessControl()
+#16 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#17 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(292): CFilterChain->run()
+#18 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(266): NodeController->runActionWithFilters()
+#19 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): NodeController->run()
+#20 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#21 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#22 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CWebApplication->run()
+REQUEST_URI=/tfcms/admin.php/node/create
+in D:\APMServ5.2.6\www\htdocs\tfcms\protected\admin\views\node\_form.php (55)
+in D:\APMServ5.2.6\www\htdocs\tfcms\protected\admin\views\node\create.php (15)
+in D:\APMServ5.2.6\www\htdocs\tfcms\protected\admin\controllers\NodeController.php (67)
+2012/02/22 13:12:26 [error] [php] Object of class Node could not be converted to string (D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\helpers\CHtml.php:1712)
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\protected\admin\views\node\_form.php(54): dropDownList()
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CBaseController.php(127): require()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CBaseController.php(96): NodeController->renderInternal()
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(870): NodeController->renderFile()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\protected\admin\views\node\create.php(15): NodeController->renderPartial()
+#5 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CBaseController.php(127): require()
+#6 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CBaseController.php(96): NodeController->renderInternal()
+#7 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(870): NodeController->renderFile()
+#8 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(783): NodeController->renderPartial()
+#9 D:\APMServ5.2.6\www\htdocs\tfcms\protected\admin\controllers\NodeController.php(67): NodeController->render()
+#10 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\actions\CInlineAction.php(50): NodeController->actionCreate()
+#11 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(309): CInlineAction->runWithParams()
+#12 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilterChain.php(134): NodeController->runAction()
+#13 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#14 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(1146): CAccessControlFilter->filter()
+#15 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CInlineFilter.php(59): NodeController->filterAccessControl()
+#16 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#17 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(292): CFilterChain->run()
+#18 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(266): NodeController->runActionWithFilters()
+#19 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): NodeController->run()
+#20 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#21 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#22 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CWebApplication->run()
+REQUEST_URI=/tfcms/admin.php/node/create
+in D:\APMServ5.2.6\www\htdocs\tfcms\protected\admin\views\node\_form.php (54)
+in D:\APMServ5.2.6\www\htdocs\tfcms\protected\admin\views\node\create.php (15)
+in D:\APMServ5.2.6\www\htdocs\tfcms\protected\admin\controllers\NodeController.php (67)
+2012/02/22 13:42:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "taxonomy".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('taxonomy')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/admin.php/taxonomy
+---
