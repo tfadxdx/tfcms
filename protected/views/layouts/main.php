@@ -40,14 +40,6 @@
 	<?php endif?>
 
 	<?php echo $content; ?>
-        <?php
-            $tax = Taxonomy::model()->findByPk(1);
-            $nodes = $tax->links;
-            echo '<h2>'.$tax->name.'</h2></br>';
-            foreach ($nodes as $node){
-                echo $node->id;
-            }
-        ?>
 	<div class="clear"></div>
 
 	<div id="footer">
