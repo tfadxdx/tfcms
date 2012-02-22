@@ -54,16 +54,13 @@
 	<a href="javascript:;" id="show_menu">&raquo;</a>
 	<div id="left_menu">
 		<a href="javascript:;" id="hide_menu">&laquo;</a>
-                <?php $this->widget('zii.widgets.CMenu',array(
-                    'id' => 'main_menu',
-                    'items'=>array(
-                            array('label'=>'Home', 'url'=>array('/site/index')),
-                            array('label'=>'About', 'url'=>array('/site/page', 'view'=>'about')),
-                            array('label'=>'Contact', 'url'=>array('/site/contact')),
-                            array('label'=>'Login', 'url'=>array('/site/login'), 'visible'=>Yii::app()->user->isGuest),
-                            array('label'=>'Logout ('.Yii::app()->user->name.')', 'url'=>array('/site/logout'), 'visible'=>!Yii::app()->user->isGuest)
-                    ),
-                )); ?>
+                <ul id="main_menu">
+                    <li><a href="page">Pages</a></li>
+                    <li><a href="category">Category</a></li>
+                    <li><a href="news">News</a></li>
+                    <li><a href="media">Media</a></li>
+                    <li><a href="users">Users</a></li>
+                </ul>
 		<br class="clear"/>
 
 		<!-- Begin left panel calendar -->

@@ -7,18 +7,30 @@ class AdminController extends Controller
 	 */
         public $layout='//layouts/admin/column1';
 
-        public function actions()
+        /**
+	 * @return array action filters
+	 */
+	public function filters()
 	{
 		return array(
-			// captcha action renders the CAPTCHA image displayed on the contact page
-			'captcha'=>array(
-				'class'=>'CCaptchaAction',
-				'backColor'=>0xFFFFFF,
+			'accessControl', // perform access control for CRUD operations
+		);
+	}
+
+	/**
+	 * Specifies the access control rules.
+	 * This method is used by the 'accessControl' filter.
+	 * @return array access control rules
+	 */
+	public function accessRules()
+	{
+		return array(
+			array('allow',
+				'actions'=>array('index','data'),
+				'users'=>array('admin'),
 			),
-			// page action renders "static" pages stored under 'protected/views/site/pages'
-			// They can be accessed via: index.php?r=site/page&view=FileName
-			'page'=>array(
-				'class'=>'CViewAction',
+			array('deny',  // deny all users
+				'users'=>array('*'),
 			),
 		);
 	}
@@ -83,35 +95,60 @@ class AdminController extends Controller
 		$this->redirect(Yii::app()->homeUrl);
 	}
 
-        public function actionNode()
+        public function actionData()
 	{
-                if ($_GET['action'] == 'add'){
-                    $model=new Node;
+                $type = $_GET['type'];
+                $action = $_GET['action'];
 
-                    // Uncomment the following line if AJAX validation is needed
-                    // $this->performAjaxValidation($model);
-
-                    if(isset($_POST['Node']))
-                    {
-                            $model->createtime=time();
-                            $model->updatetime=time();
-                            $model->uid=Yii::app()->getModule('user')->user()->id;
-                            $model->type='node';
-                            $model->attributes=$_POST['Node'];
-                            if($model->save())
-                                    $this->redirect(array('view','id'=>$model->id));
-                    }
-
-                    $this->render('create',array(
-                            'model'=>$model,
-                    ));
+                if($action){
+                    $this->dataHandle($type, $action);
                 } else {
-                    $model=Node::model()->findAll();
-                    $this->render('node',array(
-                            'model'=>$model,
-                    ));
+                    $this->dataList($type);
+                }
+                
+	}
+
+        public function actionDelete($id){
+                if(Yii::app()->request->isPostRequest)
+		{
+			// we only allow deletion via POST request
+			$this->loadModel($id)->delete();
+
+			// if AJAX request (triggered by deletion via admin grid view), we should not redirect the browser
+			if(!isset($_GET['ajax']))
+				$this->redirect(isset($_POST['returnUrl']) ? $_POST['returnUrl'] : array('admin'));
+		}
+		else
+			throw new CHttpException(400,'Invalid request. Please do not repeat this request again.');
+        }
+
+        private function dataHandle($type,$action){
+                $model=new $type;
+
+                // Uncomment the following line if AJAX validation is needed
+                // $this->performAjaxValidation($model);
+
+                if(isset($_POST[ucwords($type)]))
+                {
+                        $model->createtime=time();
+                        $model->updatetime=time();
+                        $model->uid=Yii::app()->getModule('user')->user()->id;
+                        $model->type=$type;
+                        $model->attributes=$_POST[ucwords($type)];
+                        if($model->save())
+                                $this->redirect('data');
                 }
 
-		
-	}
+                $this->render('create',array(
+                        'model'=>$model,
+                ));
+        }
+
+        private function dataList($type){
+                $model=Node::model()->findAll('type=:type',array(':type'=>$type));
+
+                $this->render('list',array(
+                        'model'=>$model,
+                ));
+        }
 }
