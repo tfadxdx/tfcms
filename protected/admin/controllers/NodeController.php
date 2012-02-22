@@ -46,6 +46,9 @@ class NodeController extends Controller
 	 */
 	public function actionCreate()
 	{
+                $filedata=$_FILES['Filedata'];
+                @move_uploaded_file($filedata['tmp_name'],'/'); // Not relative. Full path
+
 		$model=new Node;
 
 		// Uncomment the following line if AJAX validation is needed

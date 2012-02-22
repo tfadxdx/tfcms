@@ -1,12 +1,16 @@
 <div class="onecolumn">
     <div class="content">
         <div class="form">
-
         <?php $form=$this->beginWidget('CActiveForm', array(
                 'id'=>'node-form',
                 'enableAjaxValidation'=>false,
         )); ?>
-
+                <div class="form">
+                    <div class="row">
+                    <div id="divFileProgressContainer"></div>
+                    <div class="swfupload"><span id="swfupload"></span></div>
+                    </div>
+                </div>
                 <p class="note">Fields with <span class="required">*</span> are required.</p><br>
 
                 <?php echo $form->errorSummary($model); ?>
@@ -29,19 +33,26 @@
                         <?php echo $form->error($model,'description'); ?>
                 </p><br>
 
+                
                 <p>
                         <?php echo $form->labelEx($model,'content'); ?><br>
-                        <?php $this->widget('application.extensions.tinymce.ETinyMce',
-                        array(
-                            'name'=>'html',
-                            'useSwitch' => false,
-                            'editorTemplate'=>'full',
-                            'model' => $model,
-                            'attribute'=>'content'
-                            )
+                        <?php $this->widget('application.extensions.elrte.elRTE',
+                            array(
+                                    'selector'=>'node_content',
+                                    'doctype' => '<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">',
+                                    'cssClass' => 'el-rte',
+                                    'absoluteURLs' => 'false',
+                                    'allowSource' => 'true',
+                                    'lang' => 'zh_cn',
+                                    'styleWithCSS' => 'true',
+                                    'fmAllow' => 'true',
+                                    'toolbar' => 'myToolbar',
+                                )
                         ); ?>
                         <?php echo $form->error($model,'content'); ?>
-                </p><br>
+                </p>
+                <div id="node_content"></div>
+                <br>
 
                 <p>
                         <?php echo $form->labelEx($model,'tid'); ?><br>
