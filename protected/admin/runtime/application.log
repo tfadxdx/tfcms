@@ -1463,3 +1463,1142 @@ Stack trace:
 #6 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CWebApplication->run()
 REQUEST_URI=/tfcms/admin.php/link/create
 in D:\APMServ5.2.6\www\htdocs\tfcms\admin.php (13)
+2012/02/23 11:07:08 [error] [php] Invalid argument supplied for foreach() (D:\APMServ5.2.6\www\htdocs\tfcms\protected\admin\views\page\index.php:35)
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(870): PageController->renderFile()
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(783): PageController->renderPartial()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\protected\admin\controllers\PageController.php(137): PageController->render()
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\actions\CInlineAction.php(50): PageController->actionIndex()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilterChain.php(134): PageController->runAction()
+#6 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#7 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(1146): CAccessControlFilter->filter()
+#8 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CInlineFilter.php(59): PageController->filterAccessControl()
+#9 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#10 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(292): CFilterChain->run()
+#11 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(266): PageController->runActionWithFilters()
+#12 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): PageController->run()
+#13 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#14 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#15 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CWebApplication->run()
+REQUEST_URI=/tfcms/admin.php/page
+in D:\APMServ5.2.6\www\htdocs\tfcms\protected\admin\views\page\index.php (35)
+in D:\APMServ5.2.6\www\htdocs\tfcms\protected\admin\controllers\PageController.php (137)
+in D:\APMServ5.2.6\www\htdocs\tfcms\admin.php (13)
+2012/02/23 11:21:45 [warning] [application] Failed to set unsafe attribute "description" of "Page".
+in D:\APMServ5.2.6\www\htdocs\tfcms\protected\admin\controllers\PageController.php (60)
+in D:\APMServ5.2.6\www\htdocs\tfcms\admin.php (13)
+2012/02/23 11:29:13 [warning] [application] Failed to set unsafe attribute "description" of "Page".
+in D:\APMServ5.2.6\www\htdocs\tfcms\protected\admin\controllers\PageController.php (60)
+in D:\APMServ5.2.6\www\htdocs\tfcms\admin.php (13)
+2012/02/23 11:29:13 [error] [php] Object of class Page could not be converted to string (D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\helpers\CHtml.php:1712)
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\protected\admin\views\page\_form.php(59): dropDownList()
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CBaseController.php(127): require()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CBaseController.php(96): PageController->renderInternal()
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(870): PageController->renderFile()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\protected\admin\views\page\create.php(15): PageController->renderPartial()
+#5 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CBaseController.php(127): require()
+#6 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CBaseController.php(96): PageController->renderInternal()
+#7 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(870): PageController->renderFile()
+#8 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(783): PageController->renderPartial()
+#9 D:\APMServ5.2.6\www\htdocs\tfcms\protected\admin\controllers\PageController.php(67): PageController->render()
+#10 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\actions\CInlineAction.php(50): PageController->actionCreate()
+#11 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(309): CInlineAction->runWithParams()
+#12 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilterChain.php(134): PageController->runAction()
+#13 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#14 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(1146): CAccessControlFilter->filter()
+#15 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CInlineFilter.php(59): PageController->filterAccessControl()
+#16 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#17 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(292): CFilterChain->run()
+#18 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(266): PageController->runActionWithFilters()
+#19 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): PageController->run()
+#20 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#21 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#22 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CWebApplication->run()
+REQUEST_URI=/tfcms/admin.php/page/create
+in D:\APMServ5.2.6\www\htdocs\tfcms\protected\admin\views\page\_form.php (59)
+in D:\APMServ5.2.6\www\htdocs\tfcms\protected\admin\views\page\create.php (15)
+in D:\APMServ5.2.6\www\htdocs\tfcms\protected\admin\controllers\PageController.php (67)
+2012/02/23 11:32:01 [warning] [application] Failed to set unsafe attribute "description" of "Page".
+in D:\APMServ5.2.6\www\htdocs\tfcms\protected\admin\controllers\PageController.php (60)
+in D:\APMServ5.2.6\www\htdocs\tfcms\admin.php (13)
+2012/02/23 11:39:09 [warning] [application] Failed to set unsafe attribute "description" of "Page".
+in D:\APMServ5.2.6\www\htdocs\tfcms\protected\admin\controllers\PageController.php (61)
+in D:\APMServ5.2.6\www\htdocs\tfcms\admin.php (13)
+2012/02/23 11:40:34 [warning] [application] Failed to set unsafe attribute "description" of "Page".
+in D:\APMServ5.2.6\www\htdocs\tfcms\protected\admin\controllers\PageController.php (60)
+in D:\APMServ5.2.6\www\htdocs\tfcms\admin.php (13)
+2012/02/23 11:47:07 [warning] [application] Failed to set unsafe attribute "description" of "Page".
+in D:\APMServ5.2.6\www\htdocs\tfcms\protected\admin\controllers\PageController.php (60)
+in D:\APMServ5.2.6\www\htdocs\tfcms\admin.php (13)
+2012/02/23 11:51:51 [warning] [application] Failed to set unsafe attribute "description" of "Page".
+in D:\APMServ5.2.6\www\htdocs\tfcms\protected\admin\controllers\PageController.php (60)
+in D:\APMServ5.2.6\www\htdocs\tfcms\admin.php (13)
+2012/02/23 12:27:07 [warning] [application] Failed to set unsafe attribute "description" of "Page".
+in D:\APMServ5.2.6\www\htdocs\tfcms\protected\admin\controllers\PageController.php (84)
+in D:\APMServ5.2.6\www\htdocs\tfcms\admin.php (13)
+2012/02/23 12:28:04 [warning] [application] Failed to set unsafe attribute "description" of "Page".
+in D:\APMServ5.2.6\www\htdocs\tfcms\protected\admin\controllers\PageController.php (84)
+in D:\APMServ5.2.6\www\htdocs\tfcms\admin.php (13)
+2012/02/23 12:28:56 [warning] [application] Failed to set unsafe attribute "description" of "Page".
+in D:\APMServ5.2.6\www\htdocs\tfcms\protected\admin\controllers\PageController.php (84)
+in D:\APMServ5.2.6\www\htdocs\tfcms\admin.php (13)
+2012/02/23 12:30:06 [warning] [application] Failed to set unsafe attribute "description" of "Page".
+in D:\APMServ5.2.6\www\htdocs\tfcms\protected\admin\controllers\PageController.php (84)
+in D:\APMServ5.2.6\www\htdocs\tfcms\admin.php (13)
+2012/02/23 13:10:47 [warning] [application] Failed to set unsafe attribute "description" of "Page".
+in D:\APMServ5.2.6\www\htdocs\tfcms\protected\admin\controllers\PageController.php (84)
+in D:\APMServ5.2.6\www\htdocs\tfcms\admin.php (13)
+2012/02/23 13:12:54 [warning] [application] Failed to set unsafe attribute "description" of "Page".
+in D:\APMServ5.2.6\www\htdocs\tfcms\protected\admin\controllers\PageController.php (84)
+in D:\APMServ5.2.6\www\htdocs\tfcms\admin.php (13)
+2012/02/23 14:30:28 [warning] [application] Failed to set unsafe attribute "description" of "Page".
+in D:\APMServ5.2.6\www\htdocs\tfcms\protected\admin\controllers\PageController.php (60)
+in D:\APMServ5.2.6\www\htdocs\tfcms\admin.php (13)
+2012/02/23 14:48:21 [error] [exception.CException] exception 'CException' with message 'CActiveForm and its behaviors do not have a method or closure named "activeFileField".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CComponent.php:266
+Stack trace:
+#0 [internal function]: CComponent->__call('activeFileField', Array)
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\protected\admin\views\page\_form.php(38): CActiveForm->activeFileField(Object(Page), 'banner')
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CBaseController.php(127): require('D:\APMServ5.2.6...')
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CBaseController.php(96): CBaseController->renderInternal('D:\APMServ5.2.6...', Array, true)
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(870): CBaseController->renderFile('D:\APMServ5.2.6...', Array, true)
+#5 D:\APMServ5.2.6\www\htdocs\tfcms\protected\admin\views\page\create.php(15): CController->renderPartial('_form', Array)
+#6 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CBaseController.php(127): require('D:\APMServ5.2.6...')
+#7 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CBaseController.php(96): CBaseController->renderInternal('D:\APMServ5.2.6...', Array, true)
+#8 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(870): CBaseController->renderFile('D:\APMServ5.2.6...', Array, true)
+#9 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(783): CController->renderPartial('create', Array, true)
+#10 D:\APMServ5.2.6\www\htdocs\tfcms\protected\admin\controllers\PageController.php(67): CController->render('create', Array)
+#11 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\actions\CInlineAction.php(50): PageController->actionCreate()
+#12 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#13 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#14 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#15 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#16 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#17 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#18 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(292): CFilterChain->run()
+#19 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('create')
+#21 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('page/create')
+#22 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#23 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#24 {main}
+REQUEST_URI=/tfcms/admin.php/page/create
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page
+---
+2012/02/23 15:03:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "update/view".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('update/view')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/admin.php/update/14
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page
+---
+2012/02/23 15:03:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "update/view".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('update/view')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/admin.php/update/14
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page
+---
+2012/02/23 15:29:12 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php:337
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(310): CController->invalidActionParams(Object(CInlineAction))
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#5 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#6 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(292): CFilterChain->run()
+#7 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('update')
+#9 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('page/update/img...')
+#10 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#11 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/tfcms/admin.php/page/update/img/linkLogo01.jpg
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/update/14
+---
+2012/02/23 15:29:12 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php:337
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(310): CController->invalidActionParams(Object(CInlineAction))
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#5 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#6 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(292): CFilterChain->run()
+#7 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('update')
+#9 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('page/update/img...')
+#10 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#11 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/tfcms/admin.php/page/update/img/linkLogo02.jpg
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/update/14
+---
+2012/02/23 15:29:12 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php:337
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(310): CController->invalidActionParams(Object(CInlineAction))
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#5 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#6 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(292): CFilterChain->run()
+#7 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('update')
+#9 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('page/update/img...')
+#10 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#11 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/tfcms/admin.php/page/update/img/linkLogo03.jpg
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/update/14
+---
+2012/02/23 15:29:16 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php:337
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(310): CController->invalidActionParams(Object(CInlineAction))
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#5 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#6 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(292): CFilterChain->run()
+#7 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('update')
+#9 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('page/update/img...')
+#10 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#11 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/tfcms/admin.php/page/update/img/linkLogo01.jpg
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/update/14
+---
+2012/02/23 15:29:17 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php:337
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(310): CController->invalidActionParams(Object(CInlineAction))
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#5 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#6 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(292): CFilterChain->run()
+#7 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('update')
+#9 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('page/update/img...')
+#10 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#11 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/tfcms/admin.php/page/update/img/linkLogo02.jpg
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/update/14
+---
+2012/02/23 15:29:17 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php:337
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(310): CController->invalidActionParams(Object(CInlineAction))
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#5 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#6 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(292): CFilterChain->run()
+#7 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('update')
+#9 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('page/update/img...')
+#10 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#11 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/tfcms/admin.php/page/update/img/linkLogo03.jpg
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/update/14
+---
+2012/02/23 16:36:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "<".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php:484
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(271): CController->missingAction('<')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('<')
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('page/<')
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tfcms/admin.php/page/%3C?php%20echo%20Yii::app()-%3Etheme-%3EbaseUrl;%20?%3E/photo/1.jpg
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/create
+---
+2012/02/23 16:36:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "<".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php:484
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(271): CController->missingAction('<')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('<')
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('page/<')
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tfcms/admin.php/page/%3C?php%20echo%20Yii::app()-%3Etheme-%3EbaseUrl;%20?%3E/photo/2.jpg
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/create
+---
+2012/02/23 16:36:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "<".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php:484
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(271): CController->missingAction('<')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('<')
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('page/<')
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tfcms/admin.php/page/%3C?php%20echo%20Yii::app()-%3Etheme-%3EbaseUrl;%20?%3E/photo/3.jpg
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/create
+---
+2012/02/23 16:36:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "<".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php:484
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(271): CController->missingAction('<')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('<')
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('page/<')
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tfcms/admin.php/page/%3C?php%20echo%20Yii::app()-%3Etheme-%3EbaseUrl;%20?%3E/photo/6.jpg
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/create
+---
+2012/02/23 16:36:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "<".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php:484
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(271): CController->missingAction('<')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('<')
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('page/<')
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tfcms/admin.php/page/%3C?php%20echo%20Yii::app()-%3Etheme-%3EbaseUrl;%20?%3E/photo/7.jpg
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/create
+---
+2012/02/23 16:36:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "<".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php:484
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(271): CController->missingAction('<')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('<')
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('page/<')
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tfcms/admin.php/page/%3C?php%20echo%20Yii::app()-%3Etheme-%3EbaseUrl;%20?%3E/photo/4.jpg
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/create
+---
+2012/02/23 16:36:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "<".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php:484
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(271): CController->missingAction('<')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('<')
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('page/<')
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tfcms/admin.php/page/%3C?php%20echo%20Yii::app()-%3Etheme-%3EbaseUrl;%20?%3E/photo/5.jpg
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/create
+---
+2012/02/23 16:36:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "<".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php:484
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(271): CController->missingAction('<')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('<')
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('page/<')
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tfcms/admin.php/page/%3C?php%20echo%20Yii::app()-%3Etheme-%3EbaseUrl;%20?%3E/photo/product10.jpg
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/create
+---
+2012/02/23 16:36:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "<".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php:484
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(271): CController->missingAction('<')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('<')
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('page/<')
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tfcms/admin.php/page/%3C?php%20echo%20Yii::app()-%3Etheme-%3EbaseUrl;%20?%3E/photo/1.jpg
+---
+2012/02/23 16:38:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "<".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php:484
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(271): CController->missingAction('<')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('<')
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('page/<')
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tfcms/admin.php/page/%3C?php%20echo%20Yii::app()-%3Etheme-%3EbaseUrl;%20?%3E/photo/2.jpg
+---
+2012/02/23 16:38:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "<".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php:484
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(271): CController->missingAction('<')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('<')
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('page/<')
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tfcms/admin.php/page/%3C?php%20echo%20Yii::app()-%3Etheme-%3EbaseUrl;%20?%3E/photo/3.jpg
+---
+2012/02/23 16:38:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "<".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php:484
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(271): CController->missingAction('<')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('<')
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('page/<')
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tfcms/admin.php/page/%3C?php%20echo%20Yii::app()-%3Etheme-%3EbaseUrl;%20?%3E/photo/4.jpg
+---
+2012/02/23 16:38:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "<".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php:484
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(271): CController->missingAction('<')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('<')
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('page/<')
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tfcms/admin.php/page/%3C?php%20echo%20Yii::app()-%3Etheme-%3EbaseUrl;%20?%3E/photo/5.jpg
+---
+2012/02/23 16:38:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "<".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php:484
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(271): CController->missingAction('<')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('<')
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('page/<')
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tfcms/admin.php/page/%3C?php%20echo%20Yii::app()-%3Etheme-%3EbaseUrl;%20?%3E/photo/5.jpg
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/create
+---
+2012/02/23 16:39:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "<".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php:484
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(271): CController->missingAction('<')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('<')
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('page/<')
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tfcms/admin.php/page/%3C?php%20echo%20Yii::app()-%3Etheme-%3EbaseUrl;%20?%3E/photo/6.jpg
+---
+2012/02/23 16:39:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "<".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php:484
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(271): CController->missingAction('<')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('<')
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('page/<')
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tfcms/admin.php/page/%3C?php%20echo%20Yii::app()-%3Etheme-%3EbaseUrl;%20?%3E/photo/6.jpg
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/create
+---
+2012/02/23 16:39:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "<".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php:484
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(271): CController->missingAction('<')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('<')
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('page/<')
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tfcms/admin.php/page/%3C?php%20echo%20Yii::app()-%3Etheme-%3EbaseUrl;%20?%3E/photo/7.jpg
+---
+2012/02/23 16:39:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "<".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php:484
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(271): CController->missingAction('<')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('<')
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('page/<')
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tfcms/admin.php/page/%3C?php%20echo%20Yii::app()-%3Etheme-%3EbaseUrl;%20?%3E/photo/product10.jpg
+---
+2012/02/23 16:39:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "<".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php:484
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(271): CController->missingAction('<')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('<')
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('page/<')
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tfcms/admin.php/page/%3C?php%20echo%20Yii::app()-%3Etheme-%3EbaseUrl;%20?%3E/photo/product10.jpg
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/create
+---
+2012/02/23 19:17:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php:484
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(271): CController->missingAction('img')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('img')
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('page/img/linkLo...')
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tfcms/admin.php/page/img/linkLogo01.jpg
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/create
+---
+2012/02/23 19:17:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php:484
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(271): CController->missingAction('img')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('img')
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('page/img/linkLo...')
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tfcms/admin.php/page/img/linkLogo02.jpg
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/create
+---
+2012/02/23 19:17:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php:484
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(271): CController->missingAction('img')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('img')
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('page/img/banner...')
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tfcms/admin.php/page/img/banner07.jpg
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/create
+---
+2012/02/23 19:17:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php:484
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(271): CController->missingAction('img')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('img')
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('page/img/linkLo...')
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tfcms/admin.php/page/img/linkLogo03.jpg
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/create
+---
+2012/02/23 19:18:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php:484
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(271): CController->missingAction('img')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('img')
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('page/img/banner...')
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tfcms/admin.php/page/img/banner07.jpg
+---
+2012/02/23 19:18:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php:484
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(271): CController->missingAction('img')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('img')
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('page/img/linkLo...')
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tfcms/admin.php/page/img/linkLogo01.jpg
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/create
+---
+2012/02/23 19:18:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php:484
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(271): CController->missingAction('img')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('img')
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('page/img/linkLo...')
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tfcms/admin.php/page/img/linkLogo02.jpg
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/create
+---
+2012/02/23 19:19:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php:484
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(271): CController->missingAction('img')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('img')
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('page/img/linkLo...')
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tfcms/admin.php/page/img/linkLogo03.jpg
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/create
+---
+2012/02/23 19:19:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php:484
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(271): CController->missingAction('img')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('img')
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('page/img/linkLo...')
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tfcms/admin.php/page/img/linkLogo01.jpg
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/create
+---
+2012/02/23 19:19:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php:484
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(271): CController->missingAction('img')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('img')
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('page/img/linkLo...')
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tfcms/admin.php/page/img/linkLogo02.jpg
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/create
+---
+2012/02/23 19:19:32 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php:337
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(310): CController->invalidActionParams(Object(CInlineAction))
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#5 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#6 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(292): CFilterChain->run()
+#7 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('update')
+#9 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('page/update/img...')
+#10 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#11 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/tfcms/admin.php/page/update/img/linkLogo01.jpg
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/update/16
+---
+2012/02/23 19:19:32 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php:337
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(310): CController->invalidActionParams(Object(CInlineAction))
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#5 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#6 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(292): CFilterChain->run()
+#7 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('update')
+#9 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('page/update/img...')
+#10 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#11 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/tfcms/admin.php/page/update/img/linkLogo03.jpg
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/update/16
+---
+2012/02/23 19:19:32 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php:337
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(310): CController->invalidActionParams(Object(CInlineAction))
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#5 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#6 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(292): CFilterChain->run()
+#7 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('update')
+#9 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('page/update/img...')
+#10 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#11 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/tfcms/admin.php/page/update/img/linkLogo02.jpg
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/update/16
+---
+2012/02/23 19:19:38 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php:337
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(310): CController->invalidActionParams(Object(CInlineAction))
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#5 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#6 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(292): CFilterChain->run()
+#7 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('update')
+#9 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('page/update/img...')
+#10 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#11 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/tfcms/admin.php/page/update/img/linkLogo01.jpg
+---
+2012/02/23 19:19:47 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php:337
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(310): CController->invalidActionParams(Object(CInlineAction))
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#5 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#6 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(292): CFilterChain->run()
+#7 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('update')
+#9 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('page/update/img...')
+#10 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#11 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/tfcms/admin.php/page/update/img/linkLogo02.jpg
+---
+2012/02/23 19:19:55 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php:337
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(310): CController->invalidActionParams(Object(CInlineAction))
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#5 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#6 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(292): CFilterChain->run()
+#7 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('update')
+#9 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('page/update/img...')
+#10 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#11 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/tfcms/admin.php/page/update/img/linkLogo03.jpg
+---
+2012/02/23 19:22:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php:484
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(271): CController->missingAction('img')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('img')
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('page/img/linkLo...')
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tfcms/admin.php/page/img/linkLogo01.jpg
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/create
+---
+2012/02/23 19:22:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php:484
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(271): CController->missingAction('img')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('img')
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('page/img/linkLo...')
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tfcms/admin.php/page/img/linkLogo03.jpg
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/create
+---
+2012/02/23 19:22:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php:484
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(271): CController->missingAction('img')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('img')
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('page/img/linkLo...')
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tfcms/admin.php/page/img/linkLogo02.jpg
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/create
+---
+2012/02/23 19:22:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php:484
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(271): CController->missingAction('img')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('img')
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('page/img/banner...')
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tfcms/admin.php/page/img/banner06.jpg
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/create
+---
+2012/02/23 19:22:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php:484
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(271): CController->missingAction('img')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('img')
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('page/img/linkLo...')
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tfcms/admin.php/page/img/linkLogo01.jpg
+---
+2012/02/23 19:22:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php:484
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(271): CController->missingAction('img')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('img')
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('page/img/linkLo...')
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tfcms/admin.php/page/img/linkLogo02.jpg
+---
+2012/02/23 19:22:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php:484
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(271): CController->missingAction('img')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('img')
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('page/img/linkLo...')
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tfcms/admin.php/page/img/linkLogo03.jpg
+---
+2012/02/23 19:22:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php:484
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(271): CController->missingAction('img')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('img')
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('page/img/banner...')
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tfcms/admin.php/page/img/banner06.jpg
+---
+2012/02/23 19:24:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php:484
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(271): CController->missingAction('img')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('img')
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('page/img/linkLo...')
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tfcms/admin.php/page/img/linkLogo01.jpg
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/create
+---
+2012/02/23 19:24:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php:484
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(271): CController->missingAction('img')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('img')
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('page/img/linkLo...')
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tfcms/admin.php/page/img/linkLogo02.jpg
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/create
+---
+2012/02/23 19:24:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php:484
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(271): CController->missingAction('img')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('img')
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('page/img/linkLo...')
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tfcms/admin.php/page/img/linkLogo03.jpg
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/create
+---
+2012/02/23 19:24:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php:484
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(271): CController->missingAction('img')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('img')
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('page/img/banner...')
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tfcms/admin.php/page/img/banner08.jpg
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/create
+---
+2012/02/23 19:24:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php:484
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(271): CController->missingAction('img')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('img')
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('page/img/linkLo...')
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tfcms/admin.php/page/img/linkLogo01.jpg
+---
+2012/02/23 19:24:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php:484
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(271): CController->missingAction('img')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('img')
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('page/img/linkLo...')
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tfcms/admin.php/page/img/linkLogo02.jpg
+---
+2012/02/23 19:24:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php:484
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(271): CController->missingAction('img')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('img')
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('page/img/linkLo...')
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tfcms/admin.php/page/img/linkLogo03.jpg
+---
+2012/02/23 19:24:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php:484
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(271): CController->missingAction('img')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('img')
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('page/img/banner...')
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tfcms/admin.php/page/img/banner08.jpg
+---
+2012/02/23 19:26:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php:484
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(271): CController->missingAction('img')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('img')
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('page/img/linkLo...')
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tfcms/admin.php/page/img/linkLogo01.jpg
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/create
+---
+2012/02/23 19:26:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php:484
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(271): CController->missingAction('img')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('img')
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('page/img/linkLo...')
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tfcms/admin.php/page/img/linkLogo02.jpg
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/create
+---
+2012/02/23 19:26:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php:484
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(271): CController->missingAction('img')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('img')
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('page/img/linkLo...')
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tfcms/admin.php/page/img/linkLogo03.jpg
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/create
+---
+2012/02/23 19:26:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php:484
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(271): CController->missingAction('img')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('img')
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('page/img/photo0...')
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tfcms/admin.php/page/img/photo03.jpg
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/create
+---
+2012/02/23 19:26:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php:484
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(271): CController->missingAction('img')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('img')
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('page/img/photo0...')
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tfcms/admin.php/page/img/photo04.jpg
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/create
+---
+2012/02/23 19:26:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php:484
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(271): CController->missingAction('img')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('img')
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('page/img/photo0...')
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tfcms/admin.php/page/img/photo05.jpg
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/create
+---
+2012/02/23 19:26:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php:484
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(271): CController->missingAction('img')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('img')
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('page/img/photo0...')
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tfcms/admin.php/page/img/photo06.jpg
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/create
+---
+2012/02/23 19:26:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php:484
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(271): CController->missingAction('img')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('img')
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('page/img/linkLo...')
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tfcms/admin.php/page/img/linkLogo01.jpg
+---
+2012/02/23 19:26:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php:484
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(271): CController->missingAction('img')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('img')
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('page/img/linkLo...')
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tfcms/admin.php/page/img/linkLogo02.jpg
+---
+2012/02/23 19:26:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php:484
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(271): CController->missingAction('img')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('img')
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('page/img/linkLo...')
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tfcms/admin.php/page/img/linkLogo03.jpg
+---
+2012/02/23 19:28:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php:484
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(271): CController->missingAction('img')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('img')
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('page/img/photo0...')
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tfcms/admin.php/page/img/photo03.jpg
+---
+2012/02/23 19:29:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php:484
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(271): CController->missingAction('img')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('img')
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('page/img/photo0...')
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tfcms/admin.php/page/img/photo04.jpg
+---
+2012/02/23 19:29:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php:484
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(271): CController->missingAction('img')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('img')
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('page/img/photo0...')
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tfcms/admin.php/page/img/photo05.jpg
+---
+2012/02/23 19:29:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php:484
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(271): CController->missingAction('img')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('img')
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('page/img/photo0...')
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tfcms/admin.php/page/img/photo06.jpg
+---
+2012/02/23 20:18:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "news".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('news')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/admin.php/news
+---
+2012/02/23 20:24:19 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[HY000]: General error: 1467 Failed to read auto-increment value from storage engine. The SQL statement executed was: INSERT INTO `tf_taxonomy` (`taxonomy`, `parent`, `count`, `name`, `slug`, `description`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5).
+in D:\APMServ5.2.6\www\htdocs\tfcms\protected\admin\controllers\TaxonomyController.php (57)
+in D:\APMServ5.2.6\www\htdocs\tfcms\admin.php (13)
+2012/02/23 20:24:19 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[HY000]: General error: 1467 Failed to read auto-increment value from storage engine. The SQL statement executed was: INSERT INTO `tf_taxonomy` (`taxonomy`, `parent`, `count`, `name`, `slug`, `description`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5)' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\db\CDbCommand.php:354
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\db\ar\CActiveRecord.php(1014): CDbCommand->execute()
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\db\ar\CActiveRecord.php(787): CActiveRecord->insert(NULL)
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\protected\admin\controllers\TaxonomyController.php(57): CActiveRecord->save()
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\actions\CInlineAction.php(50): TaxonomyController->actionCreate()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#5 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#6 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#7 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#8 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#9 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#10 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(292): CFilterChain->run()
+#11 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('create')
+#13 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('taxonomy/create')
+#14 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#15 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/tfcms/admin.php/taxonomy/create
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/taxonomy/create
+---
+2012/02/23 20:26:53 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[HY000]: General error: 1467 Failed to read auto-increment value from storage engine. The SQL statement executed was: INSERT INTO `tf_taxonomy` (`taxonomy`, `parent`, `count`, `name`, `slug`, `description`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5).
+in D:\APMServ5.2.6\www\htdocs\tfcms\protected\admin\controllers\TaxonomyController.php (57)
+in D:\APMServ5.2.6\www\htdocs\tfcms\admin.php (13)
+2012/02/23 20:26:53 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[HY000]: General error: 1467 Failed to read auto-increment value from storage engine. The SQL statement executed was: INSERT INTO `tf_taxonomy` (`taxonomy`, `parent`, `count`, `name`, `slug`, `description`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5)' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\db\CDbCommand.php:354
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\db\ar\CActiveRecord.php(1014): CDbCommand->execute()
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\db\ar\CActiveRecord.php(787): CActiveRecord->insert(NULL)
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\protected\admin\controllers\TaxonomyController.php(57): CActiveRecord->save()
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\actions\CInlineAction.php(50): TaxonomyController->actionCreate()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#5 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#6 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#7 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#8 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#9 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#10 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(292): CFilterChain->run()
+#11 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('create')
+#13 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('taxonomy/create')
+#14 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#15 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/tfcms/admin.php/taxonomy/create
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/taxonomy/create
+---
+2012/02/23 20:26:56 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[HY000]: General error: 1467 Failed to read auto-increment value from storage engine. The SQL statement executed was: INSERT INTO `tf_taxonomy` (`taxonomy`, `parent`, `count`, `name`, `slug`, `description`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5).
+in D:\APMServ5.2.6\www\htdocs\tfcms\protected\admin\controllers\TaxonomyController.php (57)
+in D:\APMServ5.2.6\www\htdocs\tfcms\admin.php (13)
+2012/02/23 20:26:56 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[HY000]: General error: 1467 Failed to read auto-increment value from storage engine. The SQL statement executed was: INSERT INTO `tf_taxonomy` (`taxonomy`, `parent`, `count`, `name`, `slug`, `description`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5)' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\db\CDbCommand.php:354
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\db\ar\CActiveRecord.php(1014): CDbCommand->execute()
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\db\ar\CActiveRecord.php(787): CActiveRecord->insert(NULL)
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\protected\admin\controllers\TaxonomyController.php(57): CActiveRecord->save()
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\actions\CInlineAction.php(50): TaxonomyController->actionCreate()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#5 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#6 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#7 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#8 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#9 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#10 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(292): CFilterChain->run()
+#11 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('create')
+#13 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('taxonomy/create')
+#14 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#15 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/tfcms/admin.php/taxonomy/create
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/taxonomy/create
+---
+2012/02/23 20:41:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "page".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php:484
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(271): CController->missingAction('page')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('page')
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('news/page')
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tfcms/admin.php/news/page
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/news/create
+---
+2012/02/23 20:41:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "page".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php:484
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(271): CController->missingAction('page')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('page')
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('news/page')
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tfcms/admin.php/news/page
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/news/create
+---
+2012/02/23 20:41:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "page".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php:484
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(271): CController->missingAction('page')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('page')
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('news/page')
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tfcms/admin.php/news/page
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/news/create
+---
+2012/02/23 20:41:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "page".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php:484
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(271): CController->missingAction('page')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('page')
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('news/page')
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tfcms/admin.php/news/page
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/news/create
+---
+2012/02/23 20:41:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "page".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php:484
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(271): CController->missingAction('page')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('page')
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('news/page')
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tfcms/admin.php/news/page
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/news/create
+---
+2012/02/23 20:42:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "page".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php:484
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(271): CController->missingAction('page')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('page')
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('news/page')
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tfcms/admin.php/news/page
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/news/create
+---
+2012/02/23 20:42:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "page".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php:484
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(271): CController->missingAction('page')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('page')
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('news/page')
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tfcms/admin.php/news/page
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/news/create
+---

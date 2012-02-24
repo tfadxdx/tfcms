@@ -33,14 +33,17 @@
                         <?php echo $form->error($model,'description'); ?>
                 </p><br>
 
+                <p>
+                        <?php echo $form->labelEx($model,'banner'); ?><br>
+                        <?php echo $form->activeFileField($model,'banner');?>
+                        <?php echo $form-error($model,'banner')?>
+                </p><br>
                 
                 <p>
                         <?php echo $form->labelEx($model,'content'); ?><br>
                         <?php $this->widget('application.extensions.elrte.elRTE',
                             array(
                                     'selector'=>'node_content',
-                                    'doctype' => '<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">',
-                                    'cssClass' => 'el-rte',
                                     'absoluteURLs' => 'false',
                                     'allowSource' => 'true',
                                     'lang' => 'zh_cn',

@@ -26,6 +26,7 @@ class NodeController extends Controller
 	public function accessRules()
 	{
 		return array(
+
 		);
 	}
 

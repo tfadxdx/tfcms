@@ -1,59 +1,87 @@
-<div class="form">
+<div class="onecolumn">
+    <div class="content">
+        <div class="form">
+        <?php $form=$this->beginWidget('CActiveForm', array(
+                'id'=>'node-form',
+                'enableAjaxValidation'=>false,
+        )); ?>
+                <div class="form">
+                    <div class="row">
+                    <div id="divFileProgressContainer"></div>
+                    <div class="swfupload"><span id="swfupload"></span></div>
+                    </div>
+                </div>
+                <p class="note">Fields with <span class="required">*</span> are required.</p><br>
 
-<?php $form=$this->beginWidget('CActiveForm', array(
-	'id'=>'node-form',
-	'enableAjaxValidation'=>false,
-)); ?>
+                <?php echo $form->errorSummary($model); ?>
 
-	<p class="note">Fields with <span class="required">*</span> are required.</p>
+                <p>
+                        <?php echo $form->labelEx($model,'title'); ?><br>
+                        <?php echo $form->textField($model,'title',array('size'=>60,'maxlength'=>255)); ?>
+                        <?php echo $form->error($model,'title'); ?>
+                </p><br>
 
-	<?php echo $form->errorSummary($model); ?>
+                <p>
+                        <?php echo $form->labelEx($model,'name'); ?><br>
+                        <?php echo $form->textField($model,'name',array('size'=>60,'maxlength'=>255)); ?>
+                        <?php echo $form->error($model,'name'); ?>
+                </p><br>
 
-	<div class="row">
-		<?php echo $form->labelEx($model,'title'); ?>
-		<?php echo $form->textField($model,'title',array('size'=>60,'maxlength'=>255)); ?>
-		<?php echo $form->error($model,'title'); ?>
-	</div>
+                <p>
+                        <?php echo $form->labelEx($model,'description'); ?><br>
+                        <?php echo $form->textArea($model,'description',array('rows'=>6, 'cols'=>50)); ?>
+                        <?php echo $form->error($model,'description'); ?>
+                </p><br>
 
-	<div class="row">
-		<?php echo $form->labelEx($model,'name'); ?>
-		<?php echo $form->textField($model,'name',array('size'=>60,'maxlength'=>255)); ?>
-		<?php echo $form->error($model,'name'); ?>
-	</div>
+                <p>
+                        <?php echo $form->labelEx($model,'banner'); ?><br>
+                        <?php echo $form->textField($model,'banner');?>
+                        <?php echo '<p>'.$model->banner.'</p>';?>
+                        <?php echo $form->error($model,'banner')?>
+                </p><br>
 
-	<div class="row">
-		<?php echo $form->labelEx($model,'description'); ?>
-		<?php echo $form->textArea($model,'description',array('rows'=>6, 'cols'=>50)); ?>
-		<?php echo $form->error($model,'description'); ?>
-	</div>
+                <p>
+                        <?php echo $form->labelEx($model,'content'); ?><br>
+                        <?php echo $form->textArea($model,'content',array('rows'=>10, 'cols'=>50)); ?>
+                        <?php $this->widget('application.extensions.elrte.elRTE',
+                            array(
+                                    'selector'=>'Page_content',
+                                    'absoluteURLs' => 'false',
+                                    'allowSource' => 'true',
+                                    'lang' => 'zh_CN',
+                                    'styleWithCSS' => 'true',
+                                    'fmAllow' => 'true',
+                                    'toolbar'=>'maxi',
+                                )
+                        ); ?>
+                        <?php echo $form->error($model,'content'); ?>
+                </p>
+                <br>
 
-	<div class="row">
-		<?php echo $form->labelEx($model,'content'); ?>
-		<?php echo $form->textArea($model,'content',array('rows'=>6, 'cols'=>50)); ?>
-		<?php echo $form->error($model,'content'); ?>
-	</div>
-	<div class="row">
-		<?php echo $form->labelEx($model,'tid'); ?>
-		<?php echo $form->textField($model,'tid'); ?>
-		<?php echo $form->error($model,'tid'); ?>
-	</div>
+                <p>
+                        <?php echo $form->labelEx($model,'tid'); ?><br>
+                        <?php echo $form->dropDownList($model, 'tid', CHtml::listData(Taxonomy::model()->findAll(), "id", "name")); ?>
+                        <?php echo $form->error($model,'tid'); ?>
+                </p><br>
 
-	<div class="row">
-		<?php echo $form->labelEx($model,'weight'); ?>
-		<?php echo $form->textField($model,'weight'); ?>
-		<?php echo $form->error($model,'weight'); ?>
-	</div>
+                <p>
+                        <?php echo $form->labelEx($model,'weight'); ?><br>
+                        <?php echo $form->dropDownList($model,'weight', array(0,1,2,3,4,5));?>
+                        <?php echo $form->error($model,'weight'); ?>
+                </p><br>
 
-	<div class="row">
-		<?php echo $form->labelEx($model,'status'); ?>
-		<?php echo $form->textField($model,'status'); ?>
-		<?php echo $form->error($model,'status'); ?>
-	</div>
+                <p>
+                        <?php echo $form->labelEx($model,'status'); ?><br>
+                        <?php echo $form->dropDownList($model,'status', array(1=>'Published',0=>'Not Publish'));?>
+                        <?php echo $form->error($model,'status'); ?>
+                </p><br>
 
-	<div class="row buttons">
-		<?php echo CHtml::submitButton($model->isNewRecord ? 'Create' : 'Save'); ?>
-	</div>
+                <div class="row buttons">
+                        <?php echo CHtml::submitButton($model->isNewRecord ? 'Create' : 'Save'); ?>
+                </div>
 
-<?php $this->endWidget(); ?>
+        <?php $this->endWidget(); ?>
 
-</div><!-- form -->
+        </div><!-- form -->
+    </div>
+</div>

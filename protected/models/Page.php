@@ -8,6 +8,7 @@
  * @property string $title
  * @property string $name
  * @property string $description
+ * @property string $banner
  * @property string $content
  * @property integer $uid
  * @property integer $tid

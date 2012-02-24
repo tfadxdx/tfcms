@@ -9,7 +9,8 @@ return array(
 	'basePath'=>dirname(__FILE__).DIRECTORY_SEPARATOR.'..',
 	'name'=>'TFWK CMS',
 	'timeZone'=>"Asia/Shanghai",
-	
+	'theme'=>'zdgf',
+        'homeUrl' => 'http://127.0.0.1/tfcms/page/13',
 	// preloading 'log' component
 	'preload'=>array(
                 'log',
