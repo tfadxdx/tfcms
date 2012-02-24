@@ -167,15 +167,11 @@ class PageController extends Controller
         {
                 Yii::import("ext.EAjaxUpload.qqFileUploader");
 
-                $folder=Yii::app()->request->baseUrl.'/upload/download/';// folder for uploaded files
+                $folder=$_SERVER['DOCUMENT_ROOT'].Yii::app()->request->baseUrl.'/upload/download/';// folder for uploaded files
                 $allowedExtensions = array("jpg");//array("jpg","jpeg","gif","exe","mov" and etc...
                 $sizeLimit = 2 * 1024 * 1024;// maximum file size in bytes
                 $uploader = new qqFileUploader($allowedExtensions, $sizeLimit);
                 $result = $uploader->handleUpload($folder);
                 $result=htmlspecialchars(json_encode($result), ENT_NOQUOTES);
-
-                $fileName=$result['filename'];//GETTING FILE NAME
-
-                echo $result;// it's array
         }
 }

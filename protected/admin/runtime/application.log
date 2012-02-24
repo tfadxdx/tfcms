@@ -4583,3 +4583,75 @@ Stack trace:
 REQUEST_URI=/tfcms/admin.php/page/upload?PHPSESSID=01cfd1f462a70ed0b0ac78c83732d888&YII_CSRF_TOKEN=7d758d4680f6e25ca0135b30389155051307a8ea&qqfile=banner05.jpg
 HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/create
 ---
+2012/02/24 17:00:18 [error] [exception.CException] exception 'CException' with message 'Property "CFile.name" is not defined.' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CComponent.php:131
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\protected\admin\views\media\list.php(15): CComponent->__get('name')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CBaseController.php(127): require('D:\APMServ5.2.6...')
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CBaseController.php(96): CBaseController->renderInternal('D:\APMServ5.2.6...', Array, true)
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(870): CBaseController->renderFile('D:\APMServ5.2.6...', Array, true)
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(783): CController->renderPartial('list', Array, true)
+#5 D:\APMServ5.2.6\www\htdocs\tfcms\protected\admin\controllers\MediaController.php(39): CController->render('list', Array)
+#6 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\actions\CInlineAction.php(50): MediaController->actionList()
+#7 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#8 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#9 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#10 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#11 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#12 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#13 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(292): CFilterChain->run()
+#14 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('list')
+#16 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('media/list')
+#17 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#18 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/tfcms/admin.php/media/list
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/media/list
+---
+2012/02/24 17:04:22 [error] [php] Object of class CFile could not be converted to string (D:\APMServ5.2.6\www\htdocs\tfcms\protected\admin\views\media\list.php:18)
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(870): MediaController->renderFile()
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(783): MediaController->renderPartial()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\protected\admin\controllers\MediaController.php(39): MediaController->render()
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\actions\CInlineAction.php(50): MediaController->actionList()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilterChain.php(134): MediaController->runAction()
+#6 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#7 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(1146): CAccessControlFilter->filter()
+#8 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CInlineFilter.php(59): MediaController->filterAccessControl()
+#9 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#10 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(292): CFilterChain->run()
+#11 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(266): MediaController->runActionWithFilters()
+#12 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): MediaController->run()
+#13 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#14 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#15 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CWebApplication->run()
+REQUEST_URI=/tfcms/admin.php/media/list
+in D:\APMServ5.2.6\www\htdocs\tfcms\protected\admin\views\media\list.php (18)
+in D:\APMServ5.2.6\www\htdocs\tfcms\protected\admin\controllers\MediaController.php (39)
+in D:\APMServ5.2.6\www\htdocs\tfcms\admin.php (13)
+2012/02/24 17:04:47 [error] [exception.CException] exception 'CException' with message 'Property "CFile.file" is not defined.' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CComponent.php:131
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\protected\admin\views\media\list.php(18): CComponent->__get('file')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CBaseController.php(127): require('D:\APMServ5.2.6...')
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CBaseController.php(96): CBaseController->renderInternal('D:\APMServ5.2.6...', Array, true)
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(870): CBaseController->renderFile('D:\APMServ5.2.6...', Array, true)
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(783): CController->renderPartial('list', Array, true)
+#5 D:\APMServ5.2.6\www\htdocs\tfcms\protected\admin\controllers\MediaController.php(39): CController->render('list', Array)
+#6 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\actions\CInlineAction.php(50): MediaController->actionList()
+#7 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#8 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#9 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#10 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#11 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#12 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#13 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(292): CFilterChain->run()
+#14 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('list')
+#16 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('media/list')
+#17 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#18 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/tfcms/admin.php/media/list
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/media/list
+---

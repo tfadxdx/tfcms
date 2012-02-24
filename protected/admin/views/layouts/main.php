@@ -77,7 +77,13 @@
                                 <li><a href="<?php echo Yii::app()->request->baseUrl;?>/admin.php/taxonomy/create">Add Category For Pages</a></li>
                         </ul>
                     </li>
-                    <li><a href="#">Media</a></li>
+                    <li>
+                        <a href="#">Media</a>
+                         <ul>
+                                <li><a href="<?php echo Yii::app()->request->baseUrl;?>/admin.php/media/list">All Media</a></li>
+                        </ul>
+                    </li>
+
                     <li><a href="#">Users</a></li>
                 </ul>
 		<br class="clear"/>

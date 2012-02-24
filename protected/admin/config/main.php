@@ -81,7 +81,9 @@ return array(
                    'allowAutoLogin'=>true,
                    'loginUrl' => array('/user/login'),
                 ),
-
+                'file'=>array(
+                    'class'=>'application.extensions.file.CFile',
+                ),
 	),
 
 	// application-level parameters that can be accessed

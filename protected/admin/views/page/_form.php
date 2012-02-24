@@ -47,6 +47,7 @@
                                        'action'=>Yii::app()->request->baseUrl.'/admin.php/page/upload',
                                        'allowedExtensions'=>array("jpg"),
                                        'sizeLimit'=>2*1024*1024,
+                                       'onComplete'=>"js:function(id, fileName, responseJSON){  location.reload() }",
                                 ))
                     );?>
 
