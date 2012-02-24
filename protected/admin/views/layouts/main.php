@@ -5,23 +5,22 @@
 	<meta name="language" content="en" />
 
         <link href="<?php echo Yii::app()->request->baseUrl; ?>/css/screen.css" rel="stylesheet" type="text/css" media="all" />
-        <link href="<?php echo Yii::app()->request->baseUrl; ?>/css/datepicker.css" rel="stylesheet" type="text/css" media="all" />
-        <link href="<?php echo Yii::app()->request->baseUrl; ?>/js/visualize/visualize.css" rel="stylesheet" type="text/css" media="all" />
-        <link href="<?php echo Yii::app()->request->baseUrl; ?>/js/jwysiwyg/jquery.wysiwyg.css" rel="stylesheet" type="text/css" media="all" />
-        <link href="<?php echo Yii::app()->request->baseUrl; ?>/js/fancybox/jquery.fancybox-1.3.0.css" rel="stylesheet" type="text/css" media="all" />
-	<!--[if lt IE 8]>
-	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/ie.css" media="screen, projection" />
-	<![endif]-->
 
+        <!--[if IE]>
+                <link href="<?php echo Yii::app()->request->baseUrl; ?>/css/ie.css" rel="stylesheet" type="text/css" media="all">
+                <meta http-equiv="X-UA-Compatible" content="IE=7" />
+                <script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl; ?>/js/excanvas.js"></script>
+        <![endif]-->
+        
         <script type="text/javascript" SRC="<?php echo Yii::app()->request->baseUrl; ?>/js/jquery.js"></script>
         <script type="text/javascript" SRC="<?php echo Yii::app()->request->baseUrl; ?>/js/jquery-ui.js"></script>
-        <script type="text/javascript" SRC="<?php echo Yii::app()->request->baseUrl; ?>/js/jquery.img.preload.js"></script>
-        <script type="text/javascript" SRC="<?php echo Yii::app()->request->baseUrl; ?>/js/hint.js"></script>
-        <script type="text/javascript" SRC="<?php echo Yii::app()->request->baseUrl; ?>/js/visualize/jquery.visualize.js"></script>
-        <script type="text/javascript" SRC="<?php echo Yii::app()->request->baseUrl; ?>/js/jwysiwyg/jquery.wysiwyg.js"></script>
-        <script type="text/javascript" SRC="<?php echo Yii::app()->request->baseUrl; ?>/js/fancybox/jquery.fancybox-1.3.0.js"></script>
-        <script type="text/javascript" SRC="<?php echo Yii::app()->request->baseUrl; ?>/js/custom.js"></script>
-
+        <script type="text/javascript">
+            $(document).ready(function(){
+                $("#main_menu li").click(function(){
+                    $(this).children("ul").slideToggle('slow');
+                });
+            });
+        </script>
 	<title><?php echo CHtml::encode($this->pageTitle); ?></title>
 </head>
 
@@ -36,7 +35,7 @@
         <!-- Begin header -->
 	<div id="header">
 		<div id="logo">
-                    <img src="<?php echo Yii::app()->request->baseUrl; ?>/images/logo.gif" width="251" height="60" alt="logo">
+                    <img src="<?php echo Yii::app()->request->baseUrl; ?>/images/logo.gif" width="251" height="60" alt="logo" />
                 </div>
 		<div id="search">
 			<form action="dashboard.html" id="search_form" name="search_form" method="get">
@@ -45,7 +44,7 @@
 		</div>
 		<div id="account_info">
 			<img SRC="<?php echo Yii::app()->request->baseUrl; ?>/images/icon_online.gif" alt="Online" class="mid_align"/>
-			Hello <a href=""><?php echo Yii::app()->getModule('user')->user()->username; ?></a> <a href="">Setting</a> | <a href="<?php echo Yii::app()->request->baseUrl; ?>/site/logout">Logout</a>
+			Hello <a href=""><?php echo Yii::app()->getModule('user')->user()->username; ?></a> <a href="">Setting</a> | <a href="<?php echo Yii::app()->request->baseUrl; ?>/admin.php/user/logout">Logout</a>
 		</div>
 	</div>
 	<!-- End header -->
@@ -55,11 +54,31 @@
 	<div id="left_menu">
 		<a href="javascript:;" id="hide_menu">&laquo;</a>
                 <ul id="main_menu">
-                    <li><a href="page">Pages</a></li>
-                    <li><a href="category">Category</a></li>
-                    <li><a href="news">News</a></li>
-                    <li><a href="media">Media</a></li>
-                    <li><a href="users">Users</a></li>
+                    <li>
+                        <a href="#">Pages</a>
+                        <ul>
+                                <li><a href="<?php echo Yii::app()->request->baseUrl;?>/admin.php/page/create">Add new Pages</a></li>
+                                <li><a href="<?php echo Yii::app()->request->baseUrl;?>/admin.php/page">List All Pages</a></li>
+                                <li><a href="<?php echo Yii::app()->request->baseUrl;?>/admin.php/taxonomy/create">Add Category For Pages</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">Category</a>
+                        <ul>
+                                <li><a href="<?php echo Yii::app()->request->baseUrl;?>/admin.php/taxonomy/create">Add new Category</a></li>
+                                <li><a href="<?php echo Yii::app()->request->baseUrl;?>/admin.php/taxonomy">List All Categories</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">News</a>
+                        <ul>
+                                <li><a href="<?php echo Yii::app()->request->baseUrl;?>/admin.php/news/create">Add new News</a></li>
+                                <li><a href="<?php echo Yii::app()->request->baseUrl;?>/admin.php/news">List All News</a></li>
+                                <li><a href="<?php echo Yii::app()->request->baseUrl;?>/admin.php/taxonomy/create">Add Category For Pages</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Media</a></li>
+                    <li><a href="#">Users</a></li>
                 </ul>
 		<br class="clear"/>
 

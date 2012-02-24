@@ -53,6 +53,10 @@ class NewsController extends Controller
 
 		if(isset($_POST['News']))
 		{
+                        $model->type='news';
+                        $model->createtime=time();
+                        $model->updatetime=time();
+                        $model->uid=Yii::app()->getModule('user')->user()->id;
 			$model->attributes=$_POST['News'];
 			if($model->save())
 				$this->redirect(array('view','id'=>$model->id));

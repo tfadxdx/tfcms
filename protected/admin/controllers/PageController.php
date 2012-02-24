@@ -56,7 +56,7 @@ class PageController extends Controller
                         $model->type='page';
                         $model->createtime=time();
                         $model->updatetime=time();
-                        $model->uid=1;
+                        $model->uid=Yii::app()->getModule('user')->user()->id;
                         $model->attributes=$_POST['Page'];
 			if($model->save())
 				$this->redirect(array('view','id'=>$model->id));
@@ -162,4 +162,20 @@ class PageController extends Controller
 			Yii::app()->end();
 		}
 	}
+
+        public function actionUpload()
+        {
+                Yii::import("ext.EAjaxUpload.qqFileUploader");
+
+                $folder=Yii::app()->request->baseUrl.'/upload/download/';// folder for uploaded files
+                $allowedExtensions = array("jpg");//array("jpg","jpeg","gif","exe","mov" and etc...
+                $sizeLimit = 2 * 1024 * 1024;// maximum file size in bytes
+                $uploader = new qqFileUploader($allowedExtensions, $sizeLimit);
+                $result = $uploader->handleUpload($folder);
+                $result=htmlspecialchars(json_encode($result), ENT_NOQUOTES);
+
+                $fileName=$result['filename'];//GETTING FILE NAME
+
+                echo $result;// it's array
+        }
 }

@@ -35,26 +35,26 @@
 
                 <p>
                         <?php echo $form->labelEx($model,'banner'); ?><br>
-                        <?php echo $form->activeFileField($model,'banner');?>
-                        <?php echo $form-error($model,'banner')?>
+                        <?php echo $form->textField($model,'banner');?>
+                        <?php echo $form->error($model,'banner')?>
                 </p><br>
                 
                 <p>
                         <?php echo $form->labelEx($model,'content'); ?><br>
+                        <?php echo $form->textArea($model,'content',array('rows'=>6, 'cols'=>50)); ?>
                         <?php $this->widget('application.extensions.elrte.elRTE',
                             array(
-                                    'selector'=>'node_content',
+                                    'selector'=>'Node_content',
                                     'absoluteURLs' => 'false',
                                     'allowSource' => 'true',
                                     'lang' => 'zh_cn',
                                     'styleWithCSS' => 'true',
                                     'fmAllow' => 'true',
-                                    'toolbar' => 'myToolbar',
+                                    'toolbar' => 'maxi',
                                 )
                         ); ?>
                         <?php echo $form->error($model,'content'); ?>
                 </p>
-                <div id="node_content"></div>
                 <br>
 
                 <p>
