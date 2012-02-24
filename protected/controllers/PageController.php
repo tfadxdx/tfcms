@@ -130,9 +130,9 @@ class PageController extends Controller
 	 */
 	public function actionIndex()
 	{
-		$datas = Page::model()->self()->published()->desc()->findAll();
+		$model = Page::model()->self()->published()->desc()->findAll();
                 $this->render('index',array(
-                        'datas'=>$datas,
+                        'model'=>$model,
                 ));
 	}
 
@@ -158,7 +158,7 @@ class PageController extends Controller
 	 */
 	public function loadModel($id)
 	{
-		$model=Page::model()->findByPk($id);
+		$model=Page::model()->self()->findByPk($id);
 		if($model===null)
 			throw new CHttpException(404,'The requested page does not exist.');
 		return $model;

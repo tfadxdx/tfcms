@@ -112,10 +112,10 @@ class TaxonomyController extends Controller
 	 */
 	public function actionIndex()
 	{
-		$dataProvider=new CActiveDataProvider('Taxonomy');
-		$this->render('index',array(
-			'dataProvider'=>$dataProvider,
-		));
+		$model = Taxonomy::model()->published()->desc()->findAll();
+                $this->render('index',array(
+                        'model'=>$model,
+                ));
 	}
 
 	/**

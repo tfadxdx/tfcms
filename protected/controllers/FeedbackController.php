@@ -1,6 +1,6 @@
 <?php
 
-class NewsController extends Controller
+class FeedbackController extends Controller
 {
 	/**
 	 * @var string the default layout for the views. Defaults to '//layouts/column2', meaning
@@ -61,15 +61,17 @@ class NewsController extends Controller
 	 */
 	public function actionCreate()
 	{
-		$model=new News;
+		$model=new Feedback;
 
 		// Uncomment the following line if AJAX validation is needed
 		// $this->performAjaxValidation($model);
 
-		if(isset($_POST['News']))
+		if(isset($_POST['Feedback']))
 		{
-			$model->attributes=$_POST['News'];
-			if($model->save())
+			$model->id=$_POST['Feedback']['id'];
+                        $model->createtime=time();
+			$model->content=serialize($_POST['Feedback']['content']);
+                        if($model->save())
 				$this->redirect(array('view','id'=>$model->id));
 		}
 
@@ -90,9 +92,9 @@ class NewsController extends Controller
 		// Uncomment the following line if AJAX validation is needed
 		// $this->performAjaxValidation($model);
 
-		if(isset($_POST['News']))
+		if(isset($_POST['Feedback']))
 		{
-			$model->attributes=$_POST['News'];
+			$model->attributes=$_POST['Feedback'];
 			if($model->save())
 				$this->redirect(array('view','id'=>$model->id));
 		}
@@ -123,14 +125,25 @@ class NewsController extends Controller
 	}
 
 	/**
+	 * Lists all models.
+	 */
+	public function actionIndex()
+	{
+		$model=  Feedback::model()->findAll();
+		$this->render('index',array(
+			'model'=>$model,
+		));
+	}
+
+	/**
 	 * Manages all models.
 	 */
 	public function actionAdmin()
 	{
-		$model=new News('search');
+		$model=new Feedback('search');
 		$model->unsetAttributes();  // clear any default values
-		if(isset($_GET['News']))
-			$model->attributes=$_GET['News'];
+		if(isset($_GET['Feedback']))
+			$model->attributes=$_GET['Feedback'];
 
 		$this->render('admin',array(
 			'model'=>$model,
@@ -144,7 +157,7 @@ class NewsController extends Controller
 	 */
 	public function loadModel($id)
 	{
-		$model=News::model()->self()->findByPk($id);
+		$model=Feedback::model()->findByPk($id);
 		if($model===null)
 			throw new CHttpException(404,'The requested page does not exist.');
 		return $model;
@@ -156,7 +169,7 @@ class NewsController extends Controller
 	 */
 	protected function performAjaxValidation($model)
 	{
-		if(isset($_POST['ajax']) && $_POST['ajax']==='news-form')
+		if(isset($_POST['ajax']) && $_POST['ajax']==='feedback-form')
 		{
 			echo CActiveForm::validate($model);
 			Yii::app()->end();

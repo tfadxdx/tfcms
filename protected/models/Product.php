@@ -1,23 +1,29 @@
 <?php
 
 /**
- * This is the model class for table "{{taxonomy}}".
+ * This is the model class for table "{{node}}".
  *
- * The followings are the available columns in table '{{taxonomy}}':
- * @property string $taxonomy_id
+ * The followings are the available columns in table '{{node}}':
+ * @property integer $id
+ * @property string $title
  * @property string $name
- * @property string $slug
- * @property string $taxonomy
  * @property string $description
- * @property string $parent
- * @property string $count
+ * @property string $banner
+ * @property string $content
+ * @property integer $uid
+ * @property integer $tid
+ * @property string $type
+ * @property integer $weight
+ * @property integer $status
+ * @property integer $createtime
+ * @property integer $updatetime
  */
-class Taxonomy extends CActiveRecord
+class Product extends CActiveRecord
 {
 	/**
 	 * Returns the static model of the specified AR class.
 	 * @param string $className active record class name.
-	 * @return Taxonomy the static model class
+	 * @return Product the static model class
 	 */
 	public static function model($className=__CLASS__)
 	{
@@ -29,7 +35,7 @@ class Taxonomy extends CActiveRecord
 	 */
 	public function tableName()
 	{
-		return '{{taxonomy}}';
+		return '{{node}}';
 	}
 
 	/**
@@ -40,13 +46,15 @@ class Taxonomy extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('name, slug, description', 'required'),
-			array('name, slug', 'length', 'max'=>200),
-			array('taxonomy', 'length', 'max'=>32),
-			array('parent, count', 'length', 'max'=>20),
+			array('title, name, content, uid, tid, type, status, createtime, updatetime', 'required'),
+			array('uid, tid, weight, status, createtime, updatetime', 'numerical', 'integerOnly'=>true),
+			array('title, name', 'length', 'max'=>255),
+			array('banner', 'length', 'max'=>500),
+			array('type', 'length', 'max'=>50),
+			array('description', 'safe'),
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.
-			array('taxonomy_id, name, slug, taxonomy, description, parent, count', 'safe', 'on'=>'search'),
+			array('id, title, name, description, banner, content, uid, tid, type, weight, status, createtime, updatetime', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -58,11 +66,6 @@ class Taxonomy extends CActiveRecord
 		// NOTE: you may need to adjust the relation name and the related
 		// class name for the relations automatically generated below.
 		return array(
-                    'nodes'=>array(self::HAS_MANY,'Node','tid'),
-                    'links'=>array(self::HAS_MANY,'Link','tid'),
-                    'news'=>array(self::HAS_MANY,'Node','tid','condition'=>'type="news"'),
-                    'pages'=>array(self::HAS_MANY,'Node','tid','condition'=>'type="page"'),
-                    'products'=>array(self::HAS_MANY,'Node','tid','condition'=>'type="product"'),
 		);
 	}
 
@@ -72,13 +75,19 @@ class Taxonomy extends CActiveRecord
 	public function attributeLabels()
 	{
 		return array(
-			'taxonomy_id' => 'Taxonomy',
+			'id' => 'ID',
+			'title' => 'Title',
 			'name' => 'Name',
-			'slug' => 'Slug',
-			'taxonomy' => 'Taxonomy',
 			'description' => 'Description',
-			'parent' => 'Parent',
-			'count' => 'Count',
+			'banner' => 'Banner',
+			'content' => 'Content',
+			'uid' => 'Uid',
+			'tid' => 'Tid',
+			'type' => 'Type',
+			'weight' => 'Weight',
+			'status' => 'Status',
+			'createtime' => 'Createtime',
+			'updatetime' => 'Updatetime',
 		);
 	}
 
@@ -93,24 +102,34 @@ class Taxonomy extends CActiveRecord
 
 		$criteria=new CDbCriteria;
 
-		$criteria->compare('taxonomy_id',$this->taxonomy_id,true);
+		$criteria->compare('id',$this->id);
+		$criteria->compare('title',$this->title,true);
 		$criteria->compare('name',$this->name,true);
-		$criteria->compare('slug',$this->slug,true);
-		$criteria->compare('taxonomy',$this->taxonomy,true);
 		$criteria->compare('description',$this->description,true);
-		$criteria->compare('parent',$this->parent,true);
-		$criteria->compare('count',$this->count,true);
+		$criteria->compare('banner',$this->banner,true);
+		$criteria->compare('content',$this->content,true);
+		$criteria->compare('uid',$this->uid);
+		$criteria->compare('tid',$this->tid);
+		$criteria->compare('type',$this->type,true);
+		$criteria->compare('weight',$this->weight);
+		$criteria->compare('status',$this->status);
+		$criteria->compare('createtime',$this->createtime);
+		$criteria->compare('updatetime',$this->updatetime);
 
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,
 		));
 	}
+
         /**
          * @return scopes methods
          */
         public function scopes()
         {
             return array(
+                'self'=>array(
+                    'condition'=>'type="product"',
+                ),
                 'published'=>array(
                     'condition'=>'status=1',
                 ),

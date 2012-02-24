@@ -4655,3 +4655,401 @@ Stack trace:
 REQUEST_URI=/tfcms/admin.php/media/list
 HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/media/list
 ---
+2012/02/24 19:02:22 [error] [exception.CException] exception 'CException' with message 'Property "Feedback.title" is not defined.' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CComponent.php:131
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\db\ar\CActiveRecord.php(144): CComponent->__get('title')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\protected\admin\views\feedback\index.php(40): CActiveRecord->__get('title')
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CBaseController.php(127): require('D:\APMServ5.2.6...')
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CBaseController.php(96): CBaseController->renderInternal('D:\APMServ5.2.6...', Array, true)
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(870): CBaseController->renderFile('D:\APMServ5.2.6...', Array, true)
+#5 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(783): CController->renderPartial('index', Array, true)
+#6 D:\APMServ5.2.6\www\htdocs\tfcms\protected\admin\controllers\FeedbackController.php(135): CController->render('index', Array)
+#7 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\actions\CInlineAction.php(50): FeedbackController->actionIndex()
+#8 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#9 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#10 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#11 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#12 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#13 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#14 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(292): CFilterChain->run()
+#15 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#16 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('')
+#17 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('feedback')
+#18 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#19 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#20 {main}
+REQUEST_URI=/tfcms/admin.php/feedback/
+---
+2012/02/24 19:02:25 [error] [exception.CException] exception 'CException' with message 'Property "Feedback.title" is not defined.' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CComponent.php:131
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\db\ar\CActiveRecord.php(144): CComponent->__get('title')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\protected\admin\views\feedback\index.php(40): CActiveRecord->__get('title')
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CBaseController.php(127): require('D:\APMServ5.2.6...')
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CBaseController.php(96): CBaseController->renderInternal('D:\APMServ5.2.6...', Array, true)
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(870): CBaseController->renderFile('D:\APMServ5.2.6...', Array, true)
+#5 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(783): CController->renderPartial('index', Array, true)
+#6 D:\APMServ5.2.6\www\htdocs\tfcms\protected\admin\controllers\FeedbackController.php(135): CController->render('index', Array)
+#7 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\actions\CInlineAction.php(50): FeedbackController->actionIndex()
+#8 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#9 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#10 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#11 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#12 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#13 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#14 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(292): CFilterChain->run()
+#15 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#16 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('')
+#17 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('feedback')
+#18 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#19 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#20 {main}
+REQUEST_URI=/tfcms/admin.php/feedback/
+---
+2012/02/24 20:55:01 [error] [php] Invalid argument supplied for foreach() (D:\APMServ5.2.6\www\htdocs\tfcms\protected\admin\views\product\index.php:35)
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(870): ProductController->renderFile()
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(783): ProductController->renderPartial()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\protected\admin\controllers\ProductController.php(137): ProductController->render()
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\actions\CInlineAction.php(50): ProductController->actionIndex()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilterChain.php(134): ProductController->runAction()
+#6 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#7 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(1146): CAccessControlFilter->filter()
+#8 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CInlineFilter.php(59): ProductController->filterAccessControl()
+#9 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#10 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(292): CFilterChain->run()
+#11 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(266): ProductController->runActionWithFilters()
+#12 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): ProductController->run()
+#13 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#14 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#15 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CWebApplication->run()
+REQUEST_URI=/tfcms/admin.php/product
+in D:\APMServ5.2.6\www\htdocs\tfcms\protected\admin\views\product\index.php (35)
+in D:\APMServ5.2.6\www\htdocs\tfcms\protected\admin\controllers\ProductController.php (137)
+in D:\APMServ5.2.6\www\htdocs\tfcms\admin.php (13)
+2012/02/24 22:12:38 [error] [php] Invalid argument supplied for foreach() (D:\APMServ5.2.6\www\htdocs\tfcms\protected\admin\views\taxonomy\index.php:35)
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(870): TaxonomyController->renderFile()
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(783): TaxonomyController->renderPartial()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\protected\admin\controllers\TaxonomyController.php(118): TaxonomyController->render()
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\actions\CInlineAction.php(50): TaxonomyController->actionIndex()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilterChain.php(134): TaxonomyController->runAction()
+#6 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#7 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(1146): CAccessControlFilter->filter()
+#8 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CInlineFilter.php(59): TaxonomyController->filterAccessControl()
+#9 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#10 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(292): CFilterChain->run()
+#11 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(266): TaxonomyController->runActionWithFilters()
+#12 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): TaxonomyController->run()
+#13 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#14 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#15 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CWebApplication->run()
+REQUEST_URI=/tfcms/admin.php/taxonomy
+in D:\APMServ5.2.6\www\htdocs\tfcms\protected\admin\views\taxonomy\index.php (35)
+in D:\APMServ5.2.6\www\htdocs\tfcms\protected\admin\controllers\TaxonomyController.php (118)
+in D:\APMServ5.2.6\www\htdocs\tfcms\admin.php (13)
+2012/02/24 22:14:12 [error] [exception.CException] exception 'CException' with message 'Taxonomy and its behaviors do not have a method or closure named "self".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CComponent.php:266
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\db\ar\CActiveRecord.php(226): CComponent->__call('self', Array)
+#1 [internal function]: CActiveRecord->__call('self', Array)
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\protected\admin\controllers\TaxonomyController.php(115): Taxonomy->self()
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\actions\CInlineAction.php(50): TaxonomyController->actionIndex()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#5 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#6 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#7 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#8 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#9 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#10 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(292): CFilterChain->run()
+#11 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('')
+#13 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('taxonomy')
+#14 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#15 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/tfcms/admin.php/taxonomy
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/taxonomy/
+---
+2012/02/24 22:14:14 [error] [exception.CException] exception 'CException' with message 'Taxonomy and its behaviors do not have a method or closure named "self".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CComponent.php:266
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\db\ar\CActiveRecord.php(226): CComponent->__call('self', Array)
+#1 [internal function]: CActiveRecord->__call('self', Array)
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\protected\admin\controllers\TaxonomyController.php(115): Taxonomy->self()
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\actions\CInlineAction.php(50): TaxonomyController->actionIndex()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#5 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#6 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#7 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#8 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#9 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#10 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(292): CFilterChain->run()
+#11 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('')
+#13 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('taxonomy')
+#14 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#15 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/tfcms/admin.php/taxonomy
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/taxonomy/
+---
+2012/02/24 22:15:16 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'status' in 'where clause'. The SQL statement executed was: SELECT * FROM `tf_taxonomy` `t` WHERE status=1 ORDER BY createtime DESC.
+in D:\APMServ5.2.6\www\htdocs\tfcms\protected\admin\controllers\TaxonomyController.php (115)
+in D:\APMServ5.2.6\www\htdocs\tfcms\admin.php (13)
+2012/02/24 22:15:16 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'status' in 'where clause'. The SQL statement executed was: SELECT * FROM `tf_taxonomy` `t` WHERE status=1 ORDER BY createtime DESC' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\db\CDbCommand.php:528
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\db\CDbCommand.php(390): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\db\ar\CActiveRecord.php(1287): CDbCommand->queryAll()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\db\ar\CActiveRecord.php(1406): CActiveRecord->query(Object(CDbCriteria), true)
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\protected\admin\controllers\TaxonomyController.php(115): CActiveRecord->findAll()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\actions\CInlineAction.php(50): TaxonomyController->actionIndex()
+#5 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#6 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#7 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#8 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#9 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#10 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#11 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(292): CFilterChain->run()
+#12 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('')
+#14 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('taxonomy')
+#15 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#16 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/tfcms/admin.php/taxonomy
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/taxonomy/
+---
+2012/02/24 22:17:17 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'createtime' in 'order clause'. The SQL statement executed was: SELECT * FROM `tf_taxonomy` `t` WHERE status=1 ORDER BY createtime DESC.
+in D:\APMServ5.2.6\www\htdocs\tfcms\protected\admin\controllers\TaxonomyController.php (115)
+in D:\APMServ5.2.6\www\htdocs\tfcms\admin.php (13)
+2012/02/24 22:17:17 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'createtime' in 'order clause'. The SQL statement executed was: SELECT * FROM `tf_taxonomy` `t` WHERE status=1 ORDER BY createtime DESC' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\db\CDbCommand.php:528
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\db\CDbCommand.php(390): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\db\ar\CActiveRecord.php(1287): CDbCommand->queryAll()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\db\ar\CActiveRecord.php(1406): CActiveRecord->query(Object(CDbCriteria), true)
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\protected\admin\controllers\TaxonomyController.php(115): CActiveRecord->findAll()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\actions\CInlineAction.php(50): TaxonomyController->actionIndex()
+#5 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#6 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#7 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#8 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#9 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#10 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#11 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(292): CFilterChain->run()
+#12 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('')
+#14 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('taxonomy')
+#15 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#16 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/tfcms/admin.php/taxonomy
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/taxonomy/
+---
+2012/02/24 22:17:18 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'createtime' in 'order clause'. The SQL statement executed was: SELECT * FROM `tf_taxonomy` `t` WHERE status=1 ORDER BY createtime DESC.
+in D:\APMServ5.2.6\www\htdocs\tfcms\protected\admin\controllers\TaxonomyController.php (115)
+in D:\APMServ5.2.6\www\htdocs\tfcms\admin.php (13)
+2012/02/24 22:17:18 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'createtime' in 'order clause'. The SQL statement executed was: SELECT * FROM `tf_taxonomy` `t` WHERE status=1 ORDER BY createtime DESC' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\db\CDbCommand.php:528
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\db\CDbCommand.php(390): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\db\ar\CActiveRecord.php(1287): CDbCommand->queryAll()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\db\ar\CActiveRecord.php(1406): CActiveRecord->query(Object(CDbCriteria), true)
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\protected\admin\controllers\TaxonomyController.php(115): CActiveRecord->findAll()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\actions\CInlineAction.php(50): TaxonomyController->actionIndex()
+#5 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#6 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#7 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#8 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#9 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#10 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#11 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(292): CFilterChain->run()
+#12 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('')
+#14 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('taxonomy')
+#15 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#16 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/tfcms/admin.php/taxonomy
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/taxonomy/
+---
+2012/02/24 22:17:19 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'createtime' in 'order clause'. The SQL statement executed was: SELECT * FROM `tf_taxonomy` `t` WHERE status=1 ORDER BY createtime DESC.
+in D:\APMServ5.2.6\www\htdocs\tfcms\protected\admin\controllers\TaxonomyController.php (115)
+in D:\APMServ5.2.6\www\htdocs\tfcms\admin.php (13)
+2012/02/24 22:17:19 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'createtime' in 'order clause'. The SQL statement executed was: SELECT * FROM `tf_taxonomy` `t` WHERE status=1 ORDER BY createtime DESC' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\db\CDbCommand.php:528
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\db\CDbCommand.php(390): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\db\ar\CActiveRecord.php(1287): CDbCommand->queryAll()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\db\ar\CActiveRecord.php(1406): CActiveRecord->query(Object(CDbCriteria), true)
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\protected\admin\controllers\TaxonomyController.php(115): CActiveRecord->findAll()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\actions\CInlineAction.php(50): TaxonomyController->actionIndex()
+#5 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#6 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#7 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#8 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#9 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#10 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#11 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(292): CFilterChain->run()
+#12 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('')
+#14 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('taxonomy')
+#15 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#16 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/tfcms/admin.php/taxonomy
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/taxonomy/
+---
+2012/02/24 22:17:19 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'createtime' in 'order clause'. The SQL statement executed was: SELECT * FROM `tf_taxonomy` `t` WHERE status=1 ORDER BY createtime DESC.
+in D:\APMServ5.2.6\www\htdocs\tfcms\protected\admin\controllers\TaxonomyController.php (115)
+in D:\APMServ5.2.6\www\htdocs\tfcms\admin.php (13)
+2012/02/24 22:17:19 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'createtime' in 'order clause'. The SQL statement executed was: SELECT * FROM `tf_taxonomy` `t` WHERE status=1 ORDER BY createtime DESC' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\db\CDbCommand.php:528
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\db\CDbCommand.php(390): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\db\ar\CActiveRecord.php(1287): CDbCommand->queryAll()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\db\ar\CActiveRecord.php(1406): CActiveRecord->query(Object(CDbCriteria), true)
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\protected\admin\controllers\TaxonomyController.php(115): CActiveRecord->findAll()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\actions\CInlineAction.php(50): TaxonomyController->actionIndex()
+#5 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#6 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#7 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#8 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#9 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#10 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#11 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(292): CFilterChain->run()
+#12 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('')
+#14 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('taxonomy')
+#15 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#16 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/tfcms/admin.php/taxonomy
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/taxonomy/
+---
+2012/02/24 22:17:19 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'createtime' in 'order clause'. The SQL statement executed was: SELECT * FROM `tf_taxonomy` `t` WHERE status=1 ORDER BY createtime DESC.
+in D:\APMServ5.2.6\www\htdocs\tfcms\protected\admin\controllers\TaxonomyController.php (115)
+in D:\APMServ5.2.6\www\htdocs\tfcms\admin.php (13)
+2012/02/24 22:17:19 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'createtime' in 'order clause'. The SQL statement executed was: SELECT * FROM `tf_taxonomy` `t` WHERE status=1 ORDER BY createtime DESC' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\db\CDbCommand.php:528
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\db\CDbCommand.php(390): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\db\ar\CActiveRecord.php(1287): CDbCommand->queryAll()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\db\ar\CActiveRecord.php(1406): CActiveRecord->query(Object(CDbCriteria), true)
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\protected\admin\controllers\TaxonomyController.php(115): CActiveRecord->findAll()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\actions\CInlineAction.php(50): TaxonomyController->actionIndex()
+#5 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#6 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#7 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#8 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#9 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#10 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#11 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(292): CFilterChain->run()
+#12 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('')
+#14 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('taxonomy')
+#15 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#16 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/tfcms/admin.php/taxonomy
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/taxonomy/
+---
+2012/02/24 22:17:20 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'createtime' in 'order clause'. The SQL statement executed was: SELECT * FROM `tf_taxonomy` `t` WHERE status=1 ORDER BY createtime DESC.
+in D:\APMServ5.2.6\www\htdocs\tfcms\protected\admin\controllers\TaxonomyController.php (115)
+in D:\APMServ5.2.6\www\htdocs\tfcms\admin.php (13)
+2012/02/24 22:17:20 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'createtime' in 'order clause'. The SQL statement executed was: SELECT * FROM `tf_taxonomy` `t` WHERE status=1 ORDER BY createtime DESC' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\db\CDbCommand.php:528
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\db\CDbCommand.php(390): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\db\ar\CActiveRecord.php(1287): CDbCommand->queryAll()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\db\ar\CActiveRecord.php(1406): CActiveRecord->query(Object(CDbCriteria), true)
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\protected\admin\controllers\TaxonomyController.php(115): CActiveRecord->findAll()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\actions\CInlineAction.php(50): TaxonomyController->actionIndex()
+#5 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#6 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#7 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#8 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#9 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#10 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#11 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(292): CFilterChain->run()
+#12 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('')
+#14 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('taxonomy')
+#15 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#16 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/tfcms/admin.php/taxonomy
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/taxonomy/
+---
+2012/02/24 22:17:20 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'createtime' in 'order clause'. The SQL statement executed was: SELECT * FROM `tf_taxonomy` `t` WHERE status=1 ORDER BY createtime DESC.
+in D:\APMServ5.2.6\www\htdocs\tfcms\protected\admin\controllers\TaxonomyController.php (115)
+in D:\APMServ5.2.6\www\htdocs\tfcms\admin.php (13)
+2012/02/24 22:17:20 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'createtime' in 'order clause'. The SQL statement executed was: SELECT * FROM `tf_taxonomy` `t` WHERE status=1 ORDER BY createtime DESC' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\db\CDbCommand.php:528
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\db\CDbCommand.php(390): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\db\ar\CActiveRecord.php(1287): CDbCommand->queryAll()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\db\ar\CActiveRecord.php(1406): CActiveRecord->query(Object(CDbCriteria), true)
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\protected\admin\controllers\TaxonomyController.php(115): CActiveRecord->findAll()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\actions\CInlineAction.php(50): TaxonomyController->actionIndex()
+#5 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#6 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#7 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#8 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#9 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#10 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#11 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(292): CFilterChain->run()
+#12 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('')
+#14 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('taxonomy')
+#15 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#16 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/tfcms/admin.php/taxonomy
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/taxonomy/
+---
+2012/02/24 22:17:20 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'createtime' in 'order clause'. The SQL statement executed was: SELECT * FROM `tf_taxonomy` `t` WHERE status=1 ORDER BY createtime DESC.
+in D:\APMServ5.2.6\www\htdocs\tfcms\protected\admin\controllers\TaxonomyController.php (115)
+in D:\APMServ5.2.6\www\htdocs\tfcms\admin.php (13)
+2012/02/24 22:17:20 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'createtime' in 'order clause'. The SQL statement executed was: SELECT * FROM `tf_taxonomy` `t` WHERE status=1 ORDER BY createtime DESC' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\db\CDbCommand.php:528
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\db\CDbCommand.php(390): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\db\ar\CActiveRecord.php(1287): CDbCommand->queryAll()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\db\ar\CActiveRecord.php(1406): CActiveRecord->query(Object(CDbCriteria), true)
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\protected\admin\controllers\TaxonomyController.php(115): CActiveRecord->findAll()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\actions\CInlineAction.php(50): TaxonomyController->actionIndex()
+#5 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#6 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#7 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#8 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#9 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#10 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#11 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(292): CFilterChain->run()
+#12 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('')
+#14 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('taxonomy')
+#15 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#16 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/tfcms/admin.php/taxonomy
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/taxonomy/
+---
+2012/02/24 22:17:20 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'createtime' in 'order clause'. The SQL statement executed was: SELECT * FROM `tf_taxonomy` `t` WHERE status=1 ORDER BY createtime DESC.
+in D:\APMServ5.2.6\www\htdocs\tfcms\protected\admin\controllers\TaxonomyController.php (115)
+in D:\APMServ5.2.6\www\htdocs\tfcms\admin.php (13)
+2012/02/24 22:17:20 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'createtime' in 'order clause'. The SQL statement executed was: SELECT * FROM `tf_taxonomy` `t` WHERE status=1 ORDER BY createtime DESC' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\db\CDbCommand.php:528
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\db\CDbCommand.php(390): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\db\ar\CActiveRecord.php(1287): CDbCommand->queryAll()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\db\ar\CActiveRecord.php(1406): CActiveRecord->query(Object(CDbCriteria), true)
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\protected\admin\controllers\TaxonomyController.php(115): CActiveRecord->findAll()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\actions\CInlineAction.php(50): TaxonomyController->actionIndex()
+#5 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#6 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#7 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#8 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#9 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#10 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#11 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(292): CFilterChain->run()
+#12 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('')
+#14 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('taxonomy')
+#15 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#16 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/tfcms/admin.php/taxonomy
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/taxonomy/
+---

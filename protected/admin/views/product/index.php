@@ -1,11 +1,11 @@
 <?php
 $this->breadcrumbs=array(
-	'Taxonomys',
+	'Products',
 );
 
 $this->menu=array(
-	array('label'=>'Create Taxonomy', 'url'=>array('admin.php/taxonomy/create')),
-	array('label'=>'Manage Taxonomy', 'url'=>array('admin.php/taxonomy/admin')),
+	array('label'=>'Create Product', 'url'=>array('admin.php/product/create')),
+	array('label'=>'Manage Product', 'url'=>array('admin.php/product/admin')),
 );
 ?>
 
@@ -37,7 +37,7 @@ $this->menu=array(
                                                     <th style="width:10px">
                                                             <input type="checkbox" id="check_all" name="check_all"/>
                                                     </th>
-                                                    <th style="width:25%"><a href="<?php echo Yii::app()->request->baseUrl; ?>/admin.php/page/update/<?php echo $item->id;?>"><?php echo $item->title;?></a></th>
+                                                    <th style="width:25%"><a href="<?php echo Yii::app()->request->baseUrl; ?>/admin.php/product/update/<?php echo $item->id;?>"><?php echo $item->title;?></a></th>
                                                     <th style="width:15%"><?php echo Yii::app()->getModule('user')->user($item->uid)->username;?></th>
                                                     <th style="width:20%"><?php echo date('Y-m-d  i:m:s',$item->createtime);?></th>
                                                     <th style="width:15%"><?php echo $item->status;?></th>

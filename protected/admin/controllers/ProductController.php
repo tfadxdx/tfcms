@@ -1,6 +1,6 @@
 <?php
 
-class NewsController extends Controller
+class ProductController extends Controller
 {
 	/**
 	 * @var string the default layout for the views. Defaults to '//layouts/column2', meaning
@@ -61,14 +61,18 @@ class NewsController extends Controller
 	 */
 	public function actionCreate()
 	{
-		$model=new News;
+		$model=new Product;
 
 		// Uncomment the following line if AJAX validation is needed
 		// $this->performAjaxValidation($model);
 
-		if(isset($_POST['News']))
+		if(isset($_POST['Product']))
 		{
-			$model->attributes=$_POST['News'];
+                        $model->type='product';
+                        $model->createtime=time();
+                        $model->updatetime=time();
+                        $model->uid=Yii::app()->getModule('user')->user()->id;
+			$model->attributes=$_POST['Product'];
 			if($model->save())
 				$this->redirect(array('view','id'=>$model->id));
 		}
@@ -90,9 +94,9 @@ class NewsController extends Controller
 		// Uncomment the following line if AJAX validation is needed
 		// $this->performAjaxValidation($model);
 
-		if(isset($_POST['News']))
+		if(isset($_POST['Product']))
 		{
-			$model->attributes=$_POST['News'];
+			$model->attributes=$_POST['Product'];
 			if($model->save())
 				$this->redirect(array('view','id'=>$model->id));
 		}
@@ -123,14 +127,25 @@ class NewsController extends Controller
 	}
 
 	/**
+	 * Lists all models.
+	 */
+	public function actionIndex()
+	{
+		$model = Product::model()->self()->published()->desc()->findAll();
+                $this->render('index',array(
+                        'model'=>$model,
+                ));
+	}
+
+	/**
 	 * Manages all models.
 	 */
 	public function actionAdmin()
 	{
-		$model=new News('search');
+		$model=new Product('search');
 		$model->unsetAttributes();  // clear any default values
-		if(isset($_GET['News']))
-			$model->attributes=$_GET['News'];
+		if(isset($_GET['Product']))
+			$model->attributes=$_GET['Product'];
 
 		$this->render('admin',array(
 			'model'=>$model,
@@ -144,7 +159,7 @@ class NewsController extends Controller
 	 */
 	public function loadModel($id)
 	{
-		$model=News::model()->self()->findByPk($id);
+		$model=Product::model()->findByPk($id);
 		if($model===null)
 			throw new CHttpException(404,'The requested page does not exist.');
 		return $model;
@@ -156,7 +171,7 @@ class NewsController extends Controller
 	 */
 	protected function performAjaxValidation($model)
 	{
-		if(isset($_POST['ajax']) && $_POST['ajax']==='news-form')
+		if(isset($_POST['ajax']) && $_POST['ajax']==='product-form')
 		{
 			echo CActiveForm::validate($model);
 			Yii::app()->end();

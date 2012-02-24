@@ -12,7 +12,7 @@ $this->menu=array(
 <h1>Pages</h1>
 
 <?php
-        foreach ($datas as $data){
+        foreach ($model as $data){
             echo CHtml::link($data->title, array('page/'.$data->id)).'</br>';
             echo $data->content.'</br>';
         }

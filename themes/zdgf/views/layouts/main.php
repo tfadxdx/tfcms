@@ -75,14 +75,14 @@
         </ul>
         <ul class="menu">
             <li class="list">
-                <a class="category" href="<?php echo Yii::app()->request->baseUrl; ?>/page/20">产品与服务  »</a>
+                <a class="category" href="<?php echo Yii::app()->request->baseUrl; ?>/product/20">产品与服务  »</a>
                 <ul class="submenu">
-                        <li><a href="<?php echo Yii::app()->request->baseUrl; ?>/page/20">太阳能电池</a></li>
-                        <li><a href="<?php echo Yii::app()->request->baseUrl; ?>/page/22">光伏组件</a></li>
-                        <li><a href="<?php echo Yii::app()->request->baseUrl; ?>/page/24">产品服务</a></li>
-                        <li><a href="<?php echo Yii::app()->request->baseUrl; ?>/page/20">客户服务</a></li>
-                        <li><a href="<?php echo Yii::app()->request->baseUrl; ?>/page/27">技术研发</a></li>
-                        <li><a href="<?php echo Yii::app()->request->baseUrl; ?>/page/28">了解太阳能</a></li>
+                        <li><a href="<?php echo Yii::app()->request->baseUrl; ?>/product/20">太阳能电池</a></li>
+                        <li><a href="<?php echo Yii::app()->request->baseUrl; ?>/product/22">光伏组件</a></li>
+                        <li><a href="<?php echo Yii::app()->request->baseUrl; ?>/product/24">产品服务</a></li>
+                        <li><a href="<?php echo Yii::app()->request->baseUrl; ?>/feedback/create">客户服务</a></li>
+                        <li><a href="<?php echo Yii::app()->request->baseUrl; ?>/product/27">技术研发</a></li>
+                        <li><a href="<?php echo Yii::app()->request->baseUrl; ?>/product/28">了解太阳能</a></li>
                 </ul>
             </li>
         </ul>
