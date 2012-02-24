@@ -43,17 +43,6 @@
                 <p>
                         <?php echo $form->labelEx($model,'content'); ?><br>
                         <?php echo $form->textArea($model,'content',array('rows'=>10, 'cols'=>50)); ?>
-                        <?php $this->widget('application.extensions.elrte.elRTE',
-                            array(
-                                    'selector'=>'Page_content',
-                                    'absoluteURLs' => 'false',
-                                    'allowSource' => 'true',
-                                    'lang' => 'zh_CN',
-                                    'styleWithCSS' => 'true',
-                                    'fmAllow' => 'true',
-                                    'toolbar'=>'maxi',
-                                )
-                        ); ?>
                         <?php echo $form->error($model,'content'); ?>
                 </p>
                 <br>

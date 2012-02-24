@@ -5373,3 +5373,2475 @@ Stack trace:
 REQUEST_URI=/tfcms/taxonomy/news.html
 HTTP_REFERER=http://127.0.0.1/tfcms/taxonomy/1
 ---
+2012/02/24 10:38:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bg_ip.gif".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bg_ip.gi...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/images/bg_ip.gif
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php
+---
+2012/02/24 10:38:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bg_ip.gif".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bg_ip.gi...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/images/bg_ip.gif
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php
+---
+2012/02/24 10:38:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bt_gha.gif".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bt_gha.g...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/images/bt_gha.gif
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php
+---
+2012/02/24 10:38:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bg_ip.gif".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bg_ip.gi...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/images/bg_ip.gif
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page
+---
+2012/02/24 10:38:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bt_gha.gif".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bt_gha.g...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/images/bt_gha.gif
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page
+---
+2012/02/24 10:38:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/b656d07b/js/i18n/elfinder.zh_CN.js".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('assets/b656d07b...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/assets/b656d07b/js/i18n/elfinder.zh_CN.js
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/create
+---
+2012/02/24 10:38:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bg_ip.gif".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bg_ip.gi...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/images/bg_ip.gif
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/create
+---
+2012/02/24 10:40:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upload/photo/product01.jpg".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('upload/photo/pr...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/upload/photo/product01.jpg
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/create
+---
+2012/02/24 10:42:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bg_ip.gif".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bg_ip.gi...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/images/bg_ip.gif
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/taxonomy/create
+---
+2012/02/24 10:42:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bg_ip.gif".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bg_ip.gi...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/images/bg_ip.gif
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/taxonomy/create
+---
+2012/02/24 10:42:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bt_gha.gif".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bt_gha.g...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/images/bt_gha.gif
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/taxonomy/create
+---
+2012/02/24 10:42:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bt_gha.gif".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bt_gha.g...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/images/bt_gha.gif
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/taxonomy/create
+---
+2012/02/24 10:43:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bg_ip.gif".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bg_ip.gi...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/images/bg_ip.gif
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/taxonomy/create
+---
+2012/02/24 10:43:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bt_gha.gif".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bt_gha.g...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/images/bt_gha.gif
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/taxonomy/create
+---
+2012/02/24 10:43:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/b656d07b/js/i18n/elfinder.zh_CN.js".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('assets/b656d07b...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/assets/b656d07b/js/i18n/elfinder.zh_CN.js
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/create
+---
+2012/02/24 10:43:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bg_ip.gif".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bg_ip.gi...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/images/bg_ip.gif
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/create
+---
+2012/02/24 10:44:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bt_gha.gif".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bt_gha.g...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/images/bt_gha.gif
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/create
+---
+2012/02/24 10:44:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upload/banner/banner03.jpg".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('upload/banner/b...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/upload/banner/banner03.jpg
+HTTP_REFERER=http://127.0.0.1/tfcms/page/20
+---
+2012/02/24 10:48:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/b656d07b/js/i18n/elfinder.zh_CN.js".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('assets/b656d07b...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/assets/b656d07b/js/i18n/elfinder.zh_CN.js
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/create
+---
+2012/02/24 10:48:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bg_ip.gif".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bg_ip.gi...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/images/bg_ip.gif
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/create
+---
+2012/02/24 10:49:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bt_gha.gif".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bt_gha.g...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/images/bt_gha.gif
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/create
+---
+2012/02/24 10:49:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bg_ip.gif".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bg_ip.gi...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/images/bg_ip.gif
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page
+---
+2012/02/24 10:49:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bt_gha.gif".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bt_gha.g...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/images/bt_gha.gif
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page
+---
+2012/02/24 10:49:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/b656d07b/js/i18n/elfinder.zh_CN.js".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('assets/b656d07b...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/assets/b656d07b/js/i18n/elfinder.zh_CN.js
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/update/20
+---
+2012/02/24 10:49:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bg_ip.gif".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bg_ip.gi...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/images/bg_ip.gif
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/update/20
+---
+2012/02/24 10:50:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bt_gha.gif".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bt_gha.g...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/images/bt_gha.gif
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/update/20
+---
+2012/02/24 10:50:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/b656d07b/js/i18n/elfinder.zh_CN.js".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('assets/b656d07b...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/assets/b656d07b/js/i18n/elfinder.zh_CN.js
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/update/20
+---
+2012/02/24 10:50:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bg_ip.gif".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bg_ip.gi...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/images/bg_ip.gif
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/update/20
+---
+2012/02/24 10:50:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bt_gha.gif".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bt_gha.g...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/images/bt_gha.gif
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/
+---
+2012/02/24 10:50:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bg_ip.gif".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bg_ip.gi...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/images/bg_ip.gif
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/
+---
+2012/02/24 10:51:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bg_ip.gif".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bg_ip.gi...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/images/bg_ip.gif
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/
+---
+2012/02/24 10:51:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bt_gha.gif".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bt_gha.g...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/images/bt_gha.gif
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/
+---
+2012/02/24 10:51:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bg_ip.gif".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bg_ip.gi...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/images/bg_ip.gif
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page
+---
+2012/02/24 10:51:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bt_gha.gif".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bt_gha.g...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/images/bt_gha.gif
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page
+---
+2012/02/24 10:52:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bg_ip.gif".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bg_ip.gi...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/images/bg_ip.gif
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page
+---
+2012/02/24 10:52:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bt_gha.gif".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bt_gha.g...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/images/bt_gha.gif
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page
+---
+2012/02/24 10:52:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bg_ip.gif".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bg_ip.gi...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/images/bg_ip.gif
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page
+---
+2012/02/24 10:52:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bt_gha.gif".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bt_gha.g...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/images/bt_gha.gif
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page
+---
+2012/02/24 10:52:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bg_ip.gif".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bg_ip.gi...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/images/bg_ip.gif
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page
+---
+2012/02/24 10:52:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bt_gha.gif".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bt_gha.g...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/images/bt_gha.gif
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page
+---
+2012/02/24 10:52:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bg_ip.gif".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bg_ip.gi...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/images/bg_ip.gif
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page
+---
+2012/02/24 10:52:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bt_gha.gif".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bt_gha.g...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/images/bt_gha.gif
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page
+---
+2012/02/24 11:00:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/b656d07b/js/i18n/elfinder.zh_CN.js".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('assets/b656d07b...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/assets/b656d07b/js/i18n/elfinder.zh_CN.js
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/create
+---
+2012/02/24 11:00:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bg_ip.gif".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bg_ip.gi...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/images/bg_ip.gif
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/create
+---
+2012/02/24 11:02:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bt_gha.gif".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bt_gha.g...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/images/bt_gha.gif
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/create
+---
+2012/02/24 11:04:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bg_ip.gif".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bg_ip.gi...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/images/bg_ip.gif
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page
+---
+2012/02/24 11:04:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bt_gha.gif".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bt_gha.g...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/images/bt_gha.gif
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page
+---
+2012/02/24 11:04:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/b656d07b/js/i18n/elfinder.zh_CN.js".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('assets/b656d07b...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/assets/b656d07b/js/i18n/elfinder.zh_CN.js
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/create
+---
+2012/02/24 11:04:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bg_ip.gif".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bg_ip.gi...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/images/bg_ip.gif
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/create
+---
+2012/02/24 11:05:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bt_gha.gif".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bt_gha.g...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/images/bt_gha.gif
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/create
+---
+2012/02/24 11:05:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bt_gha.gif".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bt_gha.g...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/images/bt_gha.gif
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page
+---
+2012/02/24 11:05:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bg_ip.gif".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bg_ip.gi...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/images/bg_ip.gif
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page
+---
+2012/02/24 11:05:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/b656d07b/js/i18n/elfinder.zh_CN.js".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('assets/b656d07b...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/assets/b656d07b/js/i18n/elfinder.zh_CN.js
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/update/23
+---
+2012/02/24 11:05:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bg_ip.gif".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bg_ip.gi...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/images/bg_ip.gif
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/update/23
+---
+2012/02/24 11:06:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bt_gha.gif".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bt_gha.g...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/images/bt_gha.gif
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/update/23
+---
+2012/02/24 11:06:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bt_gha.gif".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bt_gha.g...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/images/bt_gha.gif
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page
+---
+2012/02/24 11:06:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bg_ip.gif".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bg_ip.gi...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/images/bg_ip.gif
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page
+---
+2012/02/24 11:06:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/b656d07b/js/i18n/elfinder.zh_CN.js".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('assets/b656d07b...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/assets/b656d07b/js/i18n/elfinder.zh_CN.js
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/update/22
+---
+2012/02/24 11:06:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bg_ip.gif".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bg_ip.gi...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/images/bg_ip.gif
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/update/22
+---
+2012/02/24 11:06:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bt_gha.gif".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bt_gha.g...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/images/bt_gha.gif
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/update/22
+---
+2012/02/24 11:06:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bg_ip.gif".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bg_ip.gi...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/images/bg_ip.gif
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page
+---
+2012/02/24 11:06:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bt_gha.gif".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bt_gha.g...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/images/bt_gha.gif
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page
+---
+2012/02/24 11:06:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/b656d07b/js/i18n/elfinder.zh_CN.js".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('assets/b656d07b...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/assets/b656d07b/js/i18n/elfinder.zh_CN.js
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/create
+---
+2012/02/24 11:06:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bg_ip.gif".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bg_ip.gi...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/images/bg_ip.gif
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/create
+---
+2012/02/24 11:08:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upload/photo/pro01.jpg".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('upload/photo/pr...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/upload/photo/pro01.jpg
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/create
+---
+2012/02/24 11:08:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upload/photo/pro02.jpg".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('upload/photo/pr...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/upload/photo/pro02.jpg
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/create
+---
+2012/02/24 11:08:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upload/photo/pro06.jpg".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('upload/photo/pr...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/upload/photo/pro06.jpg
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/create
+---
+2012/02/24 11:08:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upload/photo/pro08.jpg".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('upload/photo/pr...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/upload/photo/pro08.jpg
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/create
+---
+2012/02/24 11:08:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upload/photo/pro07.jpg".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('upload/photo/pr...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/upload/photo/pro07.jpg
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/create
+---
+2012/02/24 11:08:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upload/photo/pro04.jpg".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('upload/photo/pr...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/upload/photo/pro04.jpg
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/create
+---
+2012/02/24 11:08:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upload/photo/pro05.jpg".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('upload/photo/pr...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/upload/photo/pro05.jpg
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/create
+---
+2012/02/24 11:08:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upload/photo/pro03.jpg".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('upload/photo/pr...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/upload/photo/pro03.jpg
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/create
+---
+2012/02/24 11:08:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upload/photo/pro10.jpg".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('upload/photo/pr...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/upload/photo/pro10.jpg
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/create
+---
+2012/02/24 11:08:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upload/photo/pro11.jpg".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('upload/photo/pr...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/upload/photo/pro11.jpg
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/create
+---
+2012/02/24 11:08:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upload/photo/pro09.jpg".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('upload/photo/pr...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/upload/photo/pro09.jpg
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/create
+---
+2012/02/24 11:08:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upload/photo/pro12.jpg".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('upload/photo/pr...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/upload/photo/pro12.jpg
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/create
+---
+2012/02/24 11:08:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upload/photo/pro13.jpg".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('upload/photo/pr...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/upload/photo/pro13.jpg
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/create
+---
+2012/02/24 11:08:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bt_gha.gif".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bt_gha.g...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/images/bt_gha.gif
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/create
+---
+2012/02/24 11:08:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upload/photo/pro01.jpg".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('upload/photo/pr...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/upload/photo/pro01.jpg
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/create
+---
+2012/02/24 11:08:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upload/photo/pro02.jpg".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('upload/photo/pr...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/upload/photo/pro02.jpg
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/create
+---
+2012/02/24 11:08:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upload/photo/pro01.jpg".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('upload/photo/pr...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/upload/photo/pro01.jpg
+HTTP_REFERER=http://127.0.0.1/tfcms/page/24
+---
+2012/02/24 11:08:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upload/photo/pro02.jpg".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('upload/photo/pr...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/upload/photo/pro02.jpg
+HTTP_REFERER=http://127.0.0.1/tfcms/page/24
+---
+2012/02/24 11:08:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upload/photo/pro04.jpg".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('upload/photo/pr...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/upload/photo/pro04.jpg
+HTTP_REFERER=http://127.0.0.1/tfcms/page/24
+---
+2012/02/24 11:08:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upload/photo/pro03.jpg".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('upload/photo/pr...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/upload/photo/pro03.jpg
+HTTP_REFERER=http://127.0.0.1/tfcms/page/24
+---
+2012/02/24 11:08:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upload/photo/pro05.jpg".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('upload/photo/pr...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/upload/photo/pro05.jpg
+HTTP_REFERER=http://127.0.0.1/tfcms/page/24
+---
+2012/02/24 11:08:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upload/photo/pro06.jpg".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('upload/photo/pr...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/upload/photo/pro06.jpg
+HTTP_REFERER=http://127.0.0.1/tfcms/page/24
+---
+2012/02/24 11:08:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upload/photo/pro07.jpg".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('upload/photo/pr...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/upload/photo/pro07.jpg
+HTTP_REFERER=http://127.0.0.1/tfcms/page/24
+---
+2012/02/24 11:08:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upload/photo/pro09.jpg".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('upload/photo/pr...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/upload/photo/pro09.jpg
+HTTP_REFERER=http://127.0.0.1/tfcms/page/24
+---
+2012/02/24 11:08:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upload/photo/pro08.jpg".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('upload/photo/pr...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/upload/photo/pro08.jpg
+HTTP_REFERER=http://127.0.0.1/tfcms/page/24
+---
+2012/02/24 11:08:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upload/photo/pro10.jpg".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('upload/photo/pr...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/upload/photo/pro10.jpg
+HTTP_REFERER=http://127.0.0.1/tfcms/page/24
+---
+2012/02/24 11:08:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upload/photo/pro11.jpg".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('upload/photo/pr...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/upload/photo/pro11.jpg
+HTTP_REFERER=http://127.0.0.1/tfcms/page/24
+---
+2012/02/24 11:08:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upload/photo/pro13.jpg".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('upload/photo/pr...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/upload/photo/pro13.jpg
+HTTP_REFERER=http://127.0.0.1/tfcms/page/24
+---
+2012/02/24 11:08:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upload/photo/pro12.jpg".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('upload/photo/pr...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/upload/photo/pro12.jpg
+HTTP_REFERER=http://127.0.0.1/tfcms/page/24
+---
+2012/02/24 11:09:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('admin')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/admin
+---
+2012/02/24 11:09:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bg_ip.gif".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bg_ip.gi...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/images/bg_ip.gif
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php
+---
+2012/02/24 11:09:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bg_ip.gif".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bg_ip.gi...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/images/bg_ip.gif
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php
+---
+2012/02/24 11:09:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bt_gha.gif".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bt_gha.g...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/images/bt_gha.gif
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php
+---
+2012/02/24 11:09:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bt_gha.gif".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bt_gha.g...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/images/bt_gha.gif
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page
+---
+2012/02/24 11:09:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bg_ip.gif".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bg_ip.gi...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/images/bg_ip.gif
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page
+---
+2012/02/24 11:09:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/b656d07b/js/i18n/elfinder.zh_CN.js".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('assets/b656d07b...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/assets/b656d07b/js/i18n/elfinder.zh_CN.js
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/create
+---
+2012/02/24 11:09:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bg_ip.gif".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bg_ip.gi...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/images/bg_ip.gif
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/create
+---
+2012/02/24 11:10:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bt_gha.gif".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bt_gha.g...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/images/bt_gha.gif
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/create
+---
+2012/02/24 11:10:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bg_ip.gif".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bg_ip.gi...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/images/bg_ip.gif
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page
+---
+2012/02/24 11:10:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bt_gha.gif".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bt_gha.g...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/images/bt_gha.gif
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page
+---
+2012/02/24 11:10:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/b656d07b/js/i18n/elfinder.zh_CN.js".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('assets/b656d07b...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/assets/b656d07b/js/i18n/elfinder.zh_CN.js
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/create
+---
+2012/02/24 11:10:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bg_ip.gif".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bg_ip.gi...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/images/bg_ip.gif
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/create
+---
+2012/02/24 11:12:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bt_gha.gif".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bt_gha.g...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/images/bt_gha.gif
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/create
+---
+2012/02/24 11:13:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bg_ip.gif".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bg_ip.gi...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/images/bg_ip.gif
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page
+---
+2012/02/24 11:13:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bt_gha.gif".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bt_gha.g...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/images/bt_gha.gif
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page
+---
+2012/02/24 11:13:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/b656d07b/js/i18n/elfinder.zh_CN.js".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('assets/b656d07b...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/assets/b656d07b/js/i18n/elfinder.zh_CN.js
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/create
+---
+2012/02/24 11:13:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bg_ip.gif".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bg_ip.gi...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/images/bg_ip.gif
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/create
+---
+2012/02/24 11:13:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bt_gha.gif".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bt_gha.g...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/images/bt_gha.gif
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/create
+---
+2012/02/24 11:13:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php:484
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(271): CController->missingAction('img')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('img')
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('page/img/linkLo...')
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tfcms/page/img/linkLogo02.jpg
+HTTP_REFERER=http://127.0.0.1/tfcms/page/27
+---
+2012/02/24 11:13:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php:484
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(271): CController->missingAction('img')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('img')
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('page/img/linkLo...')
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tfcms/page/img/linkLogo03.jpg
+HTTP_REFERER=http://127.0.0.1/tfcms/page/27
+---
+2012/02/24 11:13:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php:484
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(271): CController->missingAction('img')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('img')
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('page/img/linkLo...')
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tfcms/page/img/linkLogo01.jpg
+HTTP_REFERER=http://127.0.0.1/tfcms/page/27
+---
+2012/02/24 11:21:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bt_gha.gif".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bt_gha.g...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/images/bt_gha.gif
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/create
+---
+2012/02/24 11:21:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/b656d07b/js/i18n/elfinder.zh_CN.js".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('assets/b656d07b...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/assets/b656d07b/js/i18n/elfinder.zh_CN.js
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/update/27
+---
+2012/02/24 11:21:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bg_ip.gif".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bg_ip.gi...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/images/bg_ip.gif
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/update/27
+---
+2012/02/24 11:22:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bt_gha.gif".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bt_gha.g...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/images/bt_gha.gif
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/update/27
+---
+2012/02/24 11:22:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bt_gha.gif".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bt_gha.g...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/images/bt_gha.gif
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/update/27
+---
+2012/02/24 11:23:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "admin.php".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php:484
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(271): CController->missingAction('admin.php')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('admin.php')
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('page/admin.php')
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tfcms/page/admin.php
+---
+2012/02/24 11:23:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bg_ip.gif".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bg_ip.gi...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/images/bg_ip.gif
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php
+---
+2012/02/24 11:23:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bt_gha.gif".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bt_gha.g...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/images/bt_gha.gif
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php
+---
+2012/02/24 11:23:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bg_ip.gif".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bg_ip.gi...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/images/bg_ip.gif
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page
+---
+2012/02/24 11:23:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bt_gha.gif".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bt_gha.g...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/images/bt_gha.gif
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page
+---
+2012/02/24 11:23:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/b656d07b/js/i18n/elfinder.zh_CN.js".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('assets/b656d07b...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/assets/b656d07b/js/i18n/elfinder.zh_CN.js
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/create
+---
+2012/02/24 11:23:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bg_ip.gif".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bg_ip.gi...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/images/bg_ip.gif
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/create
+---
+2012/02/24 11:24:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upload/images/photo07.jpg".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('upload/images/p...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/upload/images/photo07.jpg
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/create
+---
+2012/02/24 11:24:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upload/images/photo08.jpg".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('upload/images/p...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/upload/images/photo08.jpg
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/create
+---
+2012/02/24 11:25:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bt_gha.gif".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bt_gha.g...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/images/bt_gha.gif
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/create
+---
+2012/02/24 11:27:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "products.html".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('products.html')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/products.html
+HTTP_REFERER=http://127.0.0.1/tfcms/
+---
+2012/02/24 11:27:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bg_ip.gif".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bg_ip.gi...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/images/bg_ip.gif
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/update/13
+---
+2012/02/24 11:28:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/b656d07b/js/i18n/elfinder.zh_CN.js".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('assets/b656d07b...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/assets/b656d07b/js/i18n/elfinder.zh_CN.js
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/update/13
+---
+2012/02/24 11:28:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bg_ip.gif".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bg_ip.gi...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/images/bg_ip.gif
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/update/13
+---
+2012/02/24 11:28:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/b656d07b/js/i18n/elfinder.zh_CN.js".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('assets/b656d07b...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/assets/b656d07b/js/i18n/elfinder.zh_CN.js
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/update/13
+---
+2012/02/24 11:28:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bg_ip.gif".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bg_ip.gi...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/images/bg_ip.gif
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/update/13
+---
+2012/02/24 11:29:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/b656d07b/js/i18n/elfinder.zh_CN.js".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('assets/b656d07b...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/assets/b656d07b/js/i18n/elfinder.zh_CN.js
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/update/13
+---
+2012/02/24 11:29:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bg_ip.gif".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bg_ip.gi...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/images/bg_ip.gif
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/update/13
+---
+2012/02/24 11:29:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bt_gha.gif".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bt_gha.g...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/images/bt_gha.gif
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/update/13
+---
+2012/02/24 11:30:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bg_ip.gif".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bg_ip.gi...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/images/bg_ip.gif
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/update/13
+---
+2012/02/24 11:30:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bt_gha.gif".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bt_gha.g...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/images/bt_gha.gif
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/update/13
+---
+2012/02/24 11:30:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bg_ip.gif".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bg_ip.gi...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/images/bg_ip.gif
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/update/13
+---
+2012/02/24 11:31:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bg_ip.gif".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bg_ip.gi...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/images/bg_ip.gif
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/update/13
+---
+2012/02/24 11:31:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bt_gha.gif".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bt_gha.g...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/images/bt_gha.gif
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/update/13
+---
+2012/02/24 11:31:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bg_ip.gif".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bg_ip.gi...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/images/bg_ip.gif
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/update/13
+---
+2012/02/24 11:31:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bg_ip.gif".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bg_ip.gi...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/images/bg_ip.gif
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page
+---
+2012/02/24 11:31:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bt_gha.gif".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bt_gha.g...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/images/bt_gha.gif
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page
+---
+2012/02/24 11:31:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/b656d07b/js/i18n/elfinder.zh_CN.js".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('assets/b656d07b...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/assets/b656d07b/js/i18n/elfinder.zh_CN.js
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/create
+---
+2012/02/24 11:31:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bg_ip.gif".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bg_ip.gi...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/images/bg_ip.gif
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/create
+---
+2012/02/24 11:33:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bt_gha.gif".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bt_gha.g...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/images/bt_gha.gif
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/create
+---
+2012/02/24 11:35:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bg_ip.gif".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bg_ip.gi...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/images/bg_ip.gif
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page
+---
+2012/02/24 11:35:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bt_gha.gif".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bt_gha.g...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/images/bt_gha.gif
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page
+---
+2012/02/24 11:35:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bg_ip.gif".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bg_ip.gi...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/images/bg_ip.gif
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/update/29
+---
+2012/02/24 11:35:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bt_gha.gif".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bt_gha.g...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/images/bt_gha.gif
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/update/29
+---
+2012/02/24 11:35:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bg_ip.gif".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bg_ip.gi...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/images/bg_ip.gif
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/update/29
+---
+2012/02/24 11:35:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bt_gha.gif".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bt_gha.g...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/images/bt_gha.gif
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/update/29
+---
+2012/02/24 11:35:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bt_gha.gif".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bt_gha.g...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/images/bt_gha.gif
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/update/29
+---
+2012/02/24 11:37:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php:484
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(271): CController->missingAction('img')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('img')
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('page/img/linkLo...')
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tfcms/page/img/linkLogo01.jpg
+HTTP_REFERER=http://127.0.0.1/tfcms/page/29
+---
+2012/02/24 11:37:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php:484
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(271): CController->missingAction('img')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('img')
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('page/img/linkLo...')
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tfcms/page/img/linkLogo02.jpg
+HTTP_REFERER=http://127.0.0.1/tfcms/page/29
+---
+2012/02/24 11:37:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php:484
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(271): CController->missingAction('img')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('img')
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('page/img/linkLo...')
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tfcms/page/img/linkLogo03.jpg
+HTTP_REFERER=http://127.0.0.1/tfcms/page/29
+---
+2012/02/24 11:38:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bg_ip.gif".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bg_ip.gi...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/images/bg_ip.gif
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/update/29
+---
+2012/02/24 11:38:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bt_gha.gif".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bt_gha.g...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/images/bt_gha.gif
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/update/29
+---
+2012/02/24 11:38:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bt_gha.gif".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bt_gha.g...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/images/bt_gha.gif
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/update/29
+---
+2012/02/24 11:38:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php:484
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(271): CController->missingAction('img')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('img')
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('page/img/linkLo...')
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tfcms/page/img/linkLogo02.jpg
+HTTP_REFERER=http://127.0.0.1/tfcms/page/29
+---
+2012/02/24 11:38:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php:484
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(271): CController->missingAction('img')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('img')
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('page/img/linkLo...')
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tfcms/page/img/linkLogo01.jpg
+HTTP_REFERER=http://127.0.0.1/tfcms/page/29
+---
+2012/02/24 11:38:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php:484
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(271): CController->missingAction('img')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('img')
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('page/img/linkLo...')
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tfcms/page/img/linkLogo03.jpg
+HTTP_REFERER=http://127.0.0.1/tfcms/page/29
+---
+2012/02/24 11:39:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bt_gha.gif".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bt_gha.g...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/images/bt_gha.gif
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/update/29
+---
+2012/02/24 11:39:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "contact2.html".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php:484
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(271): CController->missingAction('contact2.html')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('contact2.html')
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('page/contact2.h...')
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tfcms/page/contact2.html
+HTTP_REFERER=http://127.0.0.1/tfcms/page/29
+---
+2012/02/24 11:51:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bg_ip.gif".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bg_ip.gi...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/images/bg_ip.gif
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page
+---
+2012/02/24 11:51:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bt_gha.gif".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bt_gha.g...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/images/bt_gha.gif
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page
+---
+2012/02/24 11:51:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bg_ip.gif".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bg_ip.gi...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/images/bg_ip.gif
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/create
+---
+2012/02/24 11:51:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bt_gha.gif".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bt_gha.g...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/images/bt_gha.gif
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/create
+---
+2012/02/24 11:52:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bt_gha.gif".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bt_gha.g...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/images/bt_gha.gif
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/create
+---
+2012/02/24 11:53:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bg_ip.gif".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bg_ip.gi...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/images/bg_ip.gif
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page
+---
+2012/02/24 11:53:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bt_gha.gif".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bt_gha.g...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/images/bt_gha.gif
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page
+---
+2012/02/24 11:53:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bg_ip.gif".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bg_ip.gi...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/images/bg_ip.gif
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/create
+---
+2012/02/24 11:53:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bt_gha.gif".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bt_gha.g...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/images/bt_gha.gif
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/create
+---
+2012/02/24 11:54:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bt_gha.gif".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bt_gha.g...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/images/bt_gha.gif
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/create
+---
+2012/02/24 11:55:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bg_ip.gif".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bg_ip.gi...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/images/bg_ip.gif
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page
+---
+2012/02/24 11:55:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bt_gha.gif".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bt_gha.g...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/images/bt_gha.gif
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page
+---
+2012/02/24 11:55:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bg_ip.gif".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bg_ip.gi...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/images/bg_ip.gif
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/create
+---
+2012/02/24 11:55:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bt_gha.gif".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bt_gha.g...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/images/bt_gha.gif
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/create
+---
+2012/02/24 11:55:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bt_gha.gif".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bt_gha.g...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/images/bt_gha.gif
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/create
+---
+2012/02/24 11:56:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bg_ip.gif".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bg_ip.gi...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/images/bg_ip.gif
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page
+---
+2012/02/24 11:56:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bt_gha.gif".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bt_gha.g...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/images/bt_gha.gif
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page
+---
+2012/02/24 11:56:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bg_ip.gif".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bg_ip.gi...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/images/bg_ip.gif
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/create
+---
+2012/02/24 11:56:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bt_gha.gif".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bt_gha.g...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/images/bt_gha.gif
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/create
+---
+2012/02/24 11:56:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bt_gha.gif".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bt_gha.g...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/images/bt_gha.gif
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/create
+---
+2012/02/24 12:00:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "about.html".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php:484
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(271): CController->missingAction('about.html')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('about.html')
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('page/about.html')
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tfcms/page/about.html
+HTTP_REFERER=http://127.0.0.1/tfcms/page/16
+---
+2012/02/24 12:00:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "about.html".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php:484
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(271): CController->missingAction('about.html')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('about.html')
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('page/about.html')
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tfcms/page/about.html
+HTTP_REFERER=http://127.0.0.1/tfcms/page/about.html
+---
+2012/02/24 12:00:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "about.html".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php:484
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(271): CController->missingAction('about.html')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('about.html')
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('page/about.html')
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tfcms/page/about.html
+HTTP_REFERER=http://127.0.0.1/tfcms/page/about.html
+---
+2012/02/24 12:00:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bg_ip.gif".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bg_ip.gi...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/images/bg_ip.gif
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page
+---
+2012/02/24 12:00:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bt_gha.gif".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bt_gha.g...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/images/bt_gha.gif
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page
+---
+2012/02/24 12:00:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bg_ip.gif".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bg_ip.gi...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/images/bg_ip.gif
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/update/18
+---
+2012/02/24 12:00:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bg_ip.gif".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bg_ip.gi...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/images/bg_ip.gif
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/update/18
+---
+2012/02/24 12:00:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bt_gha.gif".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bt_gha.g...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/images/bt_gha.gif
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/update/18
+---
+2012/02/24 12:01:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bg_ip.gif".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bg_ip.gi...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/images/bg_ip.gif
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/create
+---
+2012/02/24 12:01:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bt_gha.gif".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bt_gha.g...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/images/bt_gha.gif
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/create
+---
+2012/02/24 12:01:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bg_ip.gif".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bg_ip.gi...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/images/bg_ip.gif
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/update/29
+---
+2012/02/24 12:01:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bt_gha.gif".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bt_gha.g...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/images/bt_gha.gif
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/update/29
+---
+2012/02/24 12:03:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "news_media.html".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php:484
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(271): CController->missingAction('news_media.html')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('news_media.html')
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('taxonomy/news_m...')
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tfcms/taxonomy/news_media.html
+HTTP_REFERER=http://192.168.1.107/tfcms/taxonomy/1
+---
+2012/02/24 12:03:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "news_inv.html".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php:484
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(271): CController->missingAction('news_inv.html')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('news_inv.html')
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('taxonomy/news_i...')
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tfcms/taxonomy/news_inv.html
+HTTP_REFERER=http://192.168.1.107/tfcms/taxonomy/1
+---
+2012/02/24 12:03:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "doc_down.html".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php:484
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(271): CController->missingAction('doc_down.html')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('doc_down.html')
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('taxonomy/doc_do...')
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tfcms/taxonomy/doc_down.html
+HTTP_REFERER=http://192.168.1.107/tfcms/taxonomy/1
+---
+2012/02/24 12:03:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "news_show.html".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php:484
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(271): CController->missingAction('news_show.html')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('news_show.html')
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('taxonomy/news_s...')
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tfcms/taxonomy/news_show.html
+HTTP_REFERER=http://192.168.1.107/tfcms/taxonomy/1
+---
+2012/02/24 12:04:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "products_open.html".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php:484
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(271): CController->missingAction('products_open.h...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('products_open.h...')
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('page/products_o...')
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tfcms/page/products_open.html
+HTTP_REFERER=http://192.168.1.107/tfcms/page/20
+---
+2012/02/24 12:04:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "products3.html".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php:484
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(271): CController->missingAction('products3.html')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('products3.html')
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('page/products3....')
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tfcms/page/products3.html
+HTTP_REFERER=http://192.168.1.107/tfcms/page/20
+---
+2012/02/24 12:05:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "work_open.html".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php:484
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(271): CController->missingAction('work_open.html')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('work_open.html')
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('page/work_open....')
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tfcms/page/work_open.html
+HTTP_REFERER=http://192.168.1.107/tfcms/upload/flash/map.swf
+---
+2012/02/24 12:05:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "contact2.html".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php:484
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(271): CController->missingAction('contact2.html')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('contact2.html')
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('page/contact2.h...')
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tfcms/page/contact2.html
+HTTP_REFERER=http://192.168.1.107/tfcms/page/29
+---
+2012/02/24 12:05:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('admin')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/admin/
+---
+2012/02/24 12:05:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bg_ip.gif".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bg_ip.gi...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/images/bg_ip.gif
+HTTP_REFERER=http://192.168.1.107/tfcms/admin.php
+---
+2012/02/24 12:05:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bg_ip.gif".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bg_ip.gi...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/images/bg_ip.gif
+HTTP_REFERER=http://192.168.1.107/tfcms/admin.php
+---
+2012/02/24 12:05:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bt_gha.gif".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bt_gha.g...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/images/bt_gha.gif
+HTTP_REFERER=http://192.168.1.107/tfcms/admin.php
+---
+2012/02/24 12:05:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bg_ip.gif".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bg_ip.gi...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/images/bg_ip.gif
+HTTP_REFERER=http://192.168.1.107/tfcms/admin.php/page
+---
+2012/02/24 12:05:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bt_gha.gif".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bt_gha.g...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/images/bt_gha.gif
+HTTP_REFERER=http://192.168.1.107/tfcms/admin.php/page
+---
+2012/02/24 12:05:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bg_ip.gif".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bg_ip.gi...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/images/bg_ip.gif
+HTTP_REFERER=http://192.168.1.107/tfcms/admin.php/page/create
+---
+2012/02/24 12:05:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bg_ip.gif".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bg_ip.gi...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/images/bg_ip.gif
+HTTP_REFERER=http://192.168.1.107/tfcms/admin.php/page/create
+---
+2012/02/24 12:05:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bt_gha.gif".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bt_gha.g...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/images/bt_gha.gif
+HTTP_REFERER=http://192.168.1.107/tfcms/admin.php/page/create
+---
+2012/02/24 12:06:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bg_ip.gif".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bg_ip.gi...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/images/bg_ip.gif
+HTTP_REFERER=http://192.168.1.107/tfcms/admin.php/page
+---
+2012/02/24 12:06:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bt_gha.gif".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bt_gha.g...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/images/bt_gha.gif
+HTTP_REFERER=http://192.168.1.107/tfcms/admin.php/page
+---
+2012/02/24 12:06:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bg_ip.gif".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bg_ip.gi...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/images/bg_ip.gif
+HTTP_REFERER=http://192.168.1.107/tfcms/admin.php/category
+---
+2012/02/24 12:06:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bt_gha.gif".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bt_gha.g...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/images/bt_gha.gif
+HTTP_REFERER=http://192.168.1.107/tfcms/admin.php/category
+---
+2012/02/24 12:06:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bg_ip.gif".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bg_ip.gi...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/images/bg_ip.gif
+HTTP_REFERER=http://192.168.1.107/tfcms/admin.php/news
+---
+2012/02/24 12:06:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bt_gha.gif".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bt_gha.g...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/images/bt_gha.gif
+HTTP_REFERER=http://192.168.1.107/tfcms/admin.php/news
+---
+2012/02/24 12:06:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bt_gha.gif".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bt_gha.g...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/images/bt_gha.gif
+HTTP_REFERER=http://192.168.1.107/tfcms/admin.php/news
+---
+2012/02/24 12:06:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/b656d07b/js/i18n/elfinder.zh_CN.js".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('assets/b656d07b...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/assets/b656d07b/js/i18n/elfinder.zh_CN.js
+HTTP_REFERER=http://192.168.1.107/tfcms/admin.php/news/create
+---
+2012/02/24 12:06:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bg_ip.gif".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bg_ip.gi...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/images/bg_ip.gif
+HTTP_REFERER=http://192.168.1.107/tfcms/admin.php/news/create
+---
+2012/02/24 12:07:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bt_gha.gif".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bt_gha.g...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/images/bt_gha.gif
+HTTP_REFERER=http://192.168.1.107/tfcms/admin.php/news/create
+---
+2012/02/24 12:07:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/b656d07b/js/i18n/elfinder.zh_CN.js".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('assets/b656d07b...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/assets/b656d07b/js/i18n/elfinder.zh_CN.js
+HTTP_REFERER=http://192.168.1.107/tfcms/admin.php/news/create
+---
+2012/02/24 12:07:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bg_ip.gif".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bg_ip.gi...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/images/bg_ip.gif
+HTTP_REFERER=http://192.168.1.107/tfcms/admin.php/news/create
+---
+2012/02/24 12:07:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bg_ip.gif".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bg_ip.gi...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/images/bg_ip.gif
+HTTP_REFERER=http://192.168.1.107/tfcms/admin.php/news/news
+---
+2012/02/24 12:07:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bg_ip.gif".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bg_ip.gi...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/images/bg_ip.gif
+HTTP_REFERER=http://192.168.1.107/tfcms/admin.php/news/news
+---
+2012/02/24 12:07:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bt_gha.gif".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bt_gha.g...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/images/bt_gha.gif
+HTTP_REFERER=http://192.168.1.107/tfcms/admin.php/news/news
+---
+2012/02/24 12:07:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bg_ip.gif".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bg_ip.gi...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/images/bg_ip.gif
+HTTP_REFERER=http://192.168.1.107/tfcms/admin.php/page
+---
+2012/02/24 12:07:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bt_gha.gif".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bt_gha.g...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/images/bt_gha.gif
+HTTP_REFERER=http://192.168.1.107/tfcms/admin.php/page
+---
+2012/02/24 12:10:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bg_ip.gif".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bg_ip.gi...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/images/bg_ip.gif
+HTTP_REFERER=http://192.168.1.107/tfcms/admin.php/page/update/30
+---
+2012/02/24 12:10:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bt_gha.gif".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bt_gha.g...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/images/bt_gha.gif
+HTTP_REFERER=http://192.168.1.107/tfcms/admin.php/page/update/30
+---
+2012/02/24 12:10:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bg_ip.gif".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bg_ip.gi...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/images/bg_ip.gif
+HTTP_REFERER=http://192.168.1.107/tfcms/admin.php/page/update/30
+---
+2012/02/24 12:10:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bt_gha.gif".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bt_gha.g...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/images/bt_gha.gif
+HTTP_REFERER=http://192.168.1.107/tfcms/admin.php/page/update/30
+---
+2012/02/24 12:35:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "products_open.html".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php:484
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(271): CController->missingAction('products_open.h...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('products_open.h...')
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('page/products_o...')
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tfcms/page/products_open.html
+HTTP_REFERER=http://192.168.1.107/tfcms/page/20
+---
+2012/02/24 12:35:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bg_ip.gif".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bg_ip.gi...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/images/bg_ip.gif
+HTTP_REFERER=http://192.168.1.107/tfcms/admin.php/page
+---
+2012/02/24 12:35:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bt_gha.gif".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bt_gha.g...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/images/bt_gha.gif
+HTTP_REFERER=http://192.168.1.107/tfcms/admin.php/page
+---
+2012/02/24 12:35:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bg_ip.gif".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bg_ip.gi...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/images/bg_ip.gif
+HTTP_REFERER=http://192.168.1.107/tfcms/admin.php/page/update/13
+---
+2012/02/24 12:35:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bg_ip.gif".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bg_ip.gi...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/images/bg_ip.gif
+HTTP_REFERER=http://192.168.1.107/tfcms/admin.php/page/update/13
+---
+2012/02/24 12:35:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bt_gha.gif".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bt_gha.g...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/images/bt_gha.gif
+HTTP_REFERER=http://192.168.1.107/tfcms/admin.php/page/update/13
+---
+2012/02/24 12:35:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bg_ip.gif".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bg_ip.gi...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/images/bg_ip.gif
+HTTP_REFERER=http://192.168.1.107/tfcms/admin.php/page/update/13
+---
+2012/02/24 12:35:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bt_gha.gif".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bt_gha.g...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/images/bt_gha.gif
+HTTP_REFERER=http://192.168.1.107/tfcms/admin.php/page/update/13
+---
+2012/02/24 12:35:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bg_ip.gif".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bg_ip.gi...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/images/bg_ip.gif
+HTTP_REFERER=http://192.168.1.107/tfcms/admin.php/page/update/13
+---
+2012/02/24 12:35:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bg_ip.gif".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bg_ip.gi...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/images/bg_ip.gif
+HTTP_REFERER=http://192.168.1.107/tfcms/admin.php/page/update/13
+---
+2012/02/24 12:35:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bt_gha.gif".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bt_gha.g...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/images/bt_gha.gif
+HTTP_REFERER=http://192.168.1.107/tfcms/admin.php/page/update/13
+---
+2012/02/24 12:35:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bt_gha.gif".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bt_gha.g...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/images/bt_gha.gif
+HTTP_REFERER=http://192.168.1.107/tfcms/admin.php/page
+---
+2012/02/24 12:35:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bg_ip.gif".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bg_ip.gi...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/images/bg_ip.gif
+HTTP_REFERER=http://192.168.1.107/tfcms/admin.php/page
+---
+2012/02/24 12:44:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bg_ip.gif".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bg_ip.gi...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/images/bg_ip.gif
+HTTP_REFERER=http://192.168.1.107/tfcms/admin.php
+---
+2012/02/24 12:44:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bg_ip.gif".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bg_ip.gi...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/images/bg_ip.gif
+HTTP_REFERER=http://192.168.1.107/tfcms/admin.php
+---
+2012/02/24 12:44:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bt_gha.gif".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bt_gha.g...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/images/bt_gha.gif
+HTTP_REFERER=http://192.168.1.107/tfcms/admin.php
+---
+2012/02/24 12:46:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bg_ip.gif".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bg_ip.gi...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/images/bg_ip.gif
+HTTP_REFERER=http://192.168.1.107/tfcms/admin.php
+---
+2012/02/24 12:46:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bt_gha.gif".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bt_gha.g...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/images/bt_gha.gif
+HTTP_REFERER=http://192.168.1.107/tfcms/admin.php
+---
+2012/02/24 12:46:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bg_ip.gif".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bg_ip.gi...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/images/bg_ip.gif
+HTTP_REFERER=http://192.168.1.107/tfcms/admin.php
+---
+2012/02/24 12:46:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bg_ip.gif".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bg_ip.gi...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/images/bg_ip.gif
+HTTP_REFERER=http://192.168.1.107/tfcms/admin.php/user/login
+---
+2012/02/24 12:46:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bt_gha.gif".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bt_gha.g...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/images/bt_gha.gif
+HTTP_REFERER=http://192.168.1.107/tfcms/admin.php/user/login
+---
+2012/02/24 12:46:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bg_ip.gif".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bg_ip.gi...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/images/bg_ip.gif
+HTTP_REFERER=http://192.168.1.107/tfcms/admin.php
+---
+2012/02/24 12:46:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bt_gha.gif".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bt_gha.g...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/images/bt_gha.gif
+HTTP_REFERER=http://192.168.1.107/tfcms/admin.php
+---
+2012/02/24 12:46:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "user/login".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('user/login')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/user/login
+---
+2012/02/24 12:46:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bg_ip.gif".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bg_ip.gi...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/images/bg_ip.gif
+HTTP_REFERER=http://192.168.1.107/tfcms/admin.php
+---
+2012/02/24 12:46:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bt_gha.gif".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bt_gha.g...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/images/bt_gha.gif
+HTTP_REFERER=http://192.168.1.107/tfcms/admin.php
+---
+2012/02/24 12:46:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bg_ip.gif".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bg_ip.gi...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/images/bg_ip.gif
+HTTP_REFERER=http://192.168.1.107/tfcms/admin.php
+---
+2012/02/24 12:46:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bg_ip.gif".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bg_ip.gi...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/images/bg_ip.gif
+HTTP_REFERER=http://192.168.1.107/tfcms/admin.php
+---
+2012/02/24 12:46:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bg_ip.gif".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bg_ip.gi...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/images/bg_ip.gif
+HTTP_REFERER=http://192.168.1.107/tfcms/admin.php
+---
+2012/02/24 12:46:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bt_gha.gif".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bt_gha.g...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/images/bt_gha.gif
+HTTP_REFERER=http://192.168.1.107/tfcms/admin.php
+---
+2012/02/24 12:46:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bg_ip.gif".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bg_ip.gi...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/images/bg_ip.gif
+HTTP_REFERER=http://192.168.1.107/tfcms/admin.php
+---
+2012/02/24 12:46:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bt_gha.gif".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bt_gha.g...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/images/bt_gha.gif
+HTTP_REFERER=http://192.168.1.107/tfcms/admin.php
+---

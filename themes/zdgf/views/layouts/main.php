@@ -53,18 +53,18 @@
         </ul>
         <ul class="menu">
             <li class="list">
-                <a class="category" href="<?php echo Yii::app()->request->baseUrl; ?>/page/14">关于CSUN</a>
+                <a class="category" href="<?php echo Yii::app()->request->baseUrl; ?>/page/14">关于CSUN  »</a>
                 <ul class="submenu">
                     <li><a href="<?php echo Yii::app()->request->baseUrl; ?>/page/14">中电光伏概况</a></li>
                     <li><a href="<?php echo Yii::app()->request->baseUrl; ?>/page/16">了解我们</a></li>
-                    <li><a href="about.html">里程碑</a></li>
-                    <li><a href="about.html">管理团队</a></li>
+                    <li><a href="<?php echo Yii::app()->request->baseUrl; ?>/page/18">里程碑</a></li>
+                    <li><a href="<?php echo Yii::app()->request->baseUrl; ?>/page/19">管理团队</a></li>
                 </ul>
             </li>
         </ul>
         <ul class="menu">
             <li class="list">
-                <a class="category" href="<?php echo Yii::app()->request->baseUrl; ?>/taxonomy/1">新闻中心</a>
+                <a class="category" href="<?php echo Yii::app()->request->baseUrl; ?>/taxonomy/1">新闻中心  »</a>
                 <ul class="submenu">
                     <li><a href="<?php echo Yii::app()->request->baseUrl; ?>/taxonomy/1">公司动态</a></li>
                     <li><a href="<?php echo Yii::app()->request->baseUrl; ?>/taxonomy/1">媒体关注</a></li>
@@ -75,26 +75,31 @@
         </ul>
         <ul class="menu">
             <li class="list">
-                <a class="category" href="<?php echo Yii::app()->request->baseUrl; ?>/site/login">Login</a>
+                <a class="category" href="<?php echo Yii::app()->request->baseUrl; ?>/page/20">产品与服务  »</a>
+                <ul class="submenu">
+                        <li><a href="<?php echo Yii::app()->request->baseUrl; ?>/page/20">太阳能电池</a></li>
+                        <li><a href="<?php echo Yii::app()->request->baseUrl; ?>/page/22">光伏组件</a></li>
+                        <li><a href="<?php echo Yii::app()->request->baseUrl; ?>/page/24">产品服务</a></li>
+                        <li><a href="<?php echo Yii::app()->request->baseUrl; ?>/page/20">客户服务</a></li>
+                        <li><a href="<?php echo Yii::app()->request->baseUrl; ?>/page/27">技术研发</a></li>
+                        <li><a href="<?php echo Yii::app()->request->baseUrl; ?>/page/28">了解太阳能</a></li>
+                </ul>
             </li>
         </ul>
         <ul class="menu">
             <li class="list">
-                <a class="category" href="<?php echo Yii::app()->request->baseUrl; ?>/page/13">案例中心</a>
+                <a class="category" href="<?php echo Yii::app()->request->baseUrl; ?>/#">投资者关系</a>
             </li>
         </ul>
       
         <ul class="menu">
         <li class="list">
-                <a class="category" href="products.html">产品与服务&nbsp;&nbsp;&raquo;</a>
-                <ul class="submenu">
-                        <li><a href="products.html">太阳能电池</a></li>
-                        <li><a href="products2.html">光伏组件</a></li>
-                        <li><a href="products4.html">产品服务</a></li>
-                <li><a href="products7.html">客户服务</a></li>
-                        <li><a href="products8.html">技术研发</a></li>
-                        <li><a href="products9.html">了解太阳能</a></li>
-                </ul>
+                <a class="category" href="<?php echo Yii::app()->request->baseUrl; ?>/page/13">案例中心</a>
+        </li>
+        </ul>
+        <ul class="menu">
+        <li class="list">
+                <a class="category" href="<?php echo Yii::app()->request->baseUrl; ?>/page/29">联系我们</a>
         </li>
         </ul>
     </div>

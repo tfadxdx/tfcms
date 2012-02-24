@@ -10,7 +10,6 @@ return array(
 	'name'=>'TFWK CMS',
 	'timeZone'=>"Asia/Shanghai",
 	'theme'=>'zdgf',
-        'homeUrl' => 'http://127.0.0.1/tfcms/page/13',
 	// preloading 'log' component
 	'preload'=>array(
                 'log',
@@ -21,8 +20,6 @@ return array(
 	'import'=>array(
 		'application.models.*',
 		'application.components.*',
-                'application.modules.user.models.*',
-                'application.modules.user.components.*',
                 'ext.giix-components.*', // giix components
 //                'ext.bootstrap.widgets.*',
 	),
@@ -40,7 +37,6 @@ return array(
                           'bootstrap.gii', // since 0.9.1
                         ),
 		),
-		'user',
 	),
 
 	// application components
@@ -108,11 +104,6 @@ return array(
 //                    ),
 //                ),
 
-                'user'=>array(
-                        // enable cookie-based authentication
-                   'allowAutoLogin'=>true,
-                   'loginUrl' => array('/user/login'),
-                ),
 	),
 
 	// application-level parameters that can be accessed

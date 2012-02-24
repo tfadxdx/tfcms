@@ -111,9 +111,9 @@
                           </a>
                         </li>
                         <li>
-                  <a href="" id="shortcut_posts">
-                            <img SRC="<?php echo Yii::app()->request->baseUrl; ?>/images/shortcut/posts.gif" alt="posts"/><br/>
-                            <strong>Posts</strong>
+                  <a href="<?php echo Yii::app()->request->baseUrl; ?>/admin.php/page" id="shortcut_posts">
+                            <img SRC="<?php echo Yii::app()->request->baseUrl; ?>/images/shortcut/posts.gif" alt="pages"/><br/>
+                            <strong>Pages</strong>
                           </a>
                         </li>
                 </ul>
