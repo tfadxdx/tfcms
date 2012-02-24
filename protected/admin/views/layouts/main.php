@@ -44,7 +44,7 @@
 		</div>
 		<div id="account_info">
 			<img SRC="<?php echo Yii::app()->request->baseUrl; ?>/images/icon_online.gif" alt="Online" class="mid_align"/>
-			Hello <a href=""><?php echo Yii::app()->getModule('user')->user()->username; ?></a> <a href="">Setting</a> | <a href="<?php echo Yii::app()->request->baseUrl; ?>/admin.php/user/logout">Logout</a>
+			Hello <a href=""><?php //echo Yii::app()->getModule('user')->user()->username; ?></a> <a href="">Setting</a> | <a href="<?php echo Yii::app()->request->baseUrl; ?>/admin.php/user/logout">Logout</a>
 		</div>
 	</div>
 	<!-- End header -->
