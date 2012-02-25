@@ -62,6 +62,11 @@ class Taxonomy extends CActiveRecord
 		// NOTE: you may need to adjust the relation name and the related
 		// class name for the relations automatically generated below.
 		return array(
+                    'nodes'=>array(self::HAS_MANY,'Node','tid'),
+                    'links'=>array(self::HAS_MANY,'Link','tid'),
+                    'news'=>array(self::HAS_MANY,'Node','tid','condition'=>'type="news"'),
+                    'pages'=>array(self::HAS_MANY,'Node','tid','condition'=>'type="page"'),
+                    'products'=>array(self::HAS_MANY,'Node','tid','condition'=>'type="product"'),
 		);
 	}
 
