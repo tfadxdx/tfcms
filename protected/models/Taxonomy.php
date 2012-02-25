@@ -4,13 +4,16 @@
  * This is the model class for table "{{taxonomy}}".
  *
  * The followings are the available columns in table '{{taxonomy}}':
- * @property string $taxonomy_id
+ * @property string $id
  * @property string $name
  * @property string $slug
  * @property string $taxonomy
  * @property string $description
  * @property string $parent
  * @property string $count
+ * @property integer $status
+ * @property integer $createtime
+ * @property integer $updatetime
  */
 class Taxonomy extends CActiveRecord
 {
@@ -40,13 +43,14 @@ class Taxonomy extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('name, slug, description', 'required'),
+			array('name, slug, description, createtime, updatetime', 'required'),
+			array('status, createtime, updatetime', 'numerical', 'integerOnly'=>true),
 			array('name, slug', 'length', 'max'=>200),
 			array('taxonomy', 'length', 'max'=>32),
 			array('parent, count', 'length', 'max'=>20),
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.
-			array('taxonomy_id, name, slug, taxonomy, description, parent, count', 'safe', 'on'=>'search'),
+			array('id, name, slug, taxonomy, description, parent, count, status, createtime, updatetime', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -58,11 +62,6 @@ class Taxonomy extends CActiveRecord
 		// NOTE: you may need to adjust the relation name and the related
 		// class name for the relations automatically generated below.
 		return array(
-                    'nodes'=>array(self::HAS_MANY,'Node','tid'),
-                    'links'=>array(self::HAS_MANY,'Link','tid'),
-                    'news'=>array(self::HAS_MANY,'Node','tid','condition'=>'type="news"'),
-                    'pages'=>array(self::HAS_MANY,'Node','tid','condition'=>'type="page"'),
-                    'products'=>array(self::HAS_MANY,'Node','tid','condition'=>'type="product"'),
 		);
 	}
 
@@ -72,13 +71,16 @@ class Taxonomy extends CActiveRecord
 	public function attributeLabels()
 	{
 		return array(
-			'taxonomy_id' => 'Taxonomy',
+			'id' => 'ID',
 			'name' => 'Name',
 			'slug' => 'Slug',
 			'taxonomy' => 'Taxonomy',
 			'description' => 'Description',
 			'parent' => 'Parent',
 			'count' => 'Count',
+			'status' => 'Status',
+			'createtime' => 'Createtime',
+			'updatetime' => 'Updatetime',
 		);
 	}
 
@@ -93,13 +95,16 @@ class Taxonomy extends CActiveRecord
 
 		$criteria=new CDbCriteria;
 
-		$criteria->compare('taxonomy_id',$this->taxonomy_id,true);
+		$criteria->compare('id',$this->id,true);
 		$criteria->compare('name',$this->name,true);
 		$criteria->compare('slug',$this->slug,true);
 		$criteria->compare('taxonomy',$this->taxonomy,true);
 		$criteria->compare('description',$this->description,true);
 		$criteria->compare('parent',$this->parent,true);
 		$criteria->compare('count',$this->count,true);
+		$criteria->compare('status',$this->status);
+		$criteria->compare('createtime',$this->createtime);
+		$criteria->compare('updatetime',$this->updatetime);
 
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,

@@ -70,6 +70,9 @@ class FeedbackController extends Controller
 		{
 			$model->id=$_POST['Feedback']['id'];
                         $model->createtime=time();
+                        foreach ($_POST['Feedback']['content'] as &$item){
+                            $item = base64_encode($item);
+                        }
 			$model->content=serialize($_POST['Feedback']['content']);
                         if($model->save())
 				$this->redirect(array('view','id'=>$model->id));

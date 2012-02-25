@@ -40,6 +40,9 @@ $this->menu=array(
                                                     </th>
                                                     <?php
                                                         $datas = unserialize($item->content);
+                                                        foreach($datas as &$data){
+                                                            $data = base64_decode($data);
+                                                        }
                                                         foreach ($datas as $k=>$value){
                                                             switch ($k) {
                                                                 case "xingming":

@@ -53,6 +53,8 @@ class TaxonomyController extends Controller
 
 		if(isset($_POST['Taxonomy']))
 		{
+                        $model->createtime=time();
+                        $model->updatetime=time();
 			$model->attributes=$_POST['Taxonomy'];
 			if($model->save())
 				$this->redirect(array('view','id'=>$model->id));
