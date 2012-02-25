@@ -19,7 +19,7 @@
  * @property integer $createtime
  * @property integer $updatetime
  */
-class Page extends Node
+class Example extends Node
 {
         /**
 	 * Returns the static model of the specified AR class.
@@ -47,7 +47,7 @@ class Page extends Node
         {
             return array(
                 'self'=>array(
-                    'condition'=>'type="page"',
+                    'condition'=>'type="example"',
                 ),
                 'published'=>array(
                     'condition'=>'status=1',

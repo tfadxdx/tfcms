@@ -5,7 +5,7 @@
 	<meta name="language" content="en" />
 
         <link href="<?php echo Yii::app()->request->baseUrl; ?>/css/screen.css" rel="stylesheet" type="text/css" media="all" />
-
+        <link href="<?php echo Yii::app()->request->baseUrl; ?>/css/backend.css" rel="stylesheet" type="text/css" media="all" />
         <!--[if IE]>
                 <link href="<?php echo Yii::app()->request->baseUrl; ?>/css/ie.css" rel="stylesheet" type="text/css" media="all">
                 <meta http-equiv="X-UA-Compatible" content="IE=7" />
@@ -14,13 +14,7 @@
         
         <script type="text/javascript" SRC="<?php echo Yii::app()->request->baseUrl; ?>/js/jquery.js"></script>
         <script type="text/javascript" SRC="<?php echo Yii::app()->request->baseUrl; ?>/js/jquery-ui.js"></script>
-        <script type="text/javascript">
-            $(document).ready(function(){
-                $("#main_menu li").click(function(){
-                    $(this).children("ul").slideToggle('slow');
-                });
-            });
-        </script>
+        <script type="text/javascript" SRC="<?php echo Yii::app()->request->baseUrl; ?>/js/backend.js"></script>
 	<title><?php echo CHtml::encode($this->pageTitle); ?></title>
 </head>
 

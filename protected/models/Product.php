@@ -15,6 +15,7 @@
  * @property string $type
  * @property integer $weight
  * @property integer $status
+ * @property integer $parent
  * @property integer $createtime
  * @property integer $updatetime
  */

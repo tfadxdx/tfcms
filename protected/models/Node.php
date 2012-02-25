@@ -15,6 +15,7 @@
  * @property string $type
  * @property integer $weight
  * @property integer $status
+ * @property integer $parent
  * @property integer $createtime
  * @property integer $updatetime
  */
@@ -47,14 +48,14 @@ class Node extends CActiveRecord
 		// will receive user inputs.
 		return array(
 			array('title, name, content, uid, tid, type, status, createtime, updatetime', 'required'),
-			array('uid, tid, weight, status, createtime, updatetime', 'numerical', 'integerOnly'=>true),
+			array('uid, tid, weight, status, parent, createtime, updatetime', 'numerical', 'integerOnly'=>true),
 			array('title, name', 'length', 'max'=>255),
 			array('banner', 'length', 'max'=>500),
 			array('type', 'length', 'max'=>50),
 			array('description', 'safe'),
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.
-			array('id, title, name, description, banner, content, uid, tid, type, weight, status, createtime, updatetime', 'safe', 'on'=>'search'),
+			array('id, title, name, description, banner, content, uid, tid, type, weight, status, parent, createtime, updatetime', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -86,6 +87,7 @@ class Node extends CActiveRecord
 			'type' => 'Type',
 			'weight' => 'Weight',
 			'status' => 'Status',
+			'parent' => 'Parent',
 			'createtime' => 'Createtime',
 			'updatetime' => 'Updatetime',
 		);
@@ -113,6 +115,7 @@ class Node extends CActiveRecord
 		$criteria->compare('type',$this->type,true);
 		$criteria->compare('weight',$this->weight);
 		$criteria->compare('status',$this->status);
+		$criteria->compare('parent',$this->parent);
 		$criteria->compare('createtime',$this->createtime);
 		$criteria->compare('updatetime',$this->updatetime);
 
@@ -120,4 +123,12 @@ class Node extends CActiveRecord
 			'criteria'=>$criteria,
 		));
 	}
+
+        public function isChild($model){
+            if ($model->parent==0){
+                return false;
+            } else {
+                return true;
+            }
+        }
 }

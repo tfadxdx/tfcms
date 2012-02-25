@@ -1,12 +1,12 @@
 <?php
 
-class TaxonomyController extends Controller
+class ExampleController extends Controller
 {
 	/**
 	 * @var string the default layout for the views. Defaults to '//layouts/column2', meaning
 	 * using two-column layout. See 'protected/views/layouts/column2.php'.
 	 */
-	public $layout='//layouts/column1';
+	public $layout='//layouts/column2';
 
 	/**
 	 * @return array action filters
@@ -26,6 +26,21 @@ class TaxonomyController extends Controller
 	public function accessRules()
 	{
 		return array(
+			array('allow',  // allow all users to perform 'index' and 'view' actions
+				'actions'=>array('index','view'),
+				'users'=>array('*'),
+			),
+			array('allow', // allow authenticated user to perform 'create' and 'update' actions
+				'actions'=>array('create','update'),
+				'users'=>array('@'),
+			),
+			array('allow', // allow admin user to perform 'admin' and 'delete' actions
+				'actions'=>array('admin','delete'),
+				'users'=>array('admin'),
+			),
+			array('deny',  // deny all users
+				'users'=>array('*'),
+			),
 		);
 	}
 
@@ -46,18 +61,16 @@ class TaxonomyController extends Controller
 	 */
 	public function actionCreate()
 	{
-		$model=new Taxonomy;
+		$model=new Example;
 
 		// Uncomment the following line if AJAX validation is needed
 		// $this->performAjaxValidation($model);
 
-		if(isset($_POST['Taxonomy']))
+		if(isset($_POST['Example']))
 		{
-                        $model->createtime=time();
-                        $model->updatetime=time();
-			$model->attributes=$_POST['Taxonomy'];
+			$model->attributes=$_POST['Example'];
 			if($model->save())
-				$this->redirect('index');
+				$this->redirect(array('view','id'=>$model->id));
 		}
 
 		$this->render('create',array(
@@ -77,9 +90,9 @@ class TaxonomyController extends Controller
 		// Uncomment the following line if AJAX validation is needed
 		// $this->performAjaxValidation($model);
 
-		if(isset($_POST['Taxonomy']))
+		if(isset($_POST['Example']))
 		{
-			$model->attributes=$_POST['Taxonomy'];
+			$model->attributes=$_POST['Example'];
 			if($model->save())
 				$this->redirect(array('view','id'=>$model->id));
 		}
@@ -114,10 +127,10 @@ class TaxonomyController extends Controller
 	 */
 	public function actionIndex()
 	{
-		$model = Taxonomy::model()->published()->desc()->findAll();
-                $this->render('index',array(
-                        'model'=>$model,
-                ));
+		$dataProvider=new CActiveDataProvider('Example');
+		$this->render('index',array(
+			'dataProvider'=>$dataProvider,
+		));
 	}
 
 	/**
@@ -125,10 +138,10 @@ class TaxonomyController extends Controller
 	 */
 	public function actionAdmin()
 	{
-		$model=new Taxonomy('search');
+		$model=new Example('search');
 		$model->unsetAttributes();  // clear any default values
-		if(isset($_GET['Taxonomy']))
-			$model->attributes=$_GET['Taxonomy'];
+		if(isset($_GET['Example']))
+			$model->attributes=$_GET['Example'];
 
 		$this->render('admin',array(
 			'model'=>$model,
@@ -142,7 +155,7 @@ class TaxonomyController extends Controller
 	 */
 	public function loadModel($id)
 	{
-		$model=Taxonomy::model()->findByPk($id);
+		$model=Example::model()->findByPk($id);
 		if($model===null)
 			throw new CHttpException(404,'The requested page does not exist.');
 		return $model;
@@ -154,7 +167,7 @@ class TaxonomyController extends Controller
 	 */
 	protected function performAjaxValidation($model)
 	{
-		if(isset($_POST['ajax']) && $_POST['ajax']==='taxonomy-form')
+		if(isset($_POST['ajax']) && $_POST['ajax']==='example-form')
 		{
 			echo CActiveForm::validate($model);
 			Yii::app()->end();

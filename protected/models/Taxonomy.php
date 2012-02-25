@@ -67,6 +67,9 @@ class Taxonomy extends CActiveRecord
                     'news'=>array(self::HAS_MANY,'Node','tid','condition'=>'type="news"'),
                     'pages'=>array(self::HAS_MANY,'Node','tid','condition'=>'type="page"'),
                     'products'=>array(self::HAS_MANY,'Node','tid','condition'=>'type="product"'),
+                    'examples'=>array(self::HAS_MANY,'Node','tid','condition'=>'type="example"'),
+                    'children'=>array(self::HAS_MANY,'Taxonomy','parent'),
+                    'childrenCount'=>array(self::STAT,'Taxonomy','parent'),
 		);
 	}
 
@@ -132,5 +135,13 @@ class Taxonomy extends CActiveRecord
                     'order'=>'createtime DESC',
                 ),
             );
+        }
+
+        public function isChild($model){
+            if ($model->parent==0){
+                return false;
+            } else {
+                return true;
+            }
         }
 }

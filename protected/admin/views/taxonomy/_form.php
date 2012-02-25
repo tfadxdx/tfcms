@@ -35,7 +35,7 @@
 
 	<p>
 		<?php echo $form->labelEx($model,'parent'); ?><br>
-		<?php echo $form->textField($model,'parent',array('size'=>20,'maxlength'=>20)); ?>
+                <?php echo $form->dropDownList($model, 'parent', CHtml::listData(Taxonomy::model()->findAll(), "id", "name")); ?>
 		<?php echo $form->error($model,'parent'); ?>
 	</p><br>
 

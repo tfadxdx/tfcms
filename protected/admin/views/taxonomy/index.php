@@ -32,8 +32,9 @@ $this->menu=array(
                                         </tr>
                                 </thead>
                                 <tbody>
-                                            <? foreach ($model as $key=>$item): ?>
-                                                <tr <?php if(($key%2) == 0){echo 'class="grey"';}?> >
+                                            <?php foreach ($model as $key=>$item): ?>
+                                                <?php if(!Taxonomy::model()->isChild($item)):?>
+                                                <tr <?php if(($key%2) == 0){echo 'class="grey"';}?> <?php if($item->children){echo 'id="parent"';}?> >
                                                     <th style="width:10px">
                                                             <input type="checkbox" id="check_all" name="check_all"/>
                                                     </th>
@@ -47,6 +48,26 @@ $this->menu=array(
                                                         <a href=""><img SRC="<?php echo Yii::app()->request->baseUrl; ?>/images/icon_delete.gif" alt="delete"/></a>
                                                     </th>
                                                 </tr>
+                                                <?php endif;?>
+
+                                                <?php if($item->children):?>
+                                                        <?php foreach($item->children as $child):?>
+                                                            <tr class="children">
+                                                                <th style="width:10px">
+                                                                    <input type="checkbox" id="check_all" name="check_all"/>
+                                                                </th>
+                                                                <th style="width:25%"><a href="<?php echo Yii::app()->request->baseUrl; ?>/admin.php/taxonomy/update/<?php echo $child->id;?>"><?php echo $child->name;?></a></th>
+                                                                <th style="width:15%"><?php echo date('Y-m-d  i:m:s',$child->createtime);?></th>
+                                                                <th style="width:15%"><?php echo date('Y-m-d  i:m:s',$child->updatetime);?></th>
+                                                                <th style="width:15%"><?php echo $child->status;?></th>
+                                                                <th style="width:20%">
+                                                                    <a href="<?php echo Yii::app()->request->baseUrl; ?>/admin.php/taxonomy/update/<?php echo $item->id;?>"><img SRC="<?php echo Yii::app()->request->baseUrl; ?>/images/icon_edit.gif" alt="edit"/></a>
+                                                                    <?php echo CHtml::link('Delete',"#", array('data-role'=>'button', 'data-icon'=>'delete', "submit"=>array('delete', 'id'=>$child->id), 'confirm' => 'Are you sure to confirm?')); ?>
+                                                                    <a href=""><img SRC="<?php echo Yii::app()->request->baseUrl; ?>/images/icon_delete.gif" alt="delete"/></a>
+                                                                </th>
+                                                            </tr>
+                                                        <?php endforeach;?>
+                                                <?php endif;?>
                                             <? endforeach; ?>
 
                                 </tbody>
