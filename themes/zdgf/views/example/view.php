@@ -1,20 +1,22 @@
 <?php if($model->banner):?>
-    <?php if(Node::model()->isChild($model)): ?>
     <div class="aboutBanner">
+    <?php if($model->parent==0): ?>
+        <?php echo $model->banner;?>
+    <?php else:?>
         <?php echo Example::model()->findByPk($model->parent)->banner; ?>
-    </div>
     <?php endif;?>
+    </div>
 <?php endif;?>
 <div class="aboutCon">
     <div class="leftBg">
       <h2 class="conTit">产品与服务</h2>
       <dl>
-            <?php $example_taxs=Taxonomy::model()->findAll('taxonomy=:taxonomy',array(':taxonomy'=>'case_category'));?>
+            <?php $example_taxs=Taxonomy::model()->noparent()->findAll('taxonomy=:taxonomy',array(':taxonomy'=>'case_category'));?>
 
             <?php foreach ($example_taxs as $tax):?>
                 <dt><a href="<?php echo Yii::app()->createUrl('taxonomy/view', array('id'=>$tax->id)); ?>"><?php echo $tax->name;?></a></dt>
                 <?php foreach($tax->examples as $example):?>
-                    <dd><a href="<?php echo Yii::app()->createUrl('product/view', array('id'=>$example->id)); ?>"><?php echo $example->title;?></a></dd>
+                    <dd><a href="<?php echo Yii::app()->createUrl('example/view', array('id'=>$example->id)); ?>"><?php echo $example->title;?></a></dd>
                 <?php endforeach;?>
             <?endforeach;?>
             </dl>
@@ -32,16 +34,15 @@
     <div class="rightBg">
         <?php echo $model->content; ?>
 
-        <?php if(!Node::model()->isChild($model)): ?>
+        <?php if($model->parent!==0): ?>
+        <?php foreach($model->children as $child):?>
         <div class="workList">
-        <a href="work_open2.html"><img src="photo/8.jpg"></a>
+            <a href="<?php echo Yii::app()->createUrl('example/view', array('id'=>$child->id))?>"><?php echo $child->banner;?></a>
         <div class="right">
-        <h4>德国SUNFARMING项目</h4>
-        <p>项目范围：大型电站</p>
-        <p>项目类型：地面安装</p>
-        <p>项目规模：24MW</p>
+            <?php echo $child->description;?>
+        <?php endforeach;?>
         </div>
-        <div class="more"><a href="work_open2.html">点击查看详细</a></div>
+        <div class="more"><a href="<?php echo Yii::app()->createUrl('example/view', array('id'=>$child->id))?>">点击查看详细</a></div>
         </div>
         <?php endif;?>
 

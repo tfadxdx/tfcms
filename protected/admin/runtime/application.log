@@ -5481,3 +5481,64 @@ Stack trace:
 REQUEST_URI=/tfcms/admin.php/example/photo/large/11.jpg
 HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/example/create
 ---
+2012/02/27 09:19:46 [error] [exception.CException] exception 'CException' with message 'The "dataProvider" property cannot be empty.' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\zii\widgets\CBaseListView.php:103
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\zii\widgets\CListView.php(173): CBaseListView->init()
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CBaseController.php(148): CListView->init()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CBaseController.php(173): CBaseController->createWidget('zii.widgets.CLi...', Array)
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\protected\admin\views\example\index.php(17): CBaseController->widget('zii.widgets.CLi...', Array)
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CBaseController.php(127): require('D:\APMServ5.2.6...')
+#5 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CBaseController.php(96): CBaseController->renderInternal('D:\APMServ5.2.6...', Array, true)
+#6 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(870): CBaseController->renderFile('D:\APMServ5.2.6...', Array, true)
+#7 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(783): CController->renderPartial('index', Array, true)
+#8 D:\APMServ5.2.6\www\htdocs\tfcms\protected\admin\controllers\ExampleController.php(137): CController->render('index', Array)
+#9 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\actions\CInlineAction.php(50): ExampleController->actionIndex()
+#10 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#11 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#12 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#13 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#14 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#15 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#16 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(292): CFilterChain->run()
+#17 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('')
+#19 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('example')
+#20 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#21 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/tfcms/admin.php/example
+---
+2012/02/27 09:53:34 [error] [exception.CException] exception 'CException' with message 'Property "Example." is not defined.' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CComponent.php:131
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\db\ar\CActiveRecord.php(144): CComponent->__get('')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\helpers\CHtml.php(2044): CActiveRecord->__get('')
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\helpers\CHtml.php(1402): CHtml::resolveValue(Object(Example), '')
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\widgets\CActiveForm.php(681): CHtml::activeDropDownList(Object(Example), '', Array, Array)
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\protected\admin\views\example\_form.php(86): CActiveForm->dropDownList(Object(Example), '', Array)
+#5 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CBaseController.php(127): require('D:\APMServ5.2.6...')
+#6 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CBaseController.php(96): CBaseController->renderInternal('D:\APMServ5.2.6...', Array, true)
+#7 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(870): CBaseController->renderFile('D:\APMServ5.2.6...', Array, true)
+#8 D:\APMServ5.2.6\www\htdocs\tfcms\protected\admin\views\example\update.php(18): CController->renderPartial('_form', Array)
+#9 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CBaseController.php(127): require('D:\APMServ5.2.6...')
+#10 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CBaseController.php(96): CBaseController->renderInternal('D:\APMServ5.2.6...', Array, true)
+#11 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(870): CBaseController->renderFile('D:\APMServ5.2.6...', Array, true)
+#12 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(783): CController->renderPartial('update', Array, true)
+#13 D:\APMServ5.2.6\www\htdocs\tfcms\protected\admin\controllers\ExampleController.php(106): CController->render('update', Array)
+#14 [internal function]: ExampleController->actionUpdate('34')
+#15 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(ExampleController), Array)
+#16 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(ExampleController), Object(ReflectionMethod), Array)
+#17 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#18 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#19 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#20 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#21 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#22 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#23 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(292): CFilterChain->run()
+#24 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#25 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('update')
+#26 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('example/update')
+#27 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#28 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#29 {main}
+REQUEST_URI=/tfcms/admin.php/example/update/34
+---

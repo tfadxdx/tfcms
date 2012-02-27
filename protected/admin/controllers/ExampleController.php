@@ -131,9 +131,9 @@ class ExampleController extends Controller
 	 */
 	public function actionIndex()
 	{
-		$dataProvider=new CActiveDataProvider('Example');
+		$model=Example::model()->self()->published()->desc()->findAll();
 		$this->render('index',array(
-			'dataProvider'=>$dataProvider,
+			'model'=>$model,
 		));
 	}
 

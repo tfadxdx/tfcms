@@ -123,12 +123,4 @@ class Node extends CActiveRecord
 			'criteria'=>$criteria,
 		));
 	}
-
-        public function isChild($model){
-            if ($model->parent==0){
-                return false;
-            } else {
-                return true;
-            }
-        }
 }

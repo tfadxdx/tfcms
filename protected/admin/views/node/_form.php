@@ -59,7 +59,7 @@
 
                 <p>
                         <?php echo $form->labelEx($model,'tid'); ?><br>
-                        <?php echo CHtml::dropDownList( "Node[tid]", null, CHtml::listData(Taxonomy::model()->findAll(), "id", "name")); ?>
+                        <?php echo CHtml::dropDownList( "Node[tid]", null, CHtml::listData(Taxonomy::model()->findAll(), "id", "name"),array('prompt' => 'Select one ...')); ?>
                         <?php echo $form->error($model,'tid'); ?>
                 </p><br>
 

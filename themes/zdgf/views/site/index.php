@@ -5,13 +5,13 @@
   <div class="conNewBg">
   	<div class="newTit">
      <h2>新闻中心 <img src="<?php echo Yii::app()->theme->baseUrl; ?>/img/icon01.gif" width="10" height="7" alt="新闻中心" /></h2>
-  	 <span class="more"><a href="news.html">更多&gt;</a></span></div>
+         <span class="more"><a href="<?php echo Yii::app()->createUrl('taxonomy/view', array('id'=>Taxonomy::model()->find('name=:name',array(':name'=>'公司动态'))->id));?>">更多&gt;</a></span></div>
  	 <div class="clr"></div>
  	 <div class="newCon">
  	 <ul>
- 	 <li><span>2011-05-08</span><a href="news_open.html">中电光伏为全球最大单体BaPV工程提供产品......</a></li>
-	  <li><span>2011-05-01</span><a href="news_open.html">中电光伏公布2009年第四季度和全年财务数据</a></li>
- 	 <li><span>2010-03-15</span><a href="news_open.html">中电光伏任命蔡志方为公司首席执行官</a></li>
+            <?php foreach(News::model()->self()->published()->desc()->findAll() as $item):?>
+             <li><span><?php echo date('Y-m-d',$item->createtime);?></span><a href="<?php echo Yii::app()->createUrl('news/view', array('id'=>$item->id));?>"><?php echo substr($item->content, 0,40);?></a></li>
+            <?php endforeach;?>
  	 </ul>
  	 </div>
   </div>

@@ -71,7 +71,7 @@
 
                 <p>
                         <?php echo $form->labelEx($model,'tid'); ?><br>
-                        <?php echo $form->dropDownList($model, 'tid', CHtml::listData(Taxonomy::model()->findAll(), "id", "name")); ?>
+                        <?php echo $form->dropDownList($model, 'tid', CHtml::listData(Taxonomy::model()->findAll(), "id", "name"),array('prompt' => 'Select one ...')); ?>
                         <?php echo $form->error($model,'tid'); ?>
                 </p><br>
 
@@ -83,7 +83,7 @@
 
                 <p>
                         <?php echo $form->labelEx($model,'parent'); ?><br>
-                        <?php echo $form->dropDownList($model, 'parent', CHtml::listData(Node::model()->findAll(), "id", "title")); ?>
+                        <?php echo $form->dropDownList($model, 'parent', CHtml::listData(Node::model()->findAll(), "id", "title"),array('prompt' => 'Select one ...')); ?>
                         <?php echo $form->error($model,'parent'); ?>
                 </p><br>
 

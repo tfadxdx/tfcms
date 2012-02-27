@@ -35,7 +35,7 @@
 
 	<p>
 		<?php echo $form->labelEx($model,'parent'); ?><br>
-                <?php echo $form->dropDownList($model, 'parent', CHtml::listData(Taxonomy::model()->findAll(), "id", "name")); ?>
+                <?php echo $form->dropDownList($model, 'parent', CHtml::listData(Taxonomy::model()->findAll(), "id", "name"),array('prompt' => 'Select one ...')); ?>
 		<?php echo $form->error($model,'parent'); ?>
 	</p><br>
 

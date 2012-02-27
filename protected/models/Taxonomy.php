@@ -127,6 +127,9 @@ class Taxonomy extends CActiveRecord
                 'published'=>array(
                     'condition'=>'status=1',
                 ),
+                'noparent'=>array(
+                    'condition'=>'parent<>0',
+                ),
                 'recently'=>array(
                     'order'=>'createtime DESC',
                     'limit'=>5,
