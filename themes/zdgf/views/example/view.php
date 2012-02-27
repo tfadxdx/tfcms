@@ -11,7 +11,7 @@
     <div class="leftBg">
       <h2 class="conTit">产品与服务</h2>
       <dl>
-            <?php $example_taxs=Taxonomy::model()->noparent()->findAll('taxonomy=:taxonomy',array(':taxonomy'=>'case_category'));?>
+            <?php $example_taxs=Taxonomy::model()->noparent()->findAll('taxonomy=:taxonomy',array(':taxonomy'=>'example_category'));?>
 
             <?php foreach ($example_taxs as $tax):?>
                 <dt><a href="<?php echo Yii::app()->createUrl('taxonomy/view', array('id'=>$tax->id)); ?>"><?php echo $tax->name;?></a></dt>
@@ -32,6 +32,7 @@
             </dl>
     </div>
     <div class="rightBg">
+        <div class="rightTit"><h3>案例中心</h3></div>
         <?php echo $model->content; ?>
 
         <?php if($model->parent!==0): ?>

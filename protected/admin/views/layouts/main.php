@@ -109,39 +109,39 @@
                 <!-- Begin shortcut menu -->
                 <ul id="shortcut">
                 <li>
-                    <a href="<?php echo Yii::app()->createUrl('admin.php/site/index');?>" id="shortcut_home">
+                    <a href='<?php echo Yii::app()->request->baseUrl;?>/admin.php/site/index' id="shortcut_home">
                             <img SRC="<?php echo Yii::app()->request->baseUrl; ?>/images/shortcut/home.gif" alt="home"/><br/>
                             <strong><?php echo Yii::t('cn', 'Home');?></strong>
                           </a>
                         </li>
                 <li>
-                  <a href="<?php echo Yii::app()->createUrl('admin.php/news');?>">
+                  <a href='<?php echo Yii::app()->request->baseUrl;?>/admin.php/news'>
                             <img SRC="<?php echo Yii::app()->request->baseUrl; ?>/images/shortcut/calendar.gif" alt="calendar"/><br/>
                             <strong><?php echo Yii::t('cn', 'News');?></strong>
                           </a>
                         </li>
                 <li>
-                  <a href="<?php echo Yii::app()->createUrl('admin.php/product');?>">
+                  <a href='<?php echo Yii::app()->request->baseUrl;?>/admin.php/product'>
                             <img SRC="<?php echo Yii::app()->request->baseUrl; ?>/images/shortcut/stats.gif" alt="stats"/><br/>
                             <strong><?php echo Yii::t('cn', 'Product');?></strong>
                           </a>
                         </li>
                         <li>
-                  <a href="<?php echo Yii::app()->createUrl('admin.php/example');?>">
+                  <a href='<?php echo Yii::app()->request->baseUrl;?>/admin.php/example'>
                             <img SRC="<?php echo Yii::app()->request->baseUrl; ?>/images/shortcut/setting.gif" alt="setting"/><br/>
                             <strong><?php echo Yii::t('cn', 'Example');?></strong>
                           </a>
                         </li>
                         <li>
-                  <a href="<?php echo Yii::app()->createUrl('admin.php/media/list');?>" id="shortcut_contacts">
+                  <a href='<?php echo Yii::app()->request->baseUrl;?>/admin.php/media/list' id="shortcut_contacts">
                             <img SRC="<?php echo Yii::app()->request->baseUrl; ?>/images/shortcut/contacts.gif" alt="contacts"/><br/>
                             <strong><?php echo Yii::t('cn', 'Media');?></strong>
                           </a>
                         </li>
                         <li>
-                  <a href="<?php echo Yii::app()->createUrl('admin.php/page');?>" id="shortcut_posts">
+                  <a href='<?php echo Yii::app()->request->baseUrl;?>/admin.php/page' id="shortcut_posts">
                             <img SRC="<?php echo Yii::app()->request->baseUrl; ?>/images/shortcut/posts.gif" alt="pages"/><br/>
-                            <strong><?php echo Yii::t('cn', 'Pages');?></strong>
+                            <strong><?php echo Yii::t('cn', 'Page');?></strong>
                           </a>
                         </li>
                 </ul>
