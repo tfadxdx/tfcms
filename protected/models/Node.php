@@ -77,19 +77,19 @@ class Node extends CActiveRecord
 	{
 		return array(
 			'id' => 'ID',
-			'title' => 'Title',
-			'name' => 'Name',
-			'description' => 'Description',
-			'banner' => 'Banner',
-			'content' => 'Content',
-			'uid' => 'Uid',
-			'tid' => 'Tid',
-			'type' => 'Type',
-			'weight' => 'Weight',
-			'status' => 'Status',
-			'parent' => 'Parent',
-			'createtime' => 'Createtime',
-			'updatetime' => 'Updatetime',
+			'title' => Yii::t('cn', 'Title'),
+			'name' => Yii::t('cn', 'Name'),
+			'description' => Yii::t('cn', 'Description'),
+			'banner' => Yii::t('cn', 'Banner'),
+			'content' => Yii::t('cn', 'Content'),
+			'uid' => Yii::t('cn', 'Uid'),
+			'tid' => Yii::t('cn', 'Tid'),
+			'type' => Yii::t('cn', 'Type'),
+			'weight' => Yii::t('cn', 'Weight'),
+			'status' => Yii::t('cn', 'Status'),
+			'parent' => Yii::t('cn', 'Parent Page'),
+			'createtime' => Yii::t('cn', 'Createtime'),
+			'updatetime' => Yii::t('cn', 'Updatetime'),
 		);
 	}
 

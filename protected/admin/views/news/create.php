@@ -1,15 +1,15 @@
 <?php
 $this->breadcrumbs=array(
-	'Nodes'=>array('index'),
-	'Create',
+	Yii::t('cn','News')=>array('index'),
+	Yii::t('cn','Create')
 );
 
 $this->menu=array(
-	array('label'=>'List Node', 'url'=>array('index')),
-	array('label'=>'Manage Node', 'url'=>array('admin')),
+	array('label'=>'List News', 'url'=>array('index')),
+	array('label'=>'Manage News', 'url'=>array('admin')),
 );
 ?>
 
-<h1>Create Node</h1>
+<h1><?php echo Yii::t('cn','Create News');?></h1>
 
 <?php echo $this->renderPartial('_form', array('model'=>$model)); ?>

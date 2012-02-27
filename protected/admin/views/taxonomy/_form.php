@@ -1,3 +1,7 @@
+<?php
+    $type=$_GET['type'];
+?>
+
 <div class="form">
 
 <?php $form=$this->beginWidget('CActiveForm', array(
@@ -5,7 +9,7 @@
 	'enableAjaxValidation'=>false,
 )); ?>
 
-	<p class="note">Fields with <span class="required">*</span> are required.</p><br>
+	<p class="note"><?php echo Yii::t('cn','Fields with * are required.');?></p><br>
 
 	<?php echo $form->errorSummary($model); ?>
 
@@ -23,7 +27,15 @@
 
 	<p>
 		<?php echo $form->labelEx($model,'taxonomy'); ?><br>
-		<?php echo $form->textField($model,'taxonomy',array('size'=>32,'maxlength'=>32)); ?>
+		<?php echo $form->dropDownList($model,'taxonomy',array(
+                                                                ''=>Yii::t('cn', 'Please Select'),
+                                                                'product_category'=>Yii::t('cn', 'Product Type'),
+                                                                'news_category'=>Yii::t('cn', 'News Type'),
+                                                                'page_category'=>Yii::t('cn', 'Page Type'),
+                                                                'example_category'=>Yii::t('cn', 'Example Type'),
+                                                                ),
+                                                array('options' => array($type.'_category'=>array('selected'=>true)))
+                        ); ?>
 		<?php echo $form->error($model,'taxonomy'); ?>
 	</p><br>
 
@@ -35,7 +47,7 @@
 
 	<p>
 		<?php echo $form->labelEx($model,'parent'); ?><br>
-                <?php echo $form->dropDownList($model, 'parent', CHtml::listData(Taxonomy::model()->findAll(), "id", "name"),array('prompt' => 'Select one ...')); ?>
+                <?php echo $form->dropDownList($model, 'parent', CHtml::listData(Taxonomy::model()->findAll('taxonomy=:taxonomy',array(':taxonomy'=>$type.'_category')), "id", "name"),array('prompt' => Yii::t('cn', 'Please Select'))); ?>
 		<?php echo $form->error($model,'parent'); ?>
 	</p><br>
 

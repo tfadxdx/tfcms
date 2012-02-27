@@ -51,6 +51,9 @@ class Example extends Node
                 'self'=>array(
                     'condition'=>'type="example"',
                 ),
+                'parent'=>array(
+                    'condition'=>'parent=0',
+                ),
                 'published'=>array(
                     'condition'=>'status=1',
                 ),

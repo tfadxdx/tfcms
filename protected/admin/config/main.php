@@ -14,7 +14,7 @@ return array(
 	'basePath' => $frontend,
 	'name'=>'Admin Backend',
 	'timeZone' => 'Asia/Shanghai',
-
+        'language' => 'zh_cn',
 	'controllerPath' => $backend.'/controllers',
 	'viewPath' => $backend.'/views',
 	'runtimePath' => $backend.'/runtime',
@@ -76,10 +76,10 @@ return array(
 				*/
 			),
 		),
-                 'user'=>array(
+                'user'=>array(
                         // enable cookie-based authentication
                    'allowAutoLogin'=>true,
-                   'loginUrl' => array('/user/login'),
+                   'loginUrl' => array('/admin.php/user/login'),
                 ),
                 'file'=>array(
                     'class'=>'application.extensions.file.CFile',

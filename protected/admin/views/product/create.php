@@ -1,7 +1,7 @@
 <?php
 $this->breadcrumbs=array(
-	'Products'=>array('index'),
-	'Create',
+	Yii::t('cn','Product')=>array('index'),
+	Yii::t('cn','Create')
 );
 
 $this->menu=array(
@@ -10,6 +10,6 @@ $this->menu=array(
 );
 ?>
 
-<h1>Create Product</h1>
+<h1><?php echo Yii::t('cn','Create Product');?></h1>
 
 <?php echo $this->renderPartial('_form', array('model'=>$model)); ?>

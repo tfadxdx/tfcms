@@ -52,13 +52,13 @@ class UserModule extends CWebModule
 	 */
 	public $autoLogin=true;
 	
-	public $registrationUrl = array("/user/registration");
-	public $recoveryUrl = array("/user/recovery/recovery");
-	public $loginUrl = array("/user/login");
-	public $logoutUrl = array("/user/logout");
-	public $profileUrl = array("/user/profile");
-	public $returnUrl = array("/user/profile");
-	public $returnLogoutUrl = array("/user/login");
+	public $registrationUrl = array("/admin.php/user/registration");
+	public $recoveryUrl = array("/admin.php/user/recovery/recovery");
+	public $loginUrl = array("/admin.php/user/login");
+	public $logoutUrl = array("/admin.php/user/logout");
+	public $profileUrl = array("/admin.php/user/profile");
+	public $returnUrl = array("/admin.php/user/profile");
+	public $returnLogoutUrl = array("/admin.php/user/login");
 	
 	public $fieldsMessage = '';
 	
@@ -121,6 +121,8 @@ class UserModule extends CWebModule
 
 	public function beforeControllerAction($controller, $action)
 	{
+                $controller->layout = 'application.views.layouts.admin_login';
+                
 		if(parent::beforeControllerAction($controller, $action))
 		{
 			// this method is called before any module controller action is performed

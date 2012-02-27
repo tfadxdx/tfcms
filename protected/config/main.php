@@ -22,6 +22,8 @@ return array(
 		'application.components.*',
                 'ext.giix-components.*', // giix components
 //                'ext.bootstrap.widgets.*',
+                'application.modules.user.models.*',
+                'application.modules.user.components.*',
 	),
 
 	'modules'=>array(
@@ -37,6 +39,7 @@ return array(
                           'bootstrap.gii', // since 0.9.1
                         ),
 		),
+                'user',
 	),
 
 	// application components
@@ -86,6 +89,11 @@ return array(
 				*/
 			),
 		),
+                'user'=>array(
+                        // enable cookie-based authentication
+                   'allowAutoLogin'=>true,
+                   'loginUrl' => array('/user/login'),
+                ),
     
 //                'bootstrap'=>array(
 //                    'class'=>'ext.bootstrap.components.Bootstrap', // assuming you extracted bootstrap under extensions

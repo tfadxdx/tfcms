@@ -80,15 +80,14 @@ class Taxonomy extends CActiveRecord
 	{
 		return array(
 			'id' => 'ID',
-			'name' => 'Name',
-			'slug' => 'Slug',
-			'taxonomy' => 'Taxonomy',
-			'description' => 'Description',
-			'parent' => 'Parent',
-			'count' => 'Count',
-			'status' => 'Status',
-			'createtime' => 'Createtime',
-			'updatetime' => 'Updatetime',
+			'slug' => Yii::t('cn', 'Slug'),
+			'taxonomy' => Yii::t('cn', 'Taxonomy'),
+			'description' => Yii::t('cn', 'Description'),
+			'count' => Yii::t('cn', 'Count'),
+			'name' => Yii::t('cn', 'Taxonomy Name'),
+			'parent' => Yii::t('cn', 'Parent Taxonomy'),
+			'createtime' => Yii::t('cn', 'Createtime'),
+			'updatetime' => Yii::t('cn', 'Updatetime'),
 		);
 	}
 
@@ -136,6 +135,18 @@ class Taxonomy extends CActiveRecord
                 ),
                 'desc'=>array(
                     'order'=>'createtime DESC',
+                ),
+                'tproduct'=>array(
+                    'condition'=>'taxonomy="product_category"',
+                ),
+                'tnews'=>array(
+                    'condition'=>'taxonomy="news_category"',
+                ),
+                'texample'=>array(
+                    'condition'=>'taxonomy="example_category"',
+                ),
+                'tpage'=>array(
+                    'condition'=>'taxonomy="page_category"',
                 ),
             );
         }

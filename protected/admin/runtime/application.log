@@ -5542,3 +5542,367 @@ Stack trace:
 #29 {main}
 REQUEST_URI=/tfcms/admin.php/example/update/34
 ---
+2012/02/27 13:27:09 [error] [php] YiiBase::include(User.php) [<a href='yiibase.include'>yiibase.include</a>]: failed to open stream: No such file or directory (D:\APMServ5.2.6\www\htdocs\tfcms\framework\YiiBase.php:418)
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\protected\admin\views\example\index.php(41): spl_autoload_call()
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CBaseController.php(127): require()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CBaseController.php(96): ExampleController->renderInternal()
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(870): ExampleController->renderFile()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(783): ExampleController->renderPartial()
+#5 D:\APMServ5.2.6\www\htdocs\tfcms\protected\admin\controllers\ExampleController.php(137): ExampleController->render()
+#6 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\actions\CInlineAction.php(50): ExampleController->actionIndex()
+#7 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(309): CInlineAction->runWithParams()
+#8 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilterChain.php(134): ExampleController->runAction()
+#9 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#10 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(1146): CAccessControlFilter->filter()
+#11 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CInlineFilter.php(59): ExampleController->filterAccessControl()
+#12 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#13 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(292): CFilterChain->run()
+#14 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(266): ExampleController->runActionWithFilters()
+#15 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): ExampleController->run()
+#16 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#17 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#18 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CWebApplication->run()
+REQUEST_URI=/tfcms/admin.php/example
+in D:\APMServ5.2.6\www\htdocs\tfcms\protected\admin\views\example\index.php (41)
+in D:\APMServ5.2.6\www\htdocs\tfcms\protected\admin\controllers\ExampleController.php (137)
+in D:\APMServ5.2.6\www\htdocs\tfcms\admin.php (13)
+2012/02/27 13:30:13 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\auth\CAccessControlFilter.php:157
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\auth\CAccessControlFilter.php(120): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilter.php(39): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(292): CFilterChain->run()
+#6 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('logout')
+#8 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('site/logout')
+#9 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/tfcms/admin.php/site/logout
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/user/login
+---
+2012/02/27 13:33:10 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\auth\CAccessControlFilter.php:157
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\auth\CAccessControlFilter.php(120): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilter.php(39): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(292): CFilterChain->run()
+#6 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('logout')
+#8 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('site/logout')
+#9 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/tfcms/admin.php/site/logout
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php
+---
+2012/02/27 13:33:33 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\auth\CAccessControlFilter.php:157
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\auth\CAccessControlFilter.php(120): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilter.php(39): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(292): CFilterChain->run()
+#6 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('logout')
+#8 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('site/logout')
+#9 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/tfcms/admin.php/site/logout
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php
+---
+2012/02/27 13:47:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "user/index".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('user/index')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/admin.php/user/index
+---
+2012/02/27 13:47:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "user/index".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('user/index')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/admin.php/user/index
+---
+2012/02/27 13:47:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "user/index".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('user/index')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/admin.php/user/index
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/user/login
+---
+2012/02/27 13:48:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "user/index".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('user/index')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/admin.php/user/index
+---
+2012/02/27 13:53:28 [error] [exception.CException] exception 'CException' with message 'LoginController cannot find the requested view "/admin/site/index".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php:879
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(783): CController->renderPartial('/admin/site/ind...', Array, true)
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\protected\modules\user\controllers\LoginController.php(28): CController->render('/admin/site/ind...', Array)
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\actions\CInlineAction.php(50): LoginController->actionLogin()
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('')
+#7 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('user/login')
+#8 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#9 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/tfcms/admin.php/user/login
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php
+---
+2012/02/27 14:08:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "user/images/adminLogo.gif".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('user/images/adm...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/admin.php/user/images/adminLogo.gif
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/user/login
+---
+2012/02/27 14:09:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "user/images/adminLogo.gif".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('user/images/adm...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/admin.php/user/images/adminLogo.gif
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/user/login
+---
+2012/02/27 14:20:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "user/images/adminLogo.gif".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('user/images/adm...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/admin.php/user/images/adminLogo.gif
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/user/login
+---
+2012/02/27 14:55:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php:484
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(271): CController->missingAction('')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('')
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('media')
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tfcms/admin.php/media
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page
+---
+2012/02/27 15:08:06 [error] [php] Object of class CLocale could not be converted to string (D:\APMServ5.2.6\www\htdocs\tfcms\protected\admin\views\layouts\main.php:42)
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\widgets\CContentDecorator.php(77): SiteController->renderFile()
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\widgets\CContentDecorator.php(55): CContentDecorator->decorate()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\widgets\COutputProcessor.php(45): CContentDecorator->processOutput()
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CBaseController.php(207): CContentDecorator->run()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CBaseController.php(301): SiteController->endWidget()
+#5 D:\APMServ5.2.6\www\htdocs\tfcms\protected\admin\views\layouts\column1.php(3): SiteController->endContent()
+#6 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CBaseController.php(127): require()
+#7 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CBaseController.php(96): SiteController->renderInternal()
+#8 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(785): SiteController->renderFile()
+#9 D:\APMServ5.2.6\www\htdocs\tfcms\protected\admin\controllers\SiteController.php(60): SiteController->render()
+#10 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#11 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(309): CInlineAction->runWithParams()
+#12 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilterChain.php(134): SiteController->runAction()
+#13 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#14 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(1146): CAccessControlFilter->filter()
+#15 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CInlineFilter.php(59): SiteController->filterAccessControl()
+#16 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#17 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(292): CFilterChain->run()
+#18 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#19 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): SiteController->run()
+#20 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#21 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#22 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CWebApplication->run()
+REQUEST_URI=/tfcms/admin.php/site/index
+in D:\APMServ5.2.6\www\htdocs\tfcms\protected\admin\views\layouts\main.php (42)
+in D:\APMServ5.2.6\www\htdocs\tfcms\protected\admin\views\layouts\column1.php (3)
+in D:\APMServ5.2.6\www\htdocs\tfcms\protected\admin\controllers\SiteController.php (60)
+2012/02/27 16:03:11 [error] [exception.CException] exception 'CException' with message '属性 "Example.self" 未被定义.' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CComponent.php:131
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\db\ar\CActiveRecord.php(144): CComponent->__get('self')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\protected\admin\views\example\_form.php(68): CActiveRecord->__get('self')
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CBaseController.php(127): require('D:\APMServ5.2.6...')
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CBaseController.php(96): CBaseController->renderInternal('D:\APMServ5.2.6...', Array, true)
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(870): CBaseController->renderFile('D:\APMServ5.2.6...', Array, true)
+#5 D:\APMServ5.2.6\www\htdocs\tfcms\protected\admin\views\example\create.php(15): CController->renderPartial('_form', Array)
+#6 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CBaseController.php(127): require('D:\APMServ5.2.6...')
+#7 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CBaseController.php(96): CBaseController->renderInternal('D:\APMServ5.2.6...', Array, true)
+#8 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(870): CBaseController->renderFile('D:\APMServ5.2.6...', Array, true)
+#9 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(783): CController->renderPartial('create', Array, true)
+#10 D:\APMServ5.2.6\www\htdocs\tfcms\protected\admin\controllers\ExampleController.php(82): CController->render('create', Array)
+#11 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\actions\CInlineAction.php(50): ExampleController->actionCreate()
+#12 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#13 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#14 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#15 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#16 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#17 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#18 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(292): CFilterChain->run()
+#19 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('create')
+#21 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('example/create')
+#22 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#23 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#24 {main}
+REQUEST_URI=/tfcms/admin.php/example/create
+---
+2012/02/27 16:42:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "texonomy/create"。' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('texonomy/create')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/admin.php/texonomy/create
+---
+2012/02/27 16:50:07 [error] [php] Missing argument 2 for YiiBase::t(), called in D:\APMServ5.2.6\www\htdocs\tfcms\protected\admin\views\taxonomy\_form.php on line 26 and defined (D:\APMServ5.2.6\www\htdocs\tfcms\framework\YiiBase.php:567)
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CBaseController.php(96): TaxonomyController->renderInternal()
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(870): TaxonomyController->renderFile()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\protected\admin\views\taxonomy\create.php(15): TaxonomyController->renderPartial()
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CBaseController.php(127): require()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CBaseController.php(96): TaxonomyController->renderInternal()
+#5 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(870): TaxonomyController->renderFile()
+#6 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(783): TaxonomyController->renderPartial()
+#7 D:\APMServ5.2.6\www\htdocs\tfcms\protected\admin\controllers\TaxonomyController.php(65): TaxonomyController->render()
+#8 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\actions\CInlineAction.php(50): TaxonomyController->actionCreate()
+#9 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(309): CInlineAction->runWithParams()
+#10 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilterChain.php(134): TaxonomyController->runAction()
+#11 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#12 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(1146): CAccessControlFilter->filter()
+#13 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CInlineFilter.php(59): TaxonomyController->filterAccessControl()
+#14 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#15 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(292): CFilterChain->run()
+#16 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(266): TaxonomyController->runActionWithFilters()
+#17 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): TaxonomyController->run()
+#18 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#19 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#20 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CWebApplication->run()
+REQUEST_URI=/tfcms/admin.php/taxonomy/create
+in D:\APMServ5.2.6\www\htdocs\tfcms\protected\admin\views\taxonomy\_form.php (26)
+in D:\APMServ5.2.6\www\htdocs\tfcms\protected\admin\views\taxonomy\create.php (15)
+in D:\APMServ5.2.6\www\htdocs\tfcms\protected\admin\controllers\TaxonomyController.php (65)
+2012/02/27 16:50:39 [error] [php] Missing argument 2 for YiiBase::t(), called in D:\APMServ5.2.6\www\htdocs\tfcms\protected\admin\views\taxonomy\_form.php on line 26 and defined (D:\APMServ5.2.6\www\htdocs\tfcms\framework\YiiBase.php:567)
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CBaseController.php(96): TaxonomyController->renderInternal()
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(870): TaxonomyController->renderFile()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\protected\admin\views\taxonomy\create.php(15): TaxonomyController->renderPartial()
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CBaseController.php(127): require()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CBaseController.php(96): TaxonomyController->renderInternal()
+#5 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(870): TaxonomyController->renderFile()
+#6 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(783): TaxonomyController->renderPartial()
+#7 D:\APMServ5.2.6\www\htdocs\tfcms\protected\admin\controllers\TaxonomyController.php(65): TaxonomyController->render()
+#8 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\actions\CInlineAction.php(50): TaxonomyController->actionCreate()
+#9 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(309): CInlineAction->runWithParams()
+#10 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilterChain.php(134): TaxonomyController->runAction()
+#11 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#12 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(1146): CAccessControlFilter->filter()
+#13 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CInlineFilter.php(59): TaxonomyController->filterAccessControl()
+#14 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#15 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(292): CFilterChain->run()
+#16 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(266): TaxonomyController->runActionWithFilters()
+#17 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): TaxonomyController->run()
+#18 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#19 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#20 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CWebApplication->run()
+REQUEST_URI=/tfcms/admin.php/taxonomy/create
+in D:\APMServ5.2.6\www\htdocs\tfcms\protected\admin\views\taxonomy\_form.php (26)
+in D:\APMServ5.2.6\www\htdocs\tfcms\protected\admin\views\taxonomy\create.php (15)
+in D:\APMServ5.2.6\www\htdocs\tfcms\protected\admin\controllers\TaxonomyController.php (65)
+2012/02/27 16:52:26 [error] [php] Missing argument 2 for YiiBase::t(), called in D:\APMServ5.2.6\www\htdocs\tfcms\protected\admin\views\taxonomy\_form.php on line 26 and defined (D:\APMServ5.2.6\www\htdocs\tfcms\framework\YiiBase.php:567)
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CBaseController.php(96): TaxonomyController->renderInternal()
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(870): TaxonomyController->renderFile()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\protected\admin\views\taxonomy\create.php(15): TaxonomyController->renderPartial()
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CBaseController.php(127): require()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CBaseController.php(96): TaxonomyController->renderInternal()
+#5 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(870): TaxonomyController->renderFile()
+#6 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(783): TaxonomyController->renderPartial()
+#7 D:\APMServ5.2.6\www\htdocs\tfcms\protected\admin\controllers\TaxonomyController.php(65): TaxonomyController->render()
+#8 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\actions\CInlineAction.php(50): TaxonomyController->actionCreate()
+#9 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(309): CInlineAction->runWithParams()
+#10 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilterChain.php(134): TaxonomyController->runAction()
+#11 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#12 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(1146): CAccessControlFilter->filter()
+#13 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CInlineFilter.php(59): TaxonomyController->filterAccessControl()
+#14 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#15 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(292): CFilterChain->run()
+#16 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(266): TaxonomyController->runActionWithFilters()
+#17 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): TaxonomyController->run()
+#18 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#19 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#20 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CWebApplication->run()
+REQUEST_URI=/tfcms/admin.php/taxonomy/create
+in D:\APMServ5.2.6\www\htdocs\tfcms\protected\admin\views\taxonomy\_form.php (26)
+in D:\APMServ5.2.6\www\htdocs\tfcms\protected\admin\views\taxonomy\create.php (15)
+in D:\APMServ5.2.6\www\htdocs\tfcms\protected\admin\controllers\TaxonomyController.php (65)
+2012/02/27 16:52:27 [error] [php] Missing argument 2 for YiiBase::t(), called in D:\APMServ5.2.6\www\htdocs\tfcms\protected\admin\views\taxonomy\_form.php on line 26 and defined (D:\APMServ5.2.6\www\htdocs\tfcms\framework\YiiBase.php:567)
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CBaseController.php(96): TaxonomyController->renderInternal()
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(870): TaxonomyController->renderFile()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\protected\admin\views\taxonomy\create.php(15): TaxonomyController->renderPartial()
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CBaseController.php(127): require()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CBaseController.php(96): TaxonomyController->renderInternal()
+#5 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(870): TaxonomyController->renderFile()
+#6 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(783): TaxonomyController->renderPartial()
+#7 D:\APMServ5.2.6\www\htdocs\tfcms\protected\admin\controllers\TaxonomyController.php(65): TaxonomyController->render()
+#8 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\actions\CInlineAction.php(50): TaxonomyController->actionCreate()
+#9 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(309): CInlineAction->runWithParams()
+#10 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilterChain.php(134): TaxonomyController->runAction()
+#11 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#12 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(1146): CAccessControlFilter->filter()
+#13 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CInlineFilter.php(59): TaxonomyController->filterAccessControl()
+#14 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#15 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(292): CFilterChain->run()
+#16 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(266): TaxonomyController->runActionWithFilters()
+#17 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): TaxonomyController->run()
+#18 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#19 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#20 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CWebApplication->run()
+REQUEST_URI=/tfcms/admin.php/taxonomy/create
+in D:\APMServ5.2.6\www\htdocs\tfcms\protected\admin\views\taxonomy\_form.php (26)
+in D:\APMServ5.2.6\www\htdocs\tfcms\protected\admin\views\taxonomy\create.php (15)
+in D:\APMServ5.2.6\www\htdocs\tfcms\protected\admin\controllers\TaxonomyController.php (65)
+2012/02/27 16:52:28 [error] [php] Missing argument 2 for YiiBase::t(), called in D:\APMServ5.2.6\www\htdocs\tfcms\protected\admin\views\taxonomy\_form.php on line 26 and defined (D:\APMServ5.2.6\www\htdocs\tfcms\framework\YiiBase.php:567)
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CBaseController.php(96): TaxonomyController->renderInternal()
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(870): TaxonomyController->renderFile()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\protected\admin\views\taxonomy\create.php(15): TaxonomyController->renderPartial()
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CBaseController.php(127): require()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CBaseController.php(96): TaxonomyController->renderInternal()
+#5 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(870): TaxonomyController->renderFile()
+#6 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(783): TaxonomyController->renderPartial()
+#7 D:\APMServ5.2.6\www\htdocs\tfcms\protected\admin\controllers\TaxonomyController.php(65): TaxonomyController->render()
+#8 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\actions\CInlineAction.php(50): TaxonomyController->actionCreate()
+#9 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(309): CInlineAction->runWithParams()
+#10 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilterChain.php(134): TaxonomyController->runAction()
+#11 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#12 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(1146): CAccessControlFilter->filter()
+#13 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CInlineFilter.php(59): TaxonomyController->filterAccessControl()
+#14 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#15 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(292): CFilterChain->run()
+#16 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(266): TaxonomyController->runActionWithFilters()
+#17 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): TaxonomyController->run()
+#18 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#19 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#20 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CWebApplication->run()
+REQUEST_URI=/tfcms/admin.php/taxonomy/create
+in D:\APMServ5.2.6\www\htdocs\tfcms\protected\admin\views\taxonomy\_form.php (26)
+in D:\APMServ5.2.6\www\htdocs\tfcms\protected\admin\views\taxonomy\create.php (15)
+in D:\APMServ5.2.6\www\htdocs\tfcms\protected\admin\controllers\TaxonomyController.php (65)
