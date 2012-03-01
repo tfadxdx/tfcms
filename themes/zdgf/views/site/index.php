@@ -1,5 +1,68 @@
 <?php echo Page::model()->find('name=:name',array(':name'=>'homebanner'))->content;?>
+<?php
+    function getstr($string, $length, $encoding  = 'utf-8') {
+    $string = trim($string);
 
+    if($length && strlen($string) > $length) {
+        //截断字符
+        $wordscut = '';
+        if(strtolower($encoding) == 'utf-8') {
+            //utf8编码
+            $n = 0;
+            $tn = 0;
+            $noc = 0;
+            while ($n < strlen($string)) {
+                $t = ord($string[$n]);
+                if($t == 9 || $t == 10 || (32 <= $t && $t <= 126)) {
+                    $tn = 1;
+                    $n++;
+                    $noc++;
+                } elseif(194 <= $t && $t <= 223) {
+                    $tn = 2;
+                    $n += 2;
+                    $noc += 2;
+                } elseif(224 <= $t && $t < 239) {
+                    $tn = 3;
+                    $n += 3;
+                    $noc += 2;
+                } elseif(240 <= $t && $t <= 247) {
+                    $tn = 4;
+                    $n += 4;
+                    $noc += 2;
+                } elseif(248 <= $t && $t <= 251) {
+                    $tn = 5;
+                    $n += 5;
+                    $noc += 2;
+                } elseif($t == 252 || $t == 253) {
+                    $tn = 6;
+                    $n += 6;
+                    $noc += 2;
+                } else {
+                    $n++;
+                }
+                if ($noc >= $length) {
+                    break;
+                }
+            }
+            if ($noc > $length) {
+                $n -= $tn;
+            }
+            $wordscut = substr($string, 0, $n);
+        } else {
+            for($i = 0; $i < $length - 1; $i++) {
+                if(ord($string[$i]) > 127) {
+                    $wordscut .= $string[$i].$string[$i + 1];
+                    $i++;
+                } else {
+                    $wordscut .= $string[$i];
+                }
+            }
+        }
+        $string = $wordscut;
+    }
+    return trim($string);
+}
+?>
 <!--内容-->
 <div class="wrap indexConBg">
   <div class="conNewBg">
@@ -9,8 +72,8 @@
  	 <div class="clr"></div>
  	 <div class="newCon">
  	 <ul>
-            <?php foreach(News::model()->self()->published()->desc()->findAll() as $item):?>
-             <li><span><?php echo date('Y-m-d',$item->createtime);?></span><a href="<?php echo Yii::app()->createUrl('news/view', array('id'=>$item->id));?>"><?php echo substr($item->content, 0,40);?></a></li>
+            <?php foreach(News::model()->self()->published()->last()->istop()->findAll() as $item):?>
+             <li><span><?php echo date('Y-m-d',$item->createtime);?></span><a href="<?php echo Yii::app()->createUrl('news/view', array('id'=>$item->id));?>"><?php echo getstr($item->content, 40).'......';?></a></li>
             <?php endforeach;?>
  	 </ul>
  	 </div>
@@ -41,10 +104,9 @@
      <a href="products_open.html"><img src="<?php echo Yii::app()->theme->baseUrl; ?>/photo/1-110324151240109.jpg" width="120" height="120" alt="产品01" /></a>
      <h3>PRODUCTS</h3>
 	<ul>
-    <li><a href="products.html">单晶硅太阳能电池</a></li>
-    <li><a href="products1.html">多晶硅太阳能电池</a></li>
-    <li><a href="products2.html">单晶硅光伏组件</a></li>
-    <li><a href="products3.html">多晶硅光伏组件</a></li>
+    <?php foreach (Product::model()->findAll() as $key => $item): ?>
+        <li><a href="<?php echo Yii::app()->createUrl('product/view',array('id'=>$item->id));?>"><?php echo $item->title; ?></a></li>
+    <?php endforeach; ?>
     </ul>
     </div>
   </div>

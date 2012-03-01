@@ -66,7 +66,7 @@ class ExampleController extends Controller
                         $model->type='example';
 			$model->attributes=$_POST['Example'];
 			if($model->save())
-				$this->redirect(array('view','id'=>$model->id));
+				$this->redirect('/admin.php/example/');
 		}
 
 		$this->render('create',array(

@@ -11,23 +11,29 @@
         <link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->theme->baseUrl; ?>/css/style.css" />
         <script type="text/javascript" src="<?php echo Yii::app()->theme->baseUrl; ?>/js/jquery.min.js"></script>
         <script type="text/javascript" src="<?php echo Yii::app()->theme->baseUrl; ?>/js/index2.js"></script>
+        <script type="text/javascript" src="<?php echo Yii::app()->theme->baseUrl; ?>/js/jquery.idTabs.min.js"></script>
         
 	<title><?php echo CHtml::encode($this->pageTitle); ?></title>
 </head>
 
 <body>
 <!--头部-->
+<?php
+        $param_controller = $this->id;
+        $param_action = $this->action->id;
+        $param_id = $_GET['id'];
+?>
 <div id="headerBg">
 	<div class="wrap">
 		<div class="logo"><h1><a href="http://www.chinasunergy.com/"><img src="<?php echo Yii::app()->theme->baseUrl; ?>/img/logo.gif"  alt="中电光伏" /></a></h1></div>
 	  <div class="languageLink">
         <form name="form" id="form">
           <select name="jumpMenu" id="jumpMenu" onchange="MM_jumpMenu('parent',this,0)" class="langLinkCss">
-            <option value="http://test4.tfwk.cn/cn/">中文版</option>
-            <option value="http://test4.tfwk.cn/en/">ENGLISH</option>
-            <option value="http://test4.tfwk.cn/dg">FRaNÇaIS</option>
-            <option value="http://test4.tfwk.cn/fa">DEUTSCH</option>
-            <option value="http://test4.tfwk.cn/ita">ITaLIaNO</option>
+            <option value="<?php echo Yii::app()->request->baseUrl;?>/cn/">中文版</option>
+            <option value="<?php echo Yii::app()->request->baseUrl;?>/en/">ENGLISH</option>
+            <option value="<?php echo Yii::app()->request->baseUrl;?>/de">FRaNÇaIS</option>
+            <option value="<?php echo Yii::app()->request->baseUrl;?>/fr">DEUTSCH</option>
+            <option value="<?php echo Yii::app()->request->baseUrl;?>/it">ITaLIaNO</option>
           </select>
         </form>
 	  </div>
@@ -67,9 +73,9 @@
                 <a class="category" href="<?php echo Yii::app()->request->baseUrl; ?>/taxonomy/1">新闻中心  »</a>
                 <ul class="submenu">
                     <li><a href="<?php echo Yii::app()->request->baseUrl; ?>/taxonomy/1">公司动态</a></li>
-                    <li><a href="<?php echo Yii::app()->request->baseUrl; ?>/taxonomy/1">媒体关注</a></li>
-                    <li><a href="<?php echo Yii::app()->request->baseUrl; ?>/taxonomy/1">招标公告</a></li>
-                    <li><a href="<?php echo Yii::app()->request->baseUrl; ?>/taxonomy/1">展会活动</a></li>
+                    <li><a href="<?php echo Yii::app()->request->baseUrl; ?>/taxonomy/2">媒体关注</a></li>
+                    <li><a href="<?php echo Yii::app()->request->baseUrl; ?>/taxonomy/3">招标公告</a></li>
+                    <li><a href="<?php echo Yii::app()->request->baseUrl; ?>/taxonomy/4">展会活动</a></li>
                 </ul>
             </li>
         </ul>
@@ -120,3 +126,15 @@
 </div> 
 </body>
 </html>
+<script type="text/javascript">
+            $(document).ready(function(){
+                $('#jumpMenu').change(function(){
+                    var controller = "<?php echo $param_controller;?>";
+                    var action = "<?php echo $param_action;?>";
+                    var id = "<?php echo $param_id;?>";
+                    var lang = $('#jumpMenu option:selected').text();
+                    var url = $('#jumpMenu').val();
+                    window.location.href=url+controller+'/'+action+'/'+id;
+                });
+            });
+        </script>

@@ -1,35 +1,29 @@
 <div class="aboutCon">
 	  <div class="leftBg">
-            <h2 class="conTit">客户服务</h2>
-            <dl>
-            <dt><a href="products.html">太阳能电池</a></dt>
-            <dd><a href="products.html" target="_blank">单晶硅太阳能电池 </a></dd>
-            <dd><a href="products1.html">多晶硅太阳能电池</a></dd>
+              <h2 class="conTit">产品与服务</h2>
+              <dl>
+                    <?php $product_taxs=Taxonomy::model()->noparent()->findAll('taxonomy=:taxonomy',array(':taxonomy'=>'product_category'));?>
 
-            <dt><a href="products2.html">光伏组件</a></dt>
-            <dd><a href="products2.html">单晶硅光伏组件 </a></dd>
-            <dd><a href="products3.html">多晶硅光伏组件</a></dd>
-
-            <dt><a href="products4.html">产品服务</a></dt>
-            <dd><a href="products4.html">产品认证 </a></dd>
-            <dd><a href="products5.html">产品担保</a></dd>
-            <dd><a href="products6.html">安装手册</a></dd>
-
-            <dt><a href="products7.html">客户服务</a></dt>
-            <dt><a href="products8.html">技术研发</a></dt>
-            <dt><a href="products9.html">了解太阳能</a></dt>
-            </dl>
-             <dl class="leftListBot"></dl>
-
-            <dl class="top">
-                <a href="http://www.ceeg.cn/"><img src="<?php echo Yii::app()->request->baseUrl;?>/upload/images/linkLogo01.jpg" alt="中电电气"></a>
-             </dl>
-             <dl class="top">
-             <a href="http://www.epia.org/"><img src="<?php echo Yii::app()->request->baseUrl;?>/upload/images/linkLogo02.jpg" alt="EPIA"></a>
-             </dl>
-             <dl class="top">
-             <a href="http://www.ceeg.cn/"><img src="<?php echo Yii::app()->request->baseUrl;?>/upload/images/linkLogo03.jpg" alt="中电电气"></a>
-             </dl>
+                    <?php foreach ($product_taxs as $tax):?>
+                        <dt><a href="<?php echo Yii::app()->createUrl('taxonomy/view', array('id'=>$tax->id)); ?>"><?php echo $tax->name;?></a></dt>
+                        <?php foreach($tax->products as $product):?>
+                            <dd><a href="<?php echo Yii::app()->createUrl('product/view', array('id'=>$product->id)); ?>"><?php echo $product->title;?></a></dd>
+                        <?php endforeach;?>
+                    <?endforeach;?>
+                    <dt><a href="<?php echo Yii::app()->createUrl('feedback/create'); ?>">客户服务</a></dt>
+                    <dt><a href="<?php echo Yii::app()->createUrl('product/view', array('id'=>27)); ?>">技术研发</a></dt>
+                    <dt><a href="<?php echo Yii::app()->createUrl('product/view', array('id'=>28)); ?>">了解太阳能</a></dt>
+                    </dl>
+                     <dl class="leftListBot"></dl>
+                     <dl class="top">
+                    <a href="http://www.ceeg.cn/"><img src="/tfcms/upload/images/linkLogo01.jpg" style="width:220px;height:70px"></a>
+                    </dl>
+                    <dl class="top">
+                     <a href="http://www.epia.org/"><img src="/tfcms/upload/images/linkLogo02.jpg" alt="EPIA"></a>
+                    </dl>
+                    <dl class="top">
+                     <a href="http://www.ceeg.cn/"><img src="/tfcms/upload/images/linkLogo03.jpg" alt="中电电气"></a>
+                    </dl>
             </div>
 	<div class="rightBg">
             <div class="form">

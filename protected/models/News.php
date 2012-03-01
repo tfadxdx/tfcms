@@ -59,6 +59,13 @@ class News extends Node
                 'desc'=>array(
                     'order'=>'createtime DESC',
                 ),
+                'last'=>array(
+                    'order'=>'createtime DESC',
+                    'limit'=>3,
+                ),
+                'istop'=>array(
+                    'condition'=>'is_top=1',
+                ),
             );
         }
 }

@@ -184,7 +184,7 @@ button {cursor:pointer}
 .invTitBg li a {display:block; color:#000;}
 .invTitBg li a:hover {background-color:#390; color:#FFF }
 .invTitBg li.on {background-color:#390; color:#FFF}
-
+.invTitBg li a.selected {background-color:#390; color:#FFF}
 /*产品列表*/
 .pro_list { padding-top:15px; }
 .pro_list li { float: left; line-height: 25px; width: 155px; margin-top:20px; background-image:none; margin-right:10px;}
@@ -223,6 +223,6 @@ button {cursor:pointer}
 .contact{ width:700px; padding:8px; border-bottom:1px #090 solid;}
 .contact li{width:700px; border-top:1px #ccc solid; height:60px; padding-bottom:10px; padding-top:8px; line-height:18px; margin-top:10px; float:left;}
 .contact li strong{ width:140px;display:block; float:left;}
-.contact li span{width:260px;display:block; float:left; padding:6px;}
-.contact li b{ color:#F60;}
+.contact li .span{width:260px;display:block; float:left; padding:6px;}
+.contact li .b{ color:#F60;}
 .workConBg{ position:relative; height:499px;}

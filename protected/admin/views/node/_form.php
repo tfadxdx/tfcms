@@ -34,6 +34,12 @@
                 </p><br>
 
                 <p>
+                        <?php echo $form->labelEx($model,'is_top'); ?><br>
+                        <?php echo $form->dropDownList($model,'is_top', array('0'=>Yii::t('cn','0'),'1'=>Yii::t('cn','1'))); ?>
+                        <?php echo $form->error($model,'is_top')?>
+                </p><br>
+
+                <p>
                         <?php echo $form->labelEx($model,'banner'); ?><br>
                         <?php echo $form->textField($model,'banner');?>
                         <?php echo $form->error($model,'banner')?>

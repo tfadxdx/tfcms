@@ -78,7 +78,7 @@ return array(
                 'user'=>array(
                         // enable cookie-based authentication
                    'allowAutoLogin'=>true,
-                   'loginUrl' => array('/admin.php/user/login'),
+                   'loginUrl' => array('/user/login'),
                 ),
                 'file'=>array(
                     'class'=>'application.extensions.file.CFile',

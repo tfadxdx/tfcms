@@ -49,6 +49,10 @@ return array(
     'Published'=>'发布',
     'Not Publish'=>'未发布',
     'Fields with * are required.'=>' * 选项为必填项目。',
+    'Is Top'=>'首页置顶',
+
+    '1'=>'是',
+    '0'=>'否',
 
     'Create'=>'创建',
     'Save'=>'保存',

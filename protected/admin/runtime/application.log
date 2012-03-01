@@ -5977,3 +5977,207 @@ Stack trace:
 REQUEST_URI=/tfcms/admin.php/admin.php/news
 HTTP_REFERER=http://127.0.0.1/tfcms/admin.php
 ---
+2012/02/27 20:57:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "admin.php/news/create"。' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('admin.php/news/...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/admin.php/admin.php/news/create
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/news
+---
+2012/02/28 09:35:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "admin.php/user/login"。' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('admin.php/user/...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/admin.php/admin.php/user/login
+---
+2012/02/28 09:35:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "admin.php/user/login"。' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('admin.php/user/...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/admin.php/admin.php/user/login
+---
+2012/02/28 09:35:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "admin.php/user/login"。' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('admin.php/user/...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/admin.php/admin.php/user/login
+---
+2012/02/28 09:35:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "admin.php/user/login"。' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('admin.php/user/...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/admin.php/admin.php/user/login
+---
+2012/02/28 09:35:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "admin.php/user/login"。' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('admin.php/user/...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/admin.php/admin.php/user/login
+---
+2012/02/28 09:35:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "admin.php/user/login"。' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('admin.php/user/...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/admin.php/admin.php/user/login
+---
+2012/02/28 09:35:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "admin.php/user/login"。' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('admin.php/user/...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/admin.php/admin.php/user/login
+---
+2012/02/28 09:35:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "admin.php/user/login"。' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('admin.php/user/...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/admin.php/admin.php/user/login
+---
+2012/02/28 09:35:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "admin.php/user/login"。' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('admin.php/user/...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/admin.php/admin.php/user/login
+---
+2012/02/28 09:35:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "admin.php/user/login"。' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('admin.php/user/...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/admin.php/admin.php/user/login
+---
+2012/02/28 09:35:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "admin.php/user/login"。' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('admin.php/user/...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/admin.php/admin.php/user/login
+---
+2012/02/28 09:35:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "admin.php/user/login"。' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('admin.php/user/...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/admin.php/admin.php/user/login
+---
+2012/02/28 09:35:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "admin.php/user/login"。' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('admin.php/user/...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/admin.php/admin.php/user/login
+---
+2012/02/28 09:35:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "admin.php/user/login"。' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('admin.php/user/...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/admin.php/admin.php/user/login
+---
+2012/02/28 09:35:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "admin.php/user/login"。' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('admin.php/user/...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/admin.php/admin.php/user/login
+---
+2012/02/28 09:35:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "admin.php/user/login"。' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('admin.php/user/...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/admin.php/admin.php/user/login
+---
+2012/02/28 09:35:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "admin.php/user/login"。' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('admin.php/user/...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/admin.php/admin.php/user/login
+---
+2012/02/28 09:35:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "admin.php/user/login"。' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('admin.php/user/...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/admin.php/admin.php/user/login
+---
+2012/02/28 09:35:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "admin.php/user/login"。' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('admin.php/user/...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/admin.php/admin.php/user/login
+---
+2012/02/28 09:35:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "admin.php/user/login"。' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('admin.php/user/...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/admin.php/admin.php/user/login
+---
+2012/02/28 09:35:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "admin.php/user/login"。' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('admin.php/user/...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/admin.php/admin.php/user/login
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/user/login
+---
+2012/02/28 09:35:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "admin.php/user/profile"。' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('admin.php/user/...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/admin.php/admin.php/user/profile
+---
+2012/02/28 09:35:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "admin.php/user/login"。' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('admin.php/user/...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/admin.php/admin.php/user/login
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/
+---
+2012/02/28 13:56:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "admin.php/news/admin"。' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('admin.php/news/...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/admin.php/admin.php/news/admin
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/news/index
+---

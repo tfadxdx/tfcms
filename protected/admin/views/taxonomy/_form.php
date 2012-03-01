@@ -1,5 +1,9 @@
 <?php
-    $type=$_GET['type'];
+    if($_GET['type']){
+        $type=$_GET['type'];
+    } else {
+        $type='';
+    }
 ?>
 
 <div class="form">
@@ -47,8 +51,12 @@
 
 	<p>
 		<?php echo $form->labelEx($model,'parent'); ?><br>
-                <?php echo $form->dropDownList($model, 'parent', CHtml::listData(Taxonomy::model()->findAll('taxonomy=:taxonomy',array(':taxonomy'=>$type.'_category')), "id", "name"),array('prompt' => Yii::t('cn', 'Please Select'))); ?>
-		<?php echo $form->error($model,'parent'); ?>
+                <?php if($type):?>
+                    <?php echo $form->dropDownList($model, 'parent', CHtml::listData(Taxonomy::model()->findAll('taxonomy=:taxonomy',array(':taxonomy'=>$type.'_category')), "id", "name"),array('prompt' => Yii::t('cn', 'Please Select'))); ?>
+		<?php else:?>
+                    <?php echo $form->dropDownList($model, 'parent', CHtml::listData(Taxonomy::model()->findAll(), "id", "name"),array('prompt' => Yii::t('cn', 'Please Select'))); ?>
+		<?php endif;?>
+                <?php echo $form->error($model,'parent'); ?>
 	</p><br>
 
 	<div class="row buttons">

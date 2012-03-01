@@ -7,7 +7,7 @@
     <div class="leftBg">
       <h2 class="conTit">产品与服务</h2>
       <dl>
-            <?php $product_taxs=Taxonomy::model()->findAll('taxonomy=:taxonomy',array(':taxonomy'=>'product_category'));?>
+            <?php $product_taxs=Taxonomy::model()->noparent()->findAll('taxonomy=:taxonomy',array(':taxonomy'=>'product_category'));?>
             
             <?php foreach ($product_taxs as $tax):?>
                 <dt><a href="<?php echo Yii::app()->createUrl('taxonomy/view', array('id'=>$tax->id)); ?>"><?php echo $tax->name;?></a></dt>

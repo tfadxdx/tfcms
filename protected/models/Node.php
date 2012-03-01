@@ -12,6 +12,7 @@
  * @property string $content
  * @property integer $uid
  * @property integer $tid
+ * @property integer $is_top
  * @property string $type
  * @property integer $weight
  * @property integer $status
@@ -47,15 +48,15 @@ class Node extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('title, name, content, uid, tid, type, status, createtime, updatetime', 'required'),
-			array('uid, tid, weight, status, parent, createtime, updatetime', 'numerical', 'integerOnly'=>true),
+			array('title, name, content, uid, type, status, createtime, updatetime', 'required'),
+			array('uid, tid, is_top, weight, status, parent, createtime, updatetime', 'numerical', 'integerOnly'=>true),
 			array('title, name', 'length', 'max'=>255),
 			array('banner', 'length', 'max'=>500),
 			array('type', 'length', 'max'=>50),
 			array('description', 'safe'),
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.
-			array('id, title, name, description, banner, content, uid, tid, type, weight, status, parent, createtime, updatetime', 'safe', 'on'=>'search'),
+			array('id, title, name, description, banner, content, uid, tid, is_top, type, weight, status, parent, createtime, updatetime', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -84,6 +85,7 @@ class Node extends CActiveRecord
 			'content' => Yii::t('cn', 'Content'),
 			'uid' => Yii::t('cn', 'Uid'),
 			'tid' => Yii::t('cn', 'Tid'),
+                        'is_top' => Yii::t('cn', 'Is Top'),
 			'type' => Yii::t('cn', 'Type'),
 			'weight' => Yii::t('cn', 'Weight'),
 			'status' => Yii::t('cn', 'Status'),
@@ -112,6 +114,7 @@ class Node extends CActiveRecord
 		$criteria->compare('content',$this->content,true);
 		$criteria->compare('uid',$this->uid);
 		$criteria->compare('tid',$this->tid);
+		$criteria->compare('is_top',$this->is_top);
 		$criteria->compare('type',$this->type,true);
 		$criteria->compare('weight',$this->weight);
 		$criteria->compare('status',$this->status);

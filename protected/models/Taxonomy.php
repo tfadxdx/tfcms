@@ -43,7 +43,7 @@ class Taxonomy extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('name, slug, description, createtime, updatetime', 'required'),
+			array('name, description, createtime, updatetime', 'required'),
 			array('status, createtime, updatetime', 'numerical', 'integerOnly'=>true),
 			array('name, slug', 'length', 'max'=>200),
 			array('taxonomy', 'length', 'max'=>32),
