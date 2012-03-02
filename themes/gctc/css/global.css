@@ -171,6 +171,7 @@ a.cn-nav-next{ right: 0px;}
 .partBg{ background:url(img/partBg.gif) #B6B6B7  repeat-x top; padding-top:101px;}
 .partBg h2{ width:600px; height:60px; float:left; display:block; padding:15px;}
 .partBg span{ width:300px;float:right; display:block; padding-top:35px;}
+.partBg strong{ width:300px;float:right; display:block; padding-top:35px;}
 
 .saleBg {width:1004px; margin:0px auto; padding-top:101px;}
 .saleBg h2{width:224px; height:39px; padding:15px 15px 15px 40px;}

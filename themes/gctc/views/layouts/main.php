@@ -10,8 +10,11 @@
 	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/ie.css" media="screen, projection" />
 	<![endif]-->
     
-    <script type="text/javascript" src="http://jqueryjs.googlecode.com/files/jquery-1.3.2.js"></script>
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
 	<script type="text/javascript" src="<?php echo Yii::app()->theme->baseUrl; ?>/js/supersized.2.0.js"></script>
+	<script type="text/javascript" src="<?php echo Yii::app()->theme->baseUrl; ?>/js/global.js"></script>
+	<script type="text/javascript" src="<?php echo Yii::app()->theme->baseUrl; ?>/js/jquery.tmpl.min.js"></script>
+	<script type="text/javascript" src="<?php echo Yii::app()->theme->baseUrl; ?>/js/jquery.slideshow.js"></script>
 	<script type="text/javascript">  
 			$(function(){
 				$.fn.supersized.options = {  
@@ -28,6 +31,7 @@
 		        $('#supersize').supersized(); 
 		    });
 	</script>
+	<script type="text/javascript" src="http://api.map.baidu.com/api?key=&v=1.1&services=true"></script>
 
 	<title><?php echo CHtml::encode($this->pageTitle); ?></title>
 </head>
@@ -40,13 +44,13 @@
 	<div class="logo"></div>
 	<div class="nav">
 	    <a href="<?php echo Yii::app()->createUrl('site/index'); ?>">首页</a>
-	    <a href="<?php echo Yii::app()->createUrl('site/index'); ?>">维特·佩尼品牌</a>
-	    <a href="<?php echo Yii::app()->createUrl('site/index'); ?>">维特·佩尼精品</a>
-	    <a href="<?php echo Yii::app()->createUrl('site/index'); ?>">维特·佩尼典藏</a>
+	    <a href="<?php echo Yii::app()->createUrl('page/view',array('id'=>62)); ?>">维特·佩尼品牌</a>
+	    <a href="<?php echo Yii::app()->createUrl('page/view',array('id'=>65)); ?>">维特·佩尼精品</a>
+	    <a href="<?php echo Yii::app()->createUrl('page/view',array('id'=>66)); ?>">维特·佩尼典藏</a>
 	    <a href="<?php echo Yii::app()->createUrl('site/index'); ?>">新闻中心</a>
-	    <a href="<?php echo Yii::app()->createUrl('site/index'); ?>">合作伙伴</a>
-	    <a href="<?php echo Yii::app()->createUrl('site/index'); ?>">销售网络</a>
-	    <a href="<?php echo Yii::app()->createUrl('site/index'); ?>">联系我们</a>
+	    <a href="<?php echo Yii::app()->createUrl('page/view',array('id'=>61)); ?>">合作伙伴</a>
+	    <a href="<?php echo Yii::app()->createUrl('page/view',array('id'=>59)); ?>">销售网络</a>
+	    <a href="<?php echo Yii::app()->createUrl('page/view',array('id'=>58)); ?>">联系我们</a>
 	</div>
 </div>
 	

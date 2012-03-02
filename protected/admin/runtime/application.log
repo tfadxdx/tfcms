@@ -6212,3 +6212,1238 @@ Stack trace:
 REQUEST_URI=/tfcms/admin.php/page/images/conTit.gif
 HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/create
 ---
+2012/03/02 11:13:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "images" 动作.' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php:484
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(271): CController->missingAction('images')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('images')
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('page/images/con...')
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tfcms/admin.php/page/images/conTit.gif
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/create
+---
+2012/03/02 11:13:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "images" 动作.' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php:484
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(271): CController->missingAction('images')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('images')
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('page/images/con...')
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tfcms/admin.php/page/images/conTit.gif
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/create
+---
+2012/03/02 11:13:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "images" 动作.' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php:484
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(271): CController->missingAction('images')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('images')
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('page/images/con...')
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tfcms/admin.php/page/images/conTit.gif
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/create
+---
+2012/03/02 11:19:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "images" 动作.' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php:484
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(271): CController->missingAction('images')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('images')
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('page/images/con...')
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tfcms/admin.php/page/images/conTit.gif
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/create
+---
+2012/03/02 11:19:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "images" 动作.' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php:484
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(271): CController->missingAction('images')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('images')
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('page/images/con...')
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tfcms/admin.php/page/images/conTit.gif
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/58
+---
+2012/03/02 11:19:44 [error] [exception.CHttpException.400] exception 'CHttpException' with message '您的请求无效。' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php:337
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(310): CController->invalidActionParams(Object(CInlineAction))
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#5 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#6 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(292): CFilterChain->run()
+#7 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('update')
+#9 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('page/update/ima...')
+#10 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#11 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/tfcms/admin.php/page/update/images/conTit.gif
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/update/58
+---
+2012/03/02 11:19:49 [error] [exception.CHttpException.400] exception 'CHttpException' with message '您的请求无效。' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php:337
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(310): CController->invalidActionParams(Object(CInlineAction))
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#5 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#6 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(292): CFilterChain->run()
+#7 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('update')
+#9 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('page/update/ima...')
+#10 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#11 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/tfcms/admin.php/page/update/images/conTit.gif
+---
+2012/03/02 11:20:11 [error] [exception.CHttpException.400] exception 'CHttpException' with message '您的请求无效。' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php:337
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(310): CController->invalidActionParams(Object(CInlineAction))
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#5 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#6 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(292): CFilterChain->run()
+#7 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('update')
+#9 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('page/update/ima...')
+#10 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#11 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/tfcms/admin.php/page/update/images/conTit.gif
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/update/58
+---
+2012/03/02 11:20:14 [error] [exception.CHttpException.400] exception 'CHttpException' with message '您的请求无效。' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php:337
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(310): CController->invalidActionParams(Object(CInlineAction))
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#5 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#6 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(292): CFilterChain->run()
+#7 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('update')
+#9 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('page/update/ima...')
+#10 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#11 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/tfcms/admin.php/page/update/images/conTit.gif
+---
+2012/03/02 11:20:42 [error] [exception.CHttpException.400] exception 'CHttpException' with message '您的请求无效。' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php:337
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(310): CController->invalidActionParams(Object(CInlineAction))
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#5 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#6 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(292): CFilterChain->run()
+#7 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('update')
+#9 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('page/update/ima...')
+#10 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#11 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/tfcms/admin.php/page/update/images/conTit.gif
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/update/58
+---
+2012/03/02 11:20:46 [error] [exception.CHttpException.400] exception 'CHttpException' with message '您的请求无效。' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php:337
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(310): CController->invalidActionParams(Object(CInlineAction))
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#5 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#6 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(292): CFilterChain->run()
+#7 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('update')
+#9 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('page/update/ima...')
+#10 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#11 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/tfcms/admin.php/page/update/images/conTit.gif
+---
+2012/03/02 11:28:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "images" 动作.' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php:484
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(271): CController->missingAction('images')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('images')
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('page/images/sal...')
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tfcms/admin.php/page/images/saleTit.gif
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/create
+---
+2012/03/02 11:28:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "images" 动作.' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php:484
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(271): CController->missingAction('images')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('images')
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('page/images/map...')
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tfcms/admin.php/page/images/map.gif
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/create
+---
+2012/03/02 11:28:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "images" 动作.' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php:484
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(271): CController->missingAction('images')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('images')
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('page/images/sal...')
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tfcms/admin.php/page/images/saleTit.gif
+---
+2012/03/02 11:29:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "images" 动作.' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php:484
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(271): CController->missingAction('images')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('images')
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('page/images/map...')
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tfcms/admin.php/page/images/map.gif
+---
+2012/03/02 11:30:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "images" 动作.' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php:484
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(271): CController->missingAction('images')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('images')
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('page/images/sal...')
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tfcms/admin.php/page/images/saleTit.gif
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/create
+---
+2012/03/02 11:30:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "images" 动作.' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php:484
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(271): CController->missingAction('images')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('images')
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('page/images/map...')
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tfcms/admin.php/page/images/map01.jpg
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/create
+---
+2012/03/02 11:30:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "images" 动作.' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php:484
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(271): CController->missingAction('images')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('images')
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('page/images/sal...')
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tfcms/admin.php/page/images/saleTit.gif
+---
+2012/03/02 11:30:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "images" 动作.' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php:484
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(271): CController->missingAction('images')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('images')
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('page/images/map...')
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tfcms/admin.php/page/images/map01.jpg
+---
+2012/03/02 11:43:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "images" 动作.' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php:484
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(271): CController->missingAction('images')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('images')
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('page/images/par...')
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tfcms/admin.php/page/images/partTit.gif
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/create
+---
+2012/03/02 11:43:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "images" 动作.' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php:484
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(271): CController->missingAction('images')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('images')
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('page/images/log...')
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tfcms/admin.php/page/images/logo01.jpg
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/create
+---
+2012/03/02 11:43:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "images" 动作.' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php:484
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(271): CController->missingAction('images')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('images')
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('page/images/log...')
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tfcms/admin.php/page/images/logo02.jpg
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/create
+---
+2012/03/02 11:44:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "images" 动作.' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php:484
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(271): CController->missingAction('images')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('images')
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('page/images/par...')
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tfcms/admin.php/page/images/partTit.gif
+---
+2012/03/02 11:44:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "images" 动作.' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php:484
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(271): CController->missingAction('images')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('images')
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('page/images/log...')
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tfcms/admin.php/page/images/logo01.jpg
+---
+2012/03/02 11:44:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "images" 动作.' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php:484
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(271): CController->missingAction('images')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('images')
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('page/images/log...')
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tfcms/admin.php/page/images/logo02.jpg
+---
+2012/03/02 12:24:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "images" 动作.' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php:484
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(271): CController->missingAction('images')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('images')
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('page/images/abo...')
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tfcms/admin.php/page/images/aboutTit01.gif
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/create
+---
+2012/03/02 12:24:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "images" 动作.' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php:484
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(271): CController->missingAction('images')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('images')
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('page/images/abo...')
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tfcms/admin.php/page/images/aboutTit01.gif
+---
+2012/03/02 12:25:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "images" 动作.' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php:484
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(271): CController->missingAction('images')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('images')
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('page/images/abo...')
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tfcms/admin.php/page/images/aboutTit01.gif
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/create
+---
+2012/03/02 12:26:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "images" 动作.' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php:484
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(271): CController->missingAction('images')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('images')
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('page/images/abo...')
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tfcms/admin.php/page/images/aboutTit01.gif
+---
+2012/03/02 12:27:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "admin.php/page/create"。' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('admin.php/page/...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/admin.php/admin.php/page/create
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/index
+---
+2012/03/02 12:28:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "images" 动作.' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php:484
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(271): CController->missingAction('images')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('images')
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('page/images/abo...')
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tfcms/admin.php/page/images/aboutTit01.gif
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/create
+---
+2012/03/02 12:28:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "images" 动作.' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php:484
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(271): CController->missingAction('images')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('images')
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('page/images/abo...')
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tfcms/admin.php/page/images/aboutTit01.gif
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/create
+---
+2012/03/02 12:28:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "images" 动作.' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php:484
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(271): CController->missingAction('images')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('images')
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('page/images/abo...')
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tfcms/admin.php/page/images/aboutTit01.gif
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/create
+---
+2012/03/02 12:28:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "images" 动作.' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php:484
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(271): CController->missingAction('images')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('images')
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('page/images/abo...')
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tfcms/admin.php/page/images/aboutTit01.gif
+---
+2012/03/02 12:35:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "photo" 动作.' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php:484
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(271): CController->missingAction('photo')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('photo')
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('page/photo/pro0...')
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tfcms/admin.php/page/photo/pro01.jpg
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/create
+---
+2012/03/02 12:35:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "photo" 动作.' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php:484
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(271): CController->missingAction('photo')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('photo')
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('page/photo/pro0...')
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tfcms/admin.php/page/photo/pro02.jpg
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/create
+---
+2012/03/02 12:35:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "photo" 动作.' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php:484
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(271): CController->missingAction('photo')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('photo')
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('page/photo/pro0...')
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tfcms/admin.php/page/photo/pro04.jpg
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/create
+---
+2012/03/02 12:35:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "photo" 动作.' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php:484
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(271): CController->missingAction('photo')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('photo')
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('page/photo/pro0...')
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tfcms/admin.php/page/photo/pro03.jpg
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/create
+---
+2012/03/02 12:35:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "photo" 动作.' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php:484
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(271): CController->missingAction('photo')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('photo')
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('page/photo/pro0...')
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tfcms/admin.php/page/photo/pro05.jpg
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/create
+---
+2012/03/02 12:35:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "photo" 动作.' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php:484
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(271): CController->missingAction('photo')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('photo')
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('page/photo/pro0...')
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tfcms/admin.php/page/photo/pro07.jpg
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/create
+---
+2012/03/02 12:35:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "photo" 动作.' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php:484
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(271): CController->missingAction('photo')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('photo')
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('page/photo/pro0...')
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tfcms/admin.php/page/photo/pro09.jpg
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/create
+---
+2012/03/02 12:35:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "photo" 动作.' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php:484
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(271): CController->missingAction('photo')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('photo')
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('page/photo/pro1...')
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tfcms/admin.php/page/photo/pro10.jpg
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/create
+---
+2012/03/02 12:35:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "photo" 动作.' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php:484
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(271): CController->missingAction('photo')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('photo')
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('page/photo/pro0...')
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tfcms/admin.php/page/photo/pro06.jpg
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/create
+---
+2012/03/02 12:35:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "photo" 动作.' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php:484
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(271): CController->missingAction('photo')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('photo')
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('page/photo/pro0...')
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tfcms/admin.php/page/photo/pro08.jpg
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/create
+---
+2012/03/02 12:35:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "photo" 动作.' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php:484
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(271): CController->missingAction('photo')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('photo')
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('page/photo/larg...')
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tfcms/admin.php/page/photo/large/2.jpg
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/create
+---
+2012/03/02 12:35:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "photo" 动作.' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php:484
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(271): CController->missingAction('photo')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('photo')
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('page/photo/larg...')
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tfcms/admin.php/page/photo/large/4.jpg
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/create
+---
+2012/03/02 12:35:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "photo" 动作.' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php:484
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(271): CController->missingAction('photo')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('photo')
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('page/photo/larg...')
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tfcms/admin.php/page/photo/large/1.jpg
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/create
+---
+2012/03/02 12:35:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "photo" 动作.' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php:484
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(271): CController->missingAction('photo')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('photo')
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('page/photo/larg...')
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tfcms/admin.php/page/photo/large/3.jpg
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/create
+---
+2012/03/02 12:35:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "photo" 动作.' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php:484
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(271): CController->missingAction('photo')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('photo')
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('page/photo/pro0...')
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tfcms/admin.php/page/photo/pro01.jpg
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/create
+---
+2012/03/02 12:35:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "photo" 动作.' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php:484
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(271): CController->missingAction('photo')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('photo')
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('page/photo/pro0...')
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tfcms/admin.php/page/photo/pro06.jpg
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/create
+---
+2012/03/02 12:35:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "photo" 动作.' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php:484
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(271): CController->missingAction('photo')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('photo')
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('page/photo/pro0...')
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tfcms/admin.php/page/photo/pro07.jpg
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/create
+---
+2012/03/02 12:35:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "photo" 动作.' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php:484
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(271): CController->missingAction('photo')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('photo')
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('page/photo/pro0...')
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tfcms/admin.php/page/photo/pro05.jpg
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/create
+---
+2012/03/02 12:35:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "photo" 动作.' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php:484
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(271): CController->missingAction('photo')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('photo')
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('page/photo/pro0...')
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tfcms/admin.php/page/photo/pro04.jpg
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/create
+---
+2012/03/02 12:35:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "photo" 动作.' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php:484
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(271): CController->missingAction('photo')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('photo')
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('page/photo/pro0...')
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tfcms/admin.php/page/photo/pro02.jpg
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/create
+---
+2012/03/02 12:35:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "photo" 动作.' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php:484
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(271): CController->missingAction('photo')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('photo')
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('page/photo/pro0...')
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tfcms/admin.php/page/photo/pro03.jpg
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/create
+---
+2012/03/02 12:35:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "photo" 动作.' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php:484
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(271): CController->missingAction('photo')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('photo')
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('page/photo/pro0...')
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tfcms/admin.php/page/photo/pro08.jpg
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/create
+---
+2012/03/02 12:35:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "photo" 动作.' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php:484
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(271): CController->missingAction('photo')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('photo')
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('page/photo/larg...')
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tfcms/admin.php/page/photo/large/2.jpg
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/create
+---
+2012/03/02 12:35:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "photo" 动作.' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php:484
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(271): CController->missingAction('photo')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('photo')
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('page/photo/larg...')
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tfcms/admin.php/page/photo/large/1.jpg
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/create
+---
+2012/03/02 12:35:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "photo" 动作.' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php:484
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(271): CController->missingAction('photo')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('photo')
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('page/photo/pro0...')
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tfcms/admin.php/page/photo/pro09.jpg
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/create
+---
+2012/03/02 12:35:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "photo" 动作.' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php:484
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(271): CController->missingAction('photo')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('photo')
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('page/photo/pro1...')
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tfcms/admin.php/page/photo/pro10.jpg
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/create
+---
+2012/03/02 12:35:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "photo" 动作.' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php:484
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(271): CController->missingAction('photo')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('photo')
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('page/photo/larg...')
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tfcms/admin.php/page/photo/large/3.jpg
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/create
+---
+2012/03/02 12:35:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "photo" 动作.' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php:484
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(271): CController->missingAction('photo')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('photo')
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('page/photo/larg...')
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tfcms/admin.php/page/photo/large/4.jpg
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/create
+---
+2012/03/02 12:35:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "photo" 动作.' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php:484
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(271): CController->missingAction('photo')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('photo')
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('page/photo/pro0...')
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tfcms/admin.php/page/photo/pro01.jpg
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/create
+---
+2012/03/02 12:35:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "photo" 动作.' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php:484
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(271): CController->missingAction('photo')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('photo')
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('page/photo/pro0...')
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tfcms/admin.php/page/photo/pro02.jpg
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/create
+---
+2012/03/02 12:35:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "photo" 动作.' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php:484
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(271): CController->missingAction('photo')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('photo')
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('page/photo/pro0...')
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tfcms/admin.php/page/photo/pro05.jpg
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/create
+---
+2012/03/02 12:35:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "photo" 动作.' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php:484
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(271): CController->missingAction('photo')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('photo')
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('page/photo/pro0...')
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tfcms/admin.php/page/photo/pro03.jpg
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/create
+---
+2012/03/02 12:35:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "photo" 动作.' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php:484
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(271): CController->missingAction('photo')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('photo')
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('page/photo/pro0...')
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tfcms/admin.php/page/photo/pro06.jpg
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/create
+---
+2012/03/02 12:35:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "photo" 动作.' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php:484
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(271): CController->missingAction('photo')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('photo')
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('page/photo/pro0...')
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tfcms/admin.php/page/photo/pro04.jpg
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/create
+---
+2012/03/02 12:35:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "photo" 动作.' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php:484
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(271): CController->missingAction('photo')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('photo')
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('page/photo/pro0...')
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tfcms/admin.php/page/photo/pro08.jpg
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/create
+---
+2012/03/02 12:35:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "photo" 动作.' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php:484
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(271): CController->missingAction('photo')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('photo')
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('page/photo/larg...')
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tfcms/admin.php/page/photo/large/1.jpg
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/create
+---
+2012/03/02 12:35:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "photo" 动作.' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php:484
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(271): CController->missingAction('photo')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('photo')
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('page/photo/pro0...')
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tfcms/admin.php/page/photo/pro07.jpg
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/create
+---
+2012/03/02 12:35:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "photo" 动作.' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php:484
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(271): CController->missingAction('photo')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('photo')
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('page/photo/pro0...')
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tfcms/admin.php/page/photo/pro09.jpg
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/create
+---
+2012/03/02 12:35:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "photo" 动作.' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php:484
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(271): CController->missingAction('photo')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('photo')
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('page/photo/pro1...')
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tfcms/admin.php/page/photo/pro10.jpg
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/create
+---
+2012/03/02 12:35:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "photo" 动作.' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php:484
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(271): CController->missingAction('photo')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('photo')
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('page/photo/larg...')
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tfcms/admin.php/page/photo/large/2.jpg
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/create
+---
+2012/03/02 12:35:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "photo" 动作.' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php:484
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(271): CController->missingAction('photo')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('photo')
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('page/photo/larg...')
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tfcms/admin.php/page/photo/large/3.jpg
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/create
+---
+2012/03/02 12:35:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "photo" 动作.' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php:484
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(271): CController->missingAction('photo')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('photo')
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('page/photo/larg...')
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tfcms/admin.php/page/photo/large/4.jpg
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/create
+---
+2012/03/02 12:35:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "photo" 动作.' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php:484
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(271): CController->missingAction('photo')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('photo')
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('page/photo/pro0...')
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tfcms/admin.php/page/photo/pro01.jpg
+---
+2012/03/02 12:35:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "photo" 动作.' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php:484
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(271): CController->missingAction('photo')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('photo')
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('page/photo/pro0...')
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tfcms/admin.php/page/photo/pro02.jpg
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/create
+---
+2012/03/02 12:35:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "photo" 动作.' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php:484
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(271): CController->missingAction('photo')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('photo')
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('page/photo/pro0...')
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tfcms/admin.php/page/photo/pro06.jpg
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/create
+---
+2012/03/02 12:35:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "photo" 动作.' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php:484
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(271): CController->missingAction('photo')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('photo')
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('page/photo/pro0...')
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tfcms/admin.php/page/photo/pro07.jpg
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/create
+---
+2012/03/02 12:35:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "photo" 动作.' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php:484
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(271): CController->missingAction('photo')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('photo')
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('page/photo/pro0...')
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tfcms/admin.php/page/photo/pro03.jpg
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/create
+---
+2012/03/02 12:35:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "photo" 动作.' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php:484
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(271): CController->missingAction('photo')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('photo')
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('page/photo/pro0...')
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tfcms/admin.php/page/photo/pro04.jpg
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/create
+---
+2012/03/02 12:35:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "photo" 动作.' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php:484
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(271): CController->missingAction('photo')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('photo')
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('page/photo/pro0...')
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tfcms/admin.php/page/photo/pro05.jpg
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/create
+---
+2012/03/02 12:35:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "photo" 动作.' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php:484
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(271): CController->missingAction('photo')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('photo')
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('page/photo/pro0...')
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tfcms/admin.php/page/photo/pro08.jpg
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/create
+---
+2012/03/02 12:35:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "photo" 动作.' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php:484
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(271): CController->missingAction('photo')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('photo')
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('page/photo/pro0...')
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tfcms/admin.php/page/photo/pro09.jpg
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/create
+---
+2012/03/02 12:35:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "photo" 动作.' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php:484
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(271): CController->missingAction('photo')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('photo')
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('page/photo/pro1...')
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tfcms/admin.php/page/photo/pro10.jpg
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/create
+---
+2012/03/02 12:35:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "photo" 动作.' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php:484
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(271): CController->missingAction('photo')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('photo')
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('page/photo/larg...')
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tfcms/admin.php/page/photo/large/1.jpg
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/create
+---
+2012/03/02 12:35:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "photo" 动作.' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php:484
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(271): CController->missingAction('photo')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('photo')
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('page/photo/larg...')
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tfcms/admin.php/page/photo/large/2.jpg
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/create
+---
+2012/03/02 12:35:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "photo" 动作.' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php:484
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(271): CController->missingAction('photo')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('photo')
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('page/photo/larg...')
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tfcms/admin.php/page/photo/large/4.jpg
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/create
+---
+2012/03/02 12:35:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "photo" 动作.' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php:484
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(271): CController->missingAction('photo')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('photo')
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('page/photo/larg...')
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tfcms/admin.php/page/photo/large/3.jpg
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/create
+---
+2012/03/02 12:37:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "images" 动作.' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php:484
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(271): CController->missingAction('images')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('images')
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('page/images/wor...')
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tfcms/admin.php/page/images/workTit.gif
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/create
+---
+2012/03/02 12:37:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "images" 动作.' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php:484
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(271): CController->missingAction('images')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('images')
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('page/images/lef...')
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tfcms/admin.php/page/images/left-arrow.gif
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/create
+---
+2012/03/02 12:37:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "photo" 动作.' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php:484
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(271): CController->missingAction('photo')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('photo')
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('page/photo/slid...')
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tfcms/admin.php/page/photo/slide2.jpg
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/create
+---
+2012/03/02 12:37:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "photo" 动作.' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php:484
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(271): CController->missingAction('photo')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('photo')
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('page/photo/slid...')
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tfcms/admin.php/page/photo/slide3.jpg
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/create
+---
+2012/03/02 12:37:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "photo" 动作.' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php:484
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(271): CController->missingAction('photo')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('photo')
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('page/photo/slid...')
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tfcms/admin.php/page/photo/slide5.jpg
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/create
+---
+2012/03/02 12:37:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "photo" 动作.' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php:484
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(271): CController->missingAction('photo')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('photo')
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('page/photo/slid...')
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tfcms/admin.php/page/photo/slide1.jpg
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/create
+---
+2012/03/02 12:37:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "photo" 动作.' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php:484
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(271): CController->missingAction('photo')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('photo')
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('page/photo/slid...')
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tfcms/admin.php/page/photo/slide4.jpg
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/create
+---
+2012/03/02 12:37:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "photo" 动作.' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php:484
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(271): CController->missingAction('photo')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('photo')
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('page/photo/slid...')
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tfcms/admin.php/page/photo/slide6.jpg
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/create
+---
+2012/03/02 12:37:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "images" 动作.' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php:484
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(271): CController->missingAction('images')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('images')
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('page/images/rig...')
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tfcms/admin.php/page/images/right-arrow.gif
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/create
+---
+2012/03/02 12:38:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "images" 动作.' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php:484
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(271): CController->missingAction('images')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('images')
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('page/images/wor...')
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tfcms/admin.php/page/images/workTit.gif
+---
+2012/03/02 12:38:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "images" 动作.' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php:484
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(271): CController->missingAction('images')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('images')
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('page/images/lef...')
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tfcms/admin.php/page/images/left-arrow.gif
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/create
+---
+2012/03/02 12:38:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "photo" 动作.' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php:484
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(271): CController->missingAction('photo')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('photo')
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('page/photo/slid...')
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tfcms/admin.php/page/photo/slide1.jpg
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/create
+---
+2012/03/02 12:38:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "photo" 动作.' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php:484
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(271): CController->missingAction('photo')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('photo')
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('page/photo/slid...')
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tfcms/admin.php/page/photo/slide5.jpg
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/create
+---
+2012/03/02 12:38:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "photo" 动作.' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php:484
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(271): CController->missingAction('photo')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('photo')
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('page/photo/slid...')
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tfcms/admin.php/page/photo/slide3.jpg
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/create
+---
+2012/03/02 12:38:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "photo" 动作.' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php:484
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(271): CController->missingAction('photo')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('photo')
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('page/photo/slid...')
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tfcms/admin.php/page/photo/slide2.jpg
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/create
+---
+2012/03/02 12:38:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "photo" 动作.' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php:484
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(271): CController->missingAction('photo')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('photo')
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('page/photo/slid...')
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tfcms/admin.php/page/photo/slide6.jpg
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/create
+---
+2012/03/02 12:38:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "photo" 动作.' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php:484
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(271): CController->missingAction('photo')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('photo')
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('page/photo/slid...')
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tfcms/admin.php/page/photo/slide4.jpg
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/create
+---
+2012/03/02 12:38:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "images" 动作.' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php:484
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(271): CController->missingAction('images')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('images')
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('page/images/rig...')
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tfcms/admin.php/page/images/right-arrow.gif
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/create
+---
+2012/03/02 12:38:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "images" 动作.' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php:484
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(271): CController->missingAction('images')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('images')
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('page/images/rig...')
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tfcms/admin.php/page/images/right-arrow.gif
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/create
+---
+2012/03/02 12:38:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "images" 动作.' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php:484
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(271): CController->missingAction('images')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('images')
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('page/images/rig...')
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tfcms/admin.php/page/images/right-arrow.gif
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/create
+---
