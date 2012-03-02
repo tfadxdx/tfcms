@@ -6181,3 +6181,34 @@ Stack trace:
 REQUEST_URI=/tfcms/admin.php/admin.php/news/admin
 HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/news/index
 ---
+2012/03/02 11:08:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "admin.php/page/create"。' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('admin.php/page/...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/admin.php/admin.php/page/create
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page
+---
+2012/03/02 11:10:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "images" 动作.' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php:484
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(271): CController->missingAction('images')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('images')
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('page/images/con...')
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tfcms/admin.php/page/images/conTit.gif
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/create
+---
+2012/03/02 11:11:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "images" 动作.' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php:484
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(271): CController->missingAction('images')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('images')
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('page/images/con...')
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\admin.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tfcms/admin.php/page/images/conTit.gif
+HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/page/create
+---

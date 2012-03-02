@@ -49,7 +49,7 @@ return array(
 		),
 
                 'db'=>array(
-			'connectionString' => 'mysql:host=localhost;dbname=tfcms',
+			'connectionString' => 'mysql:host=localhost;dbname=gctc',
 			'emulatePrepare' => true,
 			'username' => 'root',
 			'password' => 'root',

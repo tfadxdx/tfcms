@@ -7,9 +7,9 @@
 // CWebApplication properties can be configured here.
 return array(
 	'basePath'=>dirname(__FILE__).DIRECTORY_SEPARATOR.'..',
-	'name'=>'TFWK CMS',
+	'name'=>'维特·佩尼|White Peony|高淳陶瓷高端品牌',
 	'timeZone'=>"Asia/Shanghai",
-	'theme'=>'zdgf',
+	'theme'=>'gctc',
 	// preloading 'log' component
 	'preload'=>array(
                 'log',
@@ -62,7 +62,7 @@ return array(
 		// uncomment the following to use a MySQL database
 		
 		'db'=>array(
-			'connectionString' => 'mysql:host=localhost;dbname=tfcms',
+			'connectionString' => 'mysql:host=localhost;dbname=gctc',
 			'emulatePrepare' => true,
 			'username' => 'root',
 			'password' => 'root',
