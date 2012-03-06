@@ -76,6 +76,7 @@ a:hover{color:#CC6;text-decoration:none;}
 .proConBg{ width:1004px;margin:0px auto;}
 .proConBg li{ float:left; margin-right:4px; margin-bottom:4px;}
 .proConBg li span{height:22px; position:relative; z-index:1; display:block; line-height:22px; background:#000; margin-top:-38px;filter:alpha(opacity=60);-moz-opacity:0.60;opacity: 0.60; color:#FFC; font-size:14px; font-family:"微软雅黑"; text-align:center; padding:8px; width:120px;	}
+.proConBg li .span{height:22px; position:relative; z-index:1; display:block; line-height:22px; background:#000; margin-top:-38px;filter:alpha(opacity=60);-moz-opacity:0.60;opacity: 0.60; color:#FFC; font-size:14px; font-family:"微软雅黑"; text-align:center; padding:8px; width:120px;	}
 .proConBg li a{border:1px #666 solid; display:block;}
 .proConBg li a:hover{border:1px #C90 solid;}
 
@@ -85,7 +86,7 @@ a:hover{color:#CC6;text-decoration:none;}
 .joinList dl dt {height:24px;line-height:24px;padding-left:22px;border:1px solid #D0D6D2;background:url(images/style.gif) no-repeat -124px -40px;font-weight:700}
 .joinList dl dt span {padding-left:25px}
 .joinList dl dd {padding:20px 24px;line-height:24px;border:none;overflow:hidden}
-.joinFormBox {display:none;position:absolute;top:0;left:50%;width:1004px;height:520px;margin-left:-508px;border:2px solid #000;color:#fff;overflow:hidden; z-index:10;}
+.joinFormBox {display:none;position:absolute;top:0;left:50%;width:1004px;height:570px;margin-left:-508px;border:2px solid #000;color:#fff;overflow:hidden; z-index:10;}
 .joinFormBk {width:100%;height:100%;background:#000;filter:alpha(opacity=89);opacity:.89} 
 .joinForm {position:relative;width:1004px;margin:-540px auto 0}
 .joinForm h4 {clear:both;line-height:1;padding-bottom:10px;border-bottom:1px solid #454545;font-size:14px;color:#31BCAD}
@@ -94,7 +95,7 @@ a:hover{color:#CC6;text-decoration:none;}
 .btn06 {overflow:hidden}
 .btn07 {position:relative;float:right;width:43px;height:21px;border:none;background:url(img/close.gif) no-repeat;cursor:pointer;text-indent:-2000em; z-index:999; right:-20px; top:30px;}
 
-.cn-slideshow{width:1004px;height:520px;position: relative;margin: 0 auto;-webkit-box-shadow: 1px 1px 3px rgba(0,0,0,0.2);-moz-box-shadow: 1px 1px 3px rgba(0,0,0,0.2);box-shadow: 1px 1px 3px rgba(0,0,0,0.2);}
+.cn-slideshow{display: none;width:1004px;height:570px;position: relative;margin: 0 auto;-webkit-box-shadow: 1px 1px 3px rgba(0,0,0,0.2);-moz-box-shadow: 1px 1px 3px rgba(0,0,0,0.2);box-shadow: 1px 1px 3px rgba(0,0,0,0.2);}
 .cn-loading{ position: absolute;z-index:999;text-indent: -9000px;opacity:0.6;top:50%; left:50%;margin:-25px 0 0 -25px;width:50px;height:50px;background:#000 url(img/ajax-loader.gif) no-repeat center center;-moz-border-radius: 25px;-webkit-border-radius: 25px;border-radius: 25px;}
 .cn-images{width: 100%; height: 100%;overflow: hidden;position: relative;}
 .cn-images img{position: absolute;top: 0px;left: 0px; display: none;}
@@ -189,3 +190,6 @@ a.cn-nav-next{ right: 0px;}
 .mapLeft{ width:600px; height:550px; float:left; margin:10px; border:1px #999 solid;}
 .mapRight{ width:350px; float:right; margin-top:10px;color:#DDCDA0; line-height:20px;}
 .mapRight strong{ font-size:14px; color:#F60}
+.pager li {width:auto;border:none;padding:0px;}
+.pager li a {width:auto;}
+.pager .selected a {color:#F30;background:#DCCA99;color:#333}

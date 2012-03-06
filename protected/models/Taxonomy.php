@@ -70,6 +70,7 @@ class Taxonomy extends CActiveRecord
                     'examples'=>array(self::HAS_MANY,'Node','tid','condition'=>'type="example"'),
                     'children'=>array(self::HAS_MANY,'Taxonomy','parent'),
                     'childrenCount'=>array(self::STAT,'Taxonomy','parent'),
+                    'newsCount'=>array(self::STAT,'Node','tid','condition'=>'type="news"'),
 		);
 	}
 

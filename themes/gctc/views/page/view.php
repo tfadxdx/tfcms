@@ -14,4 +14,3 @@
 		$('#footer').removeAttr('id');
 	});
 </script>
-<script type="text/javascript" src="<?php echo Yii::app()->theme->baseUrl; ?>/js/moving-boxes.js"></script>
