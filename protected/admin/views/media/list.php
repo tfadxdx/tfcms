@@ -2,10 +2,10 @@
     array(
             'id'=>'uploadFile',
             'config'=>array(
-                   'action'=>Yii::app()->request->baseUrl.'/admin.php/page/upload',
+                   'action'=>Yii::app()->request->baseUrl.'/admin.php/media/upload',
                    'allowedExtensions'=>array("jpg"),
                    'sizeLimit'=>2*1024*1024,
-                   'onComplete'=>"js:function(id, fileName, responseJSON){  location.reload() }",
+                   'onComplete'=>"js:function(id, fileName, responseJSON){   }",
             ))
 );?>
 <?php

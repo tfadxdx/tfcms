@@ -4,8 +4,8 @@ $this->breadcrumbs=array(
 );
 
 $this->menu=array(
-	array('label'=>'Create Page', 'url'=>array('admin.php/page/create')),
-	array('label'=>'Manage Page', 'url'=>array('admin.php/page/admin')),
+	array('label'=>'Create Page', 'url'=>array('create')),
+	array('label'=>'Manage Page', 'url'=>array('admin')),
 );
 ?>
 
