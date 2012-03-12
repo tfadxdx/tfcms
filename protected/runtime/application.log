@@ -1348,3 +1348,666 @@ Stack trace:
 REQUEST_URI=/tfcms/images/bt_gha.gif
 HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/example
 ---
+2012/03/12 15:21:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/top.gif".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('img/top.gif')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/img/top.gif
+HTTP_REFERER=http://127.0.0.1/tfcms/
+---
+2012/03/12 15:21:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/logo.gif".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('img/logo.gif')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/img/logo.gif
+HTTP_REFERER=http://127.0.0.1/tfcms/
+---
+2012/03/12 15:45:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/logo.gif".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('img/logo.gif')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/img/logo.gif
+HTTP_REFERER=http://127.0.0.1/tfcms/
+---
+2012/03/12 15:45:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/top.gif".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('img/top.gif')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/img/top.gif
+HTTP_REFERER=http://127.0.0.1/tfcms/
+---
+2012/03/12 15:46:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/logo.gif".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('img/logo.gif')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/img/logo.gif
+HTTP_REFERER=http://127.0.0.1/tfcms/
+---
+2012/03/12 15:46:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/top.gif".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('img/top.gif')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/img/top.gif
+HTTP_REFERER=http://127.0.0.1/tfcms/
+---
+2012/03/12 15:46:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/logo.gif".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('img/logo.gif')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/img/logo.gif
+HTTP_REFERER=http://127.0.0.1/tfcms/
+---
+2012/03/12 15:46:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/top.gif".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('img/top.gif')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/img/top.gif
+HTTP_REFERER=http://127.0.0.1/tfcms/
+---
+2012/03/12 15:46:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/logo.gif".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('img/logo.gif')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/img/logo.gif
+HTTP_REFERER=http://127.0.0.1/tfcms/
+---
+2012/03/12 15:46:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/top.gif".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('img/top.gif')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/img/top.gif
+HTTP_REFERER=http://127.0.0.1/tfcms/
+---
+2012/03/12 15:46:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/top.gif".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('img/top.gif')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/img/top.gif
+HTTP_REFERER=http://127.0.0.1/tfcms/
+---
+2012/03/12 15:47:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "index.html".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('index.html')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/index.html
+HTTP_REFERER=http://127.0.0.1/tfcms/
+---
+2012/03/12 15:47:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/top.gif".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('img/top.gif')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/img/top.gif
+HTTP_REFERER=http://127.0.0.1/tfcms/index.html
+---
+2012/03/12 15:47:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "about.html".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('about.html')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/about.html
+HTTP_REFERER=http://127.0.0.1/tfcms/index.html
+---
+2012/03/12 15:47:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/top.gif".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('img/top.gif')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/img/top.gif
+HTTP_REFERER=http://127.0.0.1/tfcms/about.html
+---
+2012/03/12 15:47:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "news.html".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('news.html')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/news.html
+HTTP_REFERER=http://127.0.0.1/tfcms/about.html
+---
+2012/03/12 15:47:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/top.gif".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('img/top.gif')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/img/top.gif
+HTTP_REFERER=http://127.0.0.1/tfcms/news.html
+---
+2012/03/12 15:47:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "products.html".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('products.html')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/products.html
+HTTP_REFERER=http://127.0.0.1/tfcms/news.html
+---
+2012/03/12 15:47:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/top.gif".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('img/top.gif')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/img/top.gif
+HTTP_REFERER=http://127.0.0.1/tfcms/products.html
+---
+2012/03/12 15:47:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "contact.html".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('contact.html')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/contact.html
+HTTP_REFERER=http://127.0.0.1/tfcms/products.html
+---
+2012/03/12 15:47:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/top.gif".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('img/top.gif')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/img/top.gif
+HTTP_REFERER=http://127.0.0.1/tfcms/contact.html
+---
+2012/03/12 15:47:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "index.html".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('index.html')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/index.html
+HTTP_REFERER=http://127.0.0.1/tfcms/contact.html
+---
+2012/03/12 15:47:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/top.gif".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('img/top.gif')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/img/top.gif
+HTTP_REFERER=http://127.0.0.1/tfcms/index.html
+---
+2012/03/12 15:47:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/top.gif".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('img/top.gif')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/img/top.gif
+HTTP_REFERER=http://127.0.0.1/tfcms/
+---
+2012/03/12 16:15:52 [error] [exception.CException] exception 'CException' with message 'Property "News.slef" is not defined.' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CComponent.php:131
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\db\ar\CActiveRecord.php(144): CComponent->__get('slef')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\themes\wap\views\layouts\main.php(32): CActiveRecord->__get('slef')
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CBaseController.php(127): require('D:\APMServ5.2.6...')
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CBaseController.php(96): CBaseController->renderInternal('D:\APMServ5.2.6...', Array, true)
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\widgets\CContentDecorator.php(77): CBaseController->renderFile('D:\APMServ5.2.6...', Array, true)
+#5 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\widgets\CContentDecorator.php(55): CContentDecorator->decorate('???<div id="loa...')
+#6 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\widgets\COutputProcessor.php(45): CContentDecorator->processOutput('???<div id="loa...')
+#7 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CBaseController.php(207): COutputProcessor->run()
+#8 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CBaseController.php(301): CBaseController->endWidget('CContentDecorat...')
+#9 D:\APMServ5.2.6\www\htdocs\tfcms\themes\wap\views\layouts\column1.php(5): CBaseController->endContent()
+#10 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CBaseController.php(127): require('D:\APMServ5.2.6...')
+#11 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CBaseController.php(96): CBaseController->renderInternal('D:\APMServ5.2.6...', Array, true)
+#12 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(785): CBaseController->renderFile('D:\APMServ5.2.6...', Array, true)
+#13 D:\APMServ5.2.6\www\htdocs\tfcms\protected\controllers\SiteController.php(33): CController->render('index')
+#14 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#15 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#16 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#17 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('')
+#19 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('')
+#20 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#21 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/tfcms/
+---
+2012/03/12 16:16:00 [error] [exception.CException] exception 'CException' with message 'Property "News.self" is not defined.' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CComponent.php:131
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\db\ar\CActiveRecord.php(144): CComponent->__get('self')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\themes\wap\views\layouts\main.php(32): CActiveRecord->__get('self')
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CBaseController.php(127): require('D:\APMServ5.2.6...')
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CBaseController.php(96): CBaseController->renderInternal('D:\APMServ5.2.6...', Array, true)
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\widgets\CContentDecorator.php(77): CBaseController->renderFile('D:\APMServ5.2.6...', Array, true)
+#5 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\widgets\CContentDecorator.php(55): CContentDecorator->decorate('???<div id="loa...')
+#6 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\widgets\COutputProcessor.php(45): CContentDecorator->processOutput('???<div id="loa...')
+#7 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CBaseController.php(207): COutputProcessor->run()
+#8 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CBaseController.php(301): CBaseController->endWidget('CContentDecorat...')
+#9 D:\APMServ5.2.6\www\htdocs\tfcms\themes\wap\views\layouts\column1.php(5): CBaseController->endContent()
+#10 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CBaseController.php(127): require('D:\APMServ5.2.6...')
+#11 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CBaseController.php(96): CBaseController->renderInternal('D:\APMServ5.2.6...', Array, true)
+#12 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(785): CBaseController->renderFile('D:\APMServ5.2.6...', Array, true)
+#13 D:\APMServ5.2.6\www\htdocs\tfcms\protected\controllers\SiteController.php(33): CController->render('index')
+#14 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#15 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#16 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#17 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('')
+#19 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('')
+#20 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#21 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/tfcms/
+---
+2012/03/12 16:16:02 [error] [exception.CException] exception 'CException' with message 'Property "News.self" is not defined.' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CComponent.php:131
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\db\ar\CActiveRecord.php(144): CComponent->__get('self')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\themes\wap\views\layouts\main.php(32): CActiveRecord->__get('self')
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CBaseController.php(127): require('D:\APMServ5.2.6...')
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CBaseController.php(96): CBaseController->renderInternal('D:\APMServ5.2.6...', Array, true)
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\widgets\CContentDecorator.php(77): CBaseController->renderFile('D:\APMServ5.2.6...', Array, true)
+#5 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\widgets\CContentDecorator.php(55): CContentDecorator->decorate('???<div id="loa...')
+#6 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\widgets\COutputProcessor.php(45): CContentDecorator->processOutput('???<div id="loa...')
+#7 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CBaseController.php(207): COutputProcessor->run()
+#8 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CBaseController.php(301): CBaseController->endWidget('CContentDecorat...')
+#9 D:\APMServ5.2.6\www\htdocs\tfcms\themes\wap\views\layouts\column1.php(5): CBaseController->endContent()
+#10 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CBaseController.php(127): require('D:\APMServ5.2.6...')
+#11 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CBaseController.php(96): CBaseController->renderInternal('D:\APMServ5.2.6...', Array, true)
+#12 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(785): CBaseController->renderFile('D:\APMServ5.2.6...', Array, true)
+#13 D:\APMServ5.2.6\www\htdocs\tfcms\protected\controllers\SiteController.php(33): CController->render('index')
+#14 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#15 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#16 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#17 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('')
+#19 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('')
+#20 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#21 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/tfcms/
+---
+2012/03/12 16:16:11 [error] [exception.CException] exception 'CException' with message 'Property "News.published" is not defined.' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CComponent.php:131
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\db\ar\CActiveRecord.php(144): CComponent->__get('published')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\themes\wap\views\layouts\main.php(32): CActiveRecord->__get('published')
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CBaseController.php(127): require('D:\APMServ5.2.6...')
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CBaseController.php(96): CBaseController->renderInternal('D:\APMServ5.2.6...', Array, true)
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\widgets\CContentDecorator.php(77): CBaseController->renderFile('D:\APMServ5.2.6...', Array, true)
+#5 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\widgets\CContentDecorator.php(55): CContentDecorator->decorate('???<div id="loa...')
+#6 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\widgets\COutputProcessor.php(45): CContentDecorator->processOutput('???<div id="loa...')
+#7 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CBaseController.php(207): COutputProcessor->run()
+#8 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CBaseController.php(301): CBaseController->endWidget('CContentDecorat...')
+#9 D:\APMServ5.2.6\www\htdocs\tfcms\themes\wap\views\layouts\column1.php(5): CBaseController->endContent()
+#10 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CBaseController.php(127): require('D:\APMServ5.2.6...')
+#11 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CBaseController.php(96): CBaseController->renderInternal('D:\APMServ5.2.6...', Array, true)
+#12 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(785): CBaseController->renderFile('D:\APMServ5.2.6...', Array, true)
+#13 D:\APMServ5.2.6\www\htdocs\tfcms\protected\controllers\SiteController.php(33): CController->render('index')
+#14 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#15 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#16 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#17 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('')
+#19 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('')
+#20 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#21 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/tfcms/
+---
+2012/03/12 16:17:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "news.html".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('news.html')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/news.html
+HTTP_REFERER=http://127.0.0.1/tfcms/
+---
+2012/03/12 16:17:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php:484
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(271): CController->missingAction('')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('')
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('news')
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tfcms/news
+---
+2012/03/12 16:17:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "list".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php:484
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(271): CController->missingAction('list')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('list')
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('news/list')
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tfcms/news/list
+---
+2012/03/12 16:18:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "about.html".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('about.html')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/about.html
+HTTP_REFERER=http://127.0.0.1/tfcms/
+---
+2012/03/12 16:18:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "news.html".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('news.html')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/news.html
+HTTP_REFERER=http://127.0.0.1/tfcms/about.html
+---
+2012/03/12 16:18:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "products.html".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('products.html')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/products.html
+HTTP_REFERER=http://127.0.0.1/tfcms/news.html
+---
+2012/03/12 16:18:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "contact.html".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('contact.html')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/contact.html
+HTTP_REFERER=http://127.0.0.1/tfcms/products.html
+---
+2012/03/12 16:18:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "contact.html".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('contact.html')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/contact.html
+HTTP_REFERER=http://127.0.0.1/tfcms/products.html
+---
+2012/03/12 16:18:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "about.html".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php:484
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(271): CController->missingAction('about.html')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('about.html')
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('site/about.html')
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tfcms/site/about.html
+HTTP_REFERER=http://127.0.0.1/tfcms/site/index
+---
+2012/03/12 16:18:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "news.html".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php:484
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(271): CController->missingAction('news.html')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('news.html')
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('site/news.html')
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tfcms/site/news.html
+HTTP_REFERER=http://127.0.0.1/tfcms/site/about.html
+---
+2012/03/12 16:18:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "products.html".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php:484
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(271): CController->missingAction('products.html')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('products.html')
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('site/products.h...')
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tfcms/site/products.html
+HTTP_REFERER=http://127.0.0.1/tfcms/site/news.html
+---
+2012/03/12 16:18:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "contact.html".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php:484
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(271): CController->missingAction('contact.html')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('contact.html')
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('site/contact.ht...')
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tfcms/site/contact.html
+HTTP_REFERER=http://127.0.0.1/tfcms/site/products.html
+---
+2012/03/12 16:18:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index.html".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php:484
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(271): CController->missingAction('index.html')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('index.html')
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('site/index.html')
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tfcms/site/index.html
+HTTP_REFERER=http://127.0.0.1/tfcms/site/contact.html
+---
+2012/03/12 16:18:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "products.html".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php:484
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(271): CController->missingAction('products.html')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('products.html')
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('news/products.h...')
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tfcms/news/products.html
+HTTP_REFERER=http://127.0.0.1/tfcms/news/67
+---
+2012/03/12 16:18:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "contact.html".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php:484
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(271): CController->missingAction('contact.html')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('contact.html')
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('news/contact.ht...')
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tfcms/news/contact.html
+HTTP_REFERER=http://127.0.0.1/tfcms/news/products.html
+---
+2012/03/12 16:18:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "news.html".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php:484
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(271): CController->missingAction('news.html')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('news.html')
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('news/news.html')
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tfcms/news/news.html
+HTTP_REFERER=http://127.0.0.1/tfcms/news/contact.html
+---
+2012/03/12 16:18:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "about.html".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php:484
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(271): CController->missingAction('about.html')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('about.html')
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('news/about.html')
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tfcms/news/about.html
+HTTP_REFERER=http://127.0.0.1/tfcms/news/news.html
+---
+2012/03/12 16:18:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index.html".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php:484
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(271): CController->missingAction('index.html')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('index.html')
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('news/index.html')
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tfcms/news/index.html
+HTTP_REFERER=http://127.0.0.1/tfcms/news/about.html
+---
+2012/03/12 16:19:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "news.html".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('news.html')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/news.html
+HTTP_REFERER=http://127.0.0.1/tfcms/
+---
+2012/03/12 16:20:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "contact.html".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php:484
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(271): CController->missingAction('contact.html')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('contact.html')
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('news/contact.ht...')
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tfcms/news/contact.html
+HTTP_REFERER=http://127.0.0.1/tfcms/news/67
+---
+2012/03/12 16:20:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "news.html".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php:484
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(271): CController->missingAction('news.html')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('news.html')
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('product/news.ht...')
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tfcms/product/news.html
+HTTP_REFERER=http://127.0.0.1/tfcms/product/69
+---
+2012/03/12 16:20:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "about.html".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php:484
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(271): CController->missingAction('about.html')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('about.html')
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('product/about.h...')
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tfcms/product/about.html
+HTTP_REFERER=http://127.0.0.1/tfcms/product/news.html
+---
+2012/03/12 16:20:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index.html".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php:484
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(271): CController->missingAction('index.html')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('index.html')
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('product/index.h...')
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tfcms/product/index.html
+HTTP_REFERER=http://127.0.0.1/tfcms/product/about.html
+---
+2012/03/12 16:24:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/wap/images/3.jpg".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('themes/wap/imag...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/themes/wap/images/3.jpg
+HTTP_REFERER=http://127.0.0.1/tfcms/
+---
+2012/03/12 16:24:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/wap/images/1.jpg".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('themes/wap/imag...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/themes/wap/images/1.jpg
+HTTP_REFERER=http://127.0.0.1/tfcms/
+---
+2012/03/12 16:24:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/wap/images/4.jpg".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('themes/wap/imag...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/themes/wap/images/4.jpg
+HTTP_REFERER=http://127.0.0.1/tfcms/
+---
+2012/03/12 16:24:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/wap/images/2.jpg".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('themes/wap/imag...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/themes/wap/images/2.jpg
+HTTP_REFERER=http://127.0.0.1/tfcms/
+---
+2012/03/12 16:24:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/wap/images/5.jpg".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('themes/wap/imag...')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/themes/wap/images/5.jpg
+HTTP_REFERER=http://127.0.0.1/tfcms/
+---
+2012/03/12 16:26:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index.html".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php:484
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(271): CController->missingAction('index.html')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('index.html')
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('news/index.html')
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tfcms/news/index.html
+HTTP_REFERER=http://127.0.0.1/tfcms/news/68
+---
+2012/03/12 16:34:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php:484
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CController.php(271): CController->missingAction('')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(276): CController->run('')
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('news')
+#3 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tfcms/news
+---
+2012/03/12 16:34:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "news.html".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('news.html')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/news.html
+HTTP_REFERER=http://127.0.0.1/tfcms/page
+---
+2012/03/12 16:34:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "index.html".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('index.html')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/index.html
+HTTP_REFERER=http://127.0.0.1/tfcms/page
+---
+2012/03/12 16:35:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "contact.html".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('contact.html')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/contact.html
+HTTP_REFERER=http://127.0.0.1/tfcms/
+---
+2012/03/12 16:51:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "news.html".' in D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\APMServ5.2.6\www\htdocs\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('news.html')
+#1 D:\APMServ5.2.6\www\htdocs\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\APMServ5.2.6\www\htdocs\tfcms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/news.html
+HTTP_REFERER=http://127.0.0.1/tfcms/contact.html
+---

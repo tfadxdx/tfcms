@@ -53,7 +53,14 @@ class NewsController extends Controller
 		));
 	}
 
-	/**
+        public function actionIndex(){
+                $model = News::model()->self()->published()->findAll();
+                $this->render('index',array(
+                        'model'=>$model,
+                ));
+        }
+
+        /**
 	 * Creates a new model.
 	 * If creation is successful, the browser will be redirected to the 'view' page.
 	 */

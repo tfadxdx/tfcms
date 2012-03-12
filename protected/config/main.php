@@ -9,7 +9,7 @@ return array(
 	'basePath'=>dirname(__FILE__).DIRECTORY_SEPARATOR.'..',
 	'name'=>'维特·佩尼|White Peony|高淳陶瓷高端品牌',
 	'timeZone'=>"Asia/Shanghai",
-	'theme'=>'gctc',
+	'theme'=>'wap',
 	// preloading 'log' component
 	'preload'=>array(
                 'log',
