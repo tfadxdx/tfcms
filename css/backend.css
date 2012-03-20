@@ -1,2 +1,9 @@
 .children { display:none; }
 #parent { background-image:url(parent.gif); }
+h1{float:left;}
+.myid,.note,.submit,.top,.top1,.taxonomy,.submit,.breadcrumbs{float:left;}
+#Page_title,#Page_name,#Page_description,#Page_is_top,#Page_banner,#Page_tid,#Page_weight,#Page_status,#Taxonomy_name,#Taxonomy_slug,#Taxonomy_taxonomy,#Taxonomy_description,#Taxonomy_parent{float:left;}
+.taxonomy required,.taxonomy,.myid required,{float:left;}
+#News_title,#News_name,#News_description,#News_is_top,#News_banner,#News_tid,#News_weight,#News_status{float:left;}
+#Product_title,#Product_name,#Product_description,#Product_is_top,#Product_banner,#Product_tid,#Product_weight,#Product_status{float:left;}
+#Example_title,#Example_name,#Example_description,#Example_is_top,#Example_banner,#Example_tid,#Example_weight,#Example_status,#Example_parent{float:left;

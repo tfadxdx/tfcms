@@ -3,11 +3,20 @@ $this->breadcrumbs=array(
 	'News',
 );
 
-$this->menu=array(
+/*$this->menu=array(
 	array('label'=>'Create News', 'url'=>array('admin.php/news/create')),
 	array('label'=>'Manage News', 'url'=>array('admin.php/news/admin')),
-);
+);*/
 ?>
+
+<div class="top1">
+<p>Operations</p>
+<ul>
+<li><a href="<?php echo Yii::app()->createUrl('news/index');?>">List Page</a></li>
+<li><a href="<?php echo Yii::app()->createUrl('news/admin');?>">Manage Page</a></li>
+</ul>
+</div>
+<br><br><br>
 
 <h1>News</h1>
 

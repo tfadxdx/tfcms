@@ -3,12 +3,19 @@ $this->breadcrumbs=array(
 	'Products',
 );
 
-$this->menu=array(
+/*$this->menu=array(
 	array('label'=>'Create Product', 'url'=>array('admin.php/product/create')),
 	array('label'=>'Manage Product', 'url'=>array('admin.php/product/admin')),
-);
+);*/
 ?>
-
+<div class="top">
+<p>Operations</p>
+<ul>
+<li><a href="<?php echo Yii::app()->createUrl('product/create');?>">Create Product</a></li>
+<li><a href="<?php echo Yii::app()->createUrl('product/admin');?>">Manage Product</a></li>
+</ul>
+</div>
+<br><br><br>
 <h1>Pages</h1>
 
 <div class="onecolumn">

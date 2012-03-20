@@ -6181,3 +6181,125 @@ Stack trace:
 REQUEST_URI=/tfcms/admin.php/admin.php/news/admin
 HTTP_REFERER=http://127.0.0.1/tfcms/admin.php/news/index
 ---
+2012/03/19 11:20:12 [error] [exception.CException] exception 'CException' with message 'CAssetManager.basePath "E:\web\tfcms\assets" 是无效的. 请确定它是一个可被 Web server process 写入资料的目录.' in E:\web\tfcms\framework\web\CAssetManager.php:116
+Stack trace:
+#0 E:\web\tfcms\framework\web\CAssetManager.php(101): CAssetManager->setBasePath('E:\web\tfcms\as...')
+#1 E:\web\tfcms\framework\web\CAssetManager.php(219): CAssetManager->getBasePath()
+#2 E:\web\tfcms\protected\extensions\elrte\elRTE.php(26): CAssetManager->publish('E:\web\tfcms\pr...')
+#3 E:\web\tfcms\framework\web\CBaseController.php(148): elRTE->init()
+#4 E:\web\tfcms\framework\web\CBaseController.php(173): CBaseController->createWidget('application.ext...', Array)
+#5 E:\web\tfcms\protected\admin\views\page\_form.php(56): CBaseController->widget('application.ext...', Array)
+#6 E:\web\tfcms\framework\web\CBaseController.php(127): require('E:\web\tfcms\pr...')
+#7 E:\web\tfcms\framework\web\CBaseController.php(96): CBaseController->renderInternal('E:\web\tfcms\pr...', Array, true)
+#8 E:\web\tfcms\framework\web\CController.php(870): CBaseController->renderFile('E:\web\tfcms\pr...', Array, true)
+#9 E:\web\tfcms\protected\admin\views\page\create.php(15): CController->renderPartial('_form', Array)
+#10 E:\web\tfcms\framework\web\CBaseController.php(127): require('E:\web\tfcms\pr...')
+#11 E:\web\tfcms\framework\web\CBaseController.php(96): CBaseController->renderInternal('E:\web\tfcms\pr...', Array, true)
+#12 E:\web\tfcms\framework\web\CController.php(870): CBaseController->renderFile('E:\web\tfcms\pr...', Array, true)
+#13 E:\web\tfcms\framework\web\CController.php(783): CController->renderPartial('create', Array, true)
+#14 E:\web\tfcms\protected\admin\controllers\PageController.php(74): CController->render('create', Array)
+#15 E:\web\tfcms\framework\web\actions\CInlineAction.php(50): PageController->actionCreate()
+#16 E:\web\tfcms\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#17 E:\web\tfcms\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#18 E:\web\tfcms\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#19 E:\web\tfcms\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#20 E:\web\tfcms\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#21 E:\web\tfcms\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#22 E:\web\tfcms\framework\web\CController.php(292): CFilterChain->run()
+#23 E:\web\tfcms\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#24 E:\web\tfcms\framework\web\CWebApplication.php(276): CController->run('create')
+#25 E:\web\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('page/create')
+#26 E:\web\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#27 E:\web\tfcms\admin.php(13): CApplication->run()
+#28 {main}
+REQUEST_URI=/tfcms/admin.php/page/create
+HTTP_REFERER=http://localhost/tfcms/admin.php
+---
+2012/03/19 11:25:56 [error] [php] Undefined index: type (E:\web\tfcms\protected\admin\views\taxonomy\_form.php:2)
+Stack trace:
+#0 E:\web\tfcms\framework\web\CController.php(870): TaxonomyController->renderFile()
+#1 E:\web\tfcms\protected\admin\views\taxonomy\create.php(15): TaxonomyController->renderPartial()
+#2 E:\web\tfcms\framework\web\CBaseController.php(127): require()
+#3 E:\web\tfcms\framework\web\CBaseController.php(96): TaxonomyController->renderInternal()
+#4 E:\web\tfcms\framework\web\CController.php(870): TaxonomyController->renderFile()
+#5 E:\web\tfcms\framework\web\CController.php(783): TaxonomyController->renderPartial()
+#6 E:\web\tfcms\protected\admin\controllers\TaxonomyController.php(72): TaxonomyController->render()
+#7 E:\web\tfcms\framework\web\actions\CInlineAction.php(50): TaxonomyController->actionCreate()
+#8 E:\web\tfcms\framework\web\CController.php(309): CInlineAction->runWithParams()
+#9 E:\web\tfcms\framework\web\filters\CFilterChain.php(134): TaxonomyController->runAction()
+#10 E:\web\tfcms\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#11 E:\web\tfcms\framework\web\CController.php(1146): CAccessControlFilter->filter()
+#12 E:\web\tfcms\framework\web\filters\CInlineFilter.php(59): TaxonomyController->filterAccessControl()
+#13 E:\web\tfcms\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#14 E:\web\tfcms\framework\web\CController.php(292): CFilterChain->run()
+#15 E:\web\tfcms\framework\web\CController.php(266): TaxonomyController->runActionWithFilters()
+#16 E:\web\tfcms\framework\web\CWebApplication.php(276): TaxonomyController->run()
+#17 E:\web\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#18 E:\web\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#19 E:\web\tfcms\admin.php(13): CWebApplication->run()
+REQUEST_URI=/tfcms/admin.php/taxonomy/create
+in E:\web\tfcms\protected\admin\views\taxonomy\_form.php (2)
+in E:\web\tfcms\protected\admin\views\taxonomy\create.php (15)
+in E:\web\tfcms\protected\admin\controllers\TaxonomyController.php (72)
+2012/03/19 11:30:33 [error] [php] Undefined index: type (E:\web\tfcms\protected\admin\views\taxonomy\_form.php:2)
+Stack trace:
+#0 E:\web\tfcms\framework\web\CController.php(870): TaxonomyController->renderFile()
+#1 E:\web\tfcms\protected\admin\views\taxonomy\create.php(15): TaxonomyController->renderPartial()
+#2 E:\web\tfcms\framework\web\CBaseController.php(127): require()
+#3 E:\web\tfcms\framework\web\CBaseController.php(96): TaxonomyController->renderInternal()
+#4 E:\web\tfcms\framework\web\CController.php(870): TaxonomyController->renderFile()
+#5 E:\web\tfcms\framework\web\CController.php(783): TaxonomyController->renderPartial()
+#6 E:\web\tfcms\protected\admin\controllers\TaxonomyController.php(72): TaxonomyController->render()
+#7 E:\web\tfcms\framework\web\actions\CInlineAction.php(50): TaxonomyController->actionCreate()
+#8 E:\web\tfcms\framework\web\CController.php(309): CInlineAction->runWithParams()
+#9 E:\web\tfcms\framework\web\filters\CFilterChain.php(134): TaxonomyController->runAction()
+#10 E:\web\tfcms\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#11 E:\web\tfcms\framework\web\CController.php(1146): CAccessControlFilter->filter()
+#12 E:\web\tfcms\framework\web\filters\CInlineFilter.php(59): TaxonomyController->filterAccessControl()
+#13 E:\web\tfcms\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#14 E:\web\tfcms\framework\web\CController.php(292): CFilterChain->run()
+#15 E:\web\tfcms\framework\web\CController.php(266): TaxonomyController->runActionWithFilters()
+#16 E:\web\tfcms\framework\web\CWebApplication.php(276): TaxonomyController->run()
+#17 E:\web\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#18 E:\web\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#19 E:\web\tfcms\admin.php(13): CWebApplication->run()
+REQUEST_URI=/tfcms/admin.php/taxonomy/create
+in E:\web\tfcms\protected\admin\views\taxonomy\_form.php (2)
+in E:\web\tfcms\protected\admin\views\taxonomy\create.php (15)
+in E:\web\tfcms\protected\admin\controllers\TaxonomyController.php (72)
+2012/03/19 12:06:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "admin.php/page/create"。' in E:\web\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 E:\web\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('admin.php/page/...')
+#1 E:\web\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 E:\web\tfcms\admin.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/admin.php/admin.php/page/create
+HTTP_REFERER=http://localhost/tfcms/admin.php/page
+---
+2012/03/19 13:22:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "admin.php/page/create"。' in E:\web\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 E:\web\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('admin.php/page/...')
+#1 E:\web\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 E:\web\tfcms\admin.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/admin.php/admin.php/page/create
+HTTP_REFERER=http://localhost/tfcms/admin.php/page
+---
+2012/03/19 13:47:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "admin.php/page/create"。' in E:\web\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 E:\web\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('admin.php/page/...')
+#1 E:\web\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 E:\web\tfcms\admin.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/admin.php/admin.php/page/create
+HTTP_REFERER=http://localhost/tfcms/admin.php/page
+---
+2012/03/19 14:04:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "admin.php/page/create"。' in E:\web\tfcms\framework\web\CWebApplication.php:280
+Stack trace:
+#0 E:\web\tfcms\framework\web\CWebApplication.php(135): CWebApplication->runController('admin.php/page/...')
+#1 E:\web\tfcms\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 E:\web\tfcms\admin.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tfcms/admin.php/admin.php/page/create
+HTTP_REFERER=http://localhost/tfcms/admin.php/page/index
+---

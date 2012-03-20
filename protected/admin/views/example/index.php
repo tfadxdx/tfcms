@@ -3,11 +3,20 @@ $this->breadcrumbs=array(
 	'Examples',
 );
 
-$this->menu=array(
+/*$this->menu=array(
 	array('label'=>'Create Example', 'url'=>array('create')),
 	array('label'=>'Manage Example', 'url'=>array('admin')),
-);
+);*/
 ?>
+
+<div class="top">
+<p>Operations</p>
+<ul>
+<li><a href="<?php echo Yii::app()->createUrl('example/create');?>">Create Example</a></li>
+<li><a href="<?php echo Yii::app()->createUrl('example/admin');?>">Manage Example</a></li>
+</ul>
+</div>
+<br><br><br>
 
 <h1>Examples</h1>
 

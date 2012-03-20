@@ -2,13 +2,15 @@
 $this->breadcrumbs=array(
 	'Pages',
 );
-
-$this->menu=array(
-	array('label'=>'Create Page', 'url'=>array('admin.php/page/create')),
-	array('label'=>'Manage Page', 'url'=>array('admin.php/page/admin')),
-);
 ?>
-
+<div class="top">
+<p>Operations</p>
+<ul>
+<li><a href="<?php echo Yii::app()->createUrl('page/create');?>">Create Page</a></li>
+<li><a href="<?php echo Yii::app()->createUrl('page/create');?>">Manage Page</a></li>
+</ul>
+</div>
+<br><br><br>
 <h1>Pages</h1>
 
 <div class="onecolumn">
